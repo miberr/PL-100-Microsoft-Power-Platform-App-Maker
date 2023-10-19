@@ -150,7 +150,7 @@ In this task, you will add Columns to the Problem Report Table.
 
 7.  Select **+ New \> Column** from the top menu. 
 
-8.  Enter **Details** for **Display name**, select **Text \> Multiple lines of text \> Plain Text** for **Data type**, make the Column **Business required**, and select **Save**. 
+8.  Enter `Details` for **Display name**, select **Text \> Multiple lines of text \> Plain Text** for **Data type**, make the Column **Business required**, and select **Save**. 
 
     ![A screenshot of the details window with the relevant values in each field](02-1/media/image16.png)
 
@@ -362,7 +362,7 @@ In this task, you will create a new view from the Active Problem Reports view.
 
     ![A screenshot of the edit filters window with the following Status Reason values: Completed, Won't Fix, Inactive](02-1/media/image54.png)
 
-7.  Select the chevron next to the Save and publish button and select **Save As**.
+7.  Select  **Save As** next to the Save and publish button.
 
     ![A screenshot with an arrow pointing to the Save dropdown chevron icon and a border around the Save As button](02-1/media/image55.png)
 
@@ -403,7 +403,7 @@ In this exercise, you will create a model-driven application.
 
 6.  In the properties pane, check **Enable Areas**. 
 
-7.  Select **Area1**. 
+7.  Select **Area1**. Click on the ellipses on the right side of **Area1** and click **Edit properties**. 
 
     ![A screenshot of the area editing](02-1/media/image106.png)
 
@@ -445,7 +445,7 @@ In this exercise, you will create a model-driven application.
 
 22. Select **New Group**.
 
-23. Go to the **Properties** pane, enter **Taxonomy** for **Title**, and enter **group\_taxonomy** for **ID**.
+23. Go to the **Properties** pane, enter `Taxonomy` for **Title**, and enter `group\_taxonomy` for **ID**.
 
 24. The navigation should now look like the image below. Select **Save**.
 
