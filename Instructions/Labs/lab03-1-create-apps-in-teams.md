@@ -244,7 +244,7 @@ In this task, you will edit the application by filters for gadgets that are avai
 
     ![A screenshot with a border around the display mode field](03-1/media/ex2-t4-image5_3.png)
 
-12. Select the **Browse gallery** under **LeftContainer** in the treeview.
+12. Select the **BrowseGallery1** under **LeftContainer1** in the treeview.
 
 13. Select **Items** on the formula bar and replace the value with formula below. This formula will filter the gadgets to show only the available gadgets.
 
