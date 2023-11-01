@@ -24,9 +24,9 @@ In this lab, you will acquire a Power Platform trial tenant and access the Power
 Exercise 1 – Acquire a Power Platform trial tenant 
 --------------------------------------------------
 
-1.  Navigate to `powerapps.microsoft.com/free` and select **Start building apps**. 
+1.  Navigate to [Power Apps](https://powerapps.microsoft.com/) and select **Start free**. 
 
-2.  Enter the email address from the provided Microsoft 365 credentials. Select **Next**.
+2.  Enter the email address from the provided Microsoft 365 credentials. Agree to the terms & conditions then select **Start your free trial**. 
 
 3.  You will see a prompt that you have an existing account with Microsoft. Select **Sign in**. 
 
@@ -34,9 +34,7 @@ Exercise 1 – Acquire a Power Platform trial tenant
 
 5.  Select **Yes** to stay signed in. 
 
-6.  If applicable, enter `0123456789` for **Business phone number**. Select **Get Started**.
-
-7.  Select **Get Started**.
+6.  If applicable, read through the prompts by selecting **Next**, then select **Let's Go**.
 
     > **Note:** If you encounter an error: "Sorry, there's been a disconnect", you can follow the steps below. If not, you can continue to **Exercise 2**.
     >
@@ -78,4 +76,3 @@ In this exercise, you will create a **Practice** environment that you will use t
 11. When your environment shows as **Ready**, select your **Practice** environment by selecting the ellipses next to the name to expand the drop-down menu and select **Settings**. 
 
 12. Explore the different areas in **Settings** that you are interested in but do not make any changes. 
-
