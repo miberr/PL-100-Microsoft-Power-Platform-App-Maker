@@ -524,7 +524,7 @@ In this exercise, you will input data to the Dataverse tables.
 
     ![A Screenshot with an arrow pointing to the upload an image button](02-1/media/image88.png)
 
-17. Select an image from your device. The sample image displayed below can be found [here](02-1/media/door.png).
+17. Select an image from your device. The sample image displayed below can be found [here](02-1/Resources/door.jfif).
 
 18. The image should now show on the form.
 
