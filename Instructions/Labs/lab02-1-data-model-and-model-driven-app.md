@@ -246,7 +246,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
     ![A screenshot of the form designer with General form section selected.](02-1/media/image31.png)
 
-6.  Go to the **Properties** pane, change the **Label** to `Problem details` and enter `section\_problem\_report` for **Name**.
+6.  Go to the **Properties** pane, change the **Label** to `Problem details` and enter `section_problem_report` for **Name**.
 
     ![A screenshot of the properties pane with the relevant text in each field](02-1/media/image32.png)
 
@@ -274,7 +274,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
     ![A screenshot of the form designer with the cursor over the selected new section](02-1/media/image39.png)
 
-15. Go to the **Properties** pane, change the **Section label** to `Resolution details` and enter `section\_resolution\_details` for **Name**.
+15. Go to the **Properties** pane, change the **Section label** to `Resolution details` and enter `section_resolution_details` for **Name**.
 
     ![A screenshot of the section properties pane with the relevant text in each field](02-1/media/image40.png)
 
