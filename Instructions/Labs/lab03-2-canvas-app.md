@@ -147,7 +147,7 @@ In this task, create a canvas app using the phone form factor.
 
     ![A screenshot of a solution explorer with new button with the dropdown menu under app and a cursor over the canvas app button](03-2/media/image7.png)
 
-4.  Enter **Company 311 Phone App**, select **Phone** for format, and select **Create**.
+4.  Enter `Company 311 Phone App` for **App name**, select **Phone** for format, and select **Create**.
 
 5.  Select **Skip**.
 
@@ -177,7 +177,7 @@ In this task, create a canvas app using the phone form factor.
 
 12. Move the **Tab Control** to the bottom of the screen and the **Header Control** to the top of the screen.
 
-13. Select the **Header Control** and change the **Text** value to **"Company 311".**
+13. Select the **Header Control** and change the **Text** value to `Company 311`.
 
     ![A screenshot of a border around the expression tab with the text value set to company 311](03-2/media/image13.png)
 

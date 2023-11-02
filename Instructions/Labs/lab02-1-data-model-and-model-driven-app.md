@@ -150,7 +150,7 @@ In this task, you will add Columns to the Problem Report Table.
 
 7.  Select **+ New \> Column** from the top menu. 
 
-8.  Enter **Details** for **Display name**, select **Text \> Multiple lines of text \> Plain Text** for **Data type**, make the Column **Business required**, and select **Save**. 
+8.  Enter `Details` for **Display name**, select **Text \> Multiple lines of text \> Plain Text** for **Data type**, make the Column **Business required**, and select **Save**. 
 
     ![A screenshot of the details window with the relevant values in each field](02-1/media/image16.png)
 
@@ -403,7 +403,7 @@ In this exercise, you will create a model-driven application.
 
 6.  In the properties pane, check **Enable Areas**. 
 
-7.  Select **Area1**. 
+7.  Select **Area1**. Select the ellipses on the right of **Area1** and select **Edit properties**. 
 
     ![A screenshot of the area editing](02-1/media/image106.png)
 
@@ -445,7 +445,7 @@ In this exercise, you will create a model-driven application.
 
 22. Select **New Group**.
 
-23. Go to the **Properties** pane, enter **Taxonomy** for **Title**, and enter **group\_taxonomy** for **ID**.
+23. Go to the **Properties** pane, enter `Taxonomy` for **Title**, and enter `group\_taxonomy` for **ID**.
 
 24. The navigation should now look like the image below. Select **Save**.
 
