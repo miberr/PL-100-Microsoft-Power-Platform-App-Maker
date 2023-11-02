@@ -246,7 +246,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
     ![A screenshot of the form designer with General form section selected.](02-1/media/image31.png)
 
-6.  Go to the **Properties** pane, change the **Label** to `Problem details` and enter `section\_problem\_report` for **Name**.
+6.  Go to the **Properties** pane, change the **Label** to `Problem details` and enter `tab_problem_details` for **Name**.
 
     ![A screenshot of the properties pane with the relevant text in each field](02-1/media/image32.png)
 
@@ -274,7 +274,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
     ![A screenshot of the form designer with the cursor over the selected new section](02-1/media/image39.png)
 
-15. Go to the **Properties** pane, change the **Section label** to `Resolution details` and enter `section\_resolution\_details` for **Name**.
+15. Go to the **Properties** pane, change the **Section label** to `Resolution details` and enter `section_resolution_details` for **Name**.
 
     ![A screenshot of the section properties pane with the relevant text in each field](02-1/media/image40.png)
 
@@ -362,9 +362,9 @@ In this task, you will create a new view from the Active Problem Reports view.
 
     ![A screenshot of the edit filters window with the following Status Reason values: Completed, Won't Fix, Inactive](02-1/media/image54.png)
 
-7.  Select  **Save As** next to the Save and publish button.
+7.  Select **Save As**.
 
-    ![A screenshot with an arrow pointing to the Save dropdown chevron icon and a border around the Save As button](02-1/media/image55.png)
+    ![A screenshot of the Save As button](02-1/media/image55.png)
 
 8.  Enter `Resolved Problems` for **Name** and select **Save**.
 
@@ -425,7 +425,7 @@ In this exercise, you will create a model-driven application.
 
 14. Go to the **Properties**, enter `Problems` for **Title**, and enter `group_problems` for **ID**.
 
-15. Select area selection and then select **New area**.
+15. Select the area selector and then select **New area**.
     
     ![A screenshot of the adding new area](02-1/media/image107.png)
 
@@ -470,7 +470,7 @@ In this exercise, you will input data to the Dataverse tables.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
-2.  Select **Apps** and open the **Company 311 Admin** application created in the previous exercise.
+2.  Select **Apps** and play the **Company 311 Admin** application created in the previous exercise.
 
     ![A Screenshot with an arrow pointing to the Company 311 Admin app](02-1/media/image80.png)
 
@@ -524,7 +524,7 @@ In this exercise, you will input data to the Dataverse tables.
 
     ![A Screenshot with an arrow pointing to the upload an image button](02-1/media/image88.png)
 
-17. Select an image from your device. The sample image displayed below can be found [here](02-1/media/image89.png).
+17. Select an image from your device. The sample image displayed below can be found [here](02-1/Resources/door.jfif).
 
 18. The image should now show on the form.
 

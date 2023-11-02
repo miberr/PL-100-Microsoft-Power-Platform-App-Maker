@@ -76,4 +76,3 @@ In this exercise, you will create a **Practice** environment that you will use t
 11. When your environment shows as **Ready**, select your **Practice** environment by selecting the ellipses next to the name to expand the drop-down menu and select **Settings**. 
 
 12. Explore the different areas in **Settings** that you are interested in but do not make any changes. 
-
