@@ -403,7 +403,7 @@ In this exercise, you will create a model-driven application.
 
 6.  In the properties pane, check **Enable Areas**. 
 
-7.  Select **Area1**. Click on the ellipses on the right side of **Area1** and click **Edit properties**. 
+7.  Select **Area1**. Select the ellipses on the right of **Area1** and select **Edit properties**. 
 
     ![A screenshot of the area editing](02-1/media/image106.png)
 
@@ -425,7 +425,7 @@ In this exercise, you will create a model-driven application.
 
 14. Go to the **Properties**, enter `Problems` for **Title**, and enter `group_problems` for **ID**.
 
-15. Click on area selection and then select **New area**
+15. Select area selection and then select **New area**.
     
     ![A screenshot of the adding new area](02-1/media/image107.png)
 
