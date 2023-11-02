@@ -147,7 +147,7 @@ In this task, create a canvas app using the phone form factor.
 
     ![A screenshot of a solution explorer with new button with the dropdown menu under app and a cursor over the canvas app button](03-2/media/image7.png)
 
-4.  Enter **Company 311 Phone App**, select **Phone** for format, and select **Create**.
+4.  Enter `Company 311 Phone App` for **App name**, select **Phone** for format, and select **Create**.
 
 5.  Select **Skip**.
 
