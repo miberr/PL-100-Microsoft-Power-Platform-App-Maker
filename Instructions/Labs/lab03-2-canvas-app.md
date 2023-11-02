@@ -177,7 +177,7 @@ In this task, create a canvas app using the phone form factor.
 
 12. Move the **Tab Control** to the bottom of the screen and the **Header Control** to the top of the screen.
 
-13. Select the **Header Control** and change the **Text** value to **"Company 311".**
+13. Select the **Header Control** and change the **Text** value to `Company 311`.
 
     ![A screenshot of a border around the expression tab with the text value set to company 311](03-2/media/image13.png)
 
