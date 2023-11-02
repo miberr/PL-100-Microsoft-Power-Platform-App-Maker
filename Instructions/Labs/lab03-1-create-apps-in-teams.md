@@ -123,61 +123,73 @@ In this task, you will create a table and columns.
 
     ![A screenshot with data option selected and cursor pointing to the create new table link from the select a data source prompt](03-1/media/ex2-t2-image2.png)
 
-2.  Enter `Gadget` for **Table name** and select **Create**.
+2.  Select **Start with a blank table**.
 
-3.  Select **+ New column**.
+    ![A screenshot with prompt to start with a blank table](03-1/media/ex2-t2-image7.png)
 
-4.  Enter `Description` for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), and expand the **Advanced options** section.
+3.  Click on **Edit table properties**.
 
-    ![A screenshot with the cursor pointing to the advanced options link](03-1/media/ex2-t2-image3.png)
+![A screenshot with highlight on edit table properties button](03-1/media/ex2-t2-image8.png)
 
-5.  Change the **Maximum character count** to `500` and select **Save**.
+4.  Enter `Gadget` for **Table name** and select **Save**.
 
-6.  Select **+ New column** again.
+5.  Click on **New column** and then **Edit column**.
 
-7.  Enter `Availability` for Name, select **Choice** for Type, and select **+ New choice** under **Sync this choice with** drop-down box. That will open a window to create a global choice to sync with.
+6.  Enter `Name` for **Display name** and then select **Update**.
 
-8.  Enter `Availability` for **Display name**.
+![A screenshot with highlighted portions for renaming primary name field](03-1/media/ex2-t2-image9.png)
 
-9.  Enter `Available` for the first choice and select **+ New choice**.
+7.  Select **+ New column**.
 
-10. Enter `Reserved` for the second choice and select **+ New choice**.
+8.  Enter `Description` for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**) and select **Save**.
 
-11. Enter `Picked up` for the third choice and select **Save**.
+    ![A screenshot with filled in form for creating new description column](03-1/media/ex2-t2-image3.png)
+
+9.  Select **+ New column** again.
+
+10.  Enter `Availability` for Name, select **Choice** for Type, and select **+ New choice** under **Sync this choice with** drop-down box. That will open a window to create a global choice to sync with.
+
+11.  Enter `Availability` for **Display name**.
+
+12.  Enter `Available` for the first choice and select **+ New choice**.
+
+13. Enter `Reserved` for the second choice and select **+ New choice**.
+
+14. Enter `Picked up` for the third choice and select **Save**.
 
     ![A screenshot of the new global choice with 3 choice values entered](03-1/media/ex2-t2-image4.png)
 
-12. Select **Availability** in **Sync this choice with**.
+15. Select **Availability** in **Sync this choice with**.
 
-13. Select **Available** for **Default choice** and select **Save**.
+16. Select **Available** for **Default choice** and select **Save**.
 
     ![A screenshot of a new choice column with global choice to sync with selected](03-1/media/ex2-t2-image6.png)
 
-14. Select **+ New column** menu.
+17. Select **+ New column** menu.
 
-15. Enter `Location` for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), select **Business required** for **Required** and select **Save**.
+18. Enter `Location` for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), select **Business required** for **Required** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image.png)
 
-16. Select **+ New column**.
+19. Select **+ New column**.
 
-17. Enter `Photo` for **Display name**, select **File > Image** for **Data type**, check the **Primary image** checkbox and select **Save**.
+20. Enter `Photo` for **Display name**, select **File > Image** for **Data type**, check the **Primary image** checkbox and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image3.png)
 
-18. Select **+ New column**.
+21. Select **+ New column**.
 
-19. Enter `Reserved by` for **Display name**, select **Lookup** for Data type, select **User** for **Related table** and select **Save**.
+22. Enter `Reserved by` for **Display name**, select **Lookup** for Data type, select **User** for **Related table** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image4.png)
 
-20. Your table screen should now look like the image below.
+23. Your table screen should now look like the image below.
 
     ![A screenshot of the new Gadget table with all columns in a grid layout](03-1/media/ex2-t2-image5.png)
 
-21. Close the table editor by selecting the **Close** button.
+24. Close the table editor by selecting the **Close** button.
 
-22. Do not navigate away from this page.
+25. Do not navigate away from this page.
 
 
 #### Task 3: Edit the application
@@ -232,7 +244,7 @@ In this task, you will edit the application by filters for gadgets that are avai
 
     ![A screenshot with a border around the display mode field](03-1/media/ex2-t4-image5_3.png)
 
-12. Select the **Browse gallery** under **LeftContainer** in the treeview.
+12. Select the **BrowseGallery1** under **LeftContainer1** in the treeview.
 
 13. Select **Items** on the formula bar and replace the value with formula below. This formula will filter the gadgets to show only the available gadgets.
 
@@ -492,4 +504,3 @@ In this task, you will give your colleagues permission to create new items, edit
     ![A screenshot of the collaborate permission selected](03-1/media/ex3-t3-image3.png)
 
 5.  You may wish to test the application with another user in your tenant and see how it behaves.
-
