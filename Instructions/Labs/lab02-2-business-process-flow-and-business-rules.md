@@ -143,7 +143,7 @@ In this task, you will create a business process flow for the Problem Report tab
 
 27. Add the new data step below the **Resolution** data step.
 
-28. Select the new data step, go to the **Properties** pane, select **Resolved on** for **Data Field** and select **Apply**.
+28. Select the new data step, go to the **Properties** pane, select **Resolved On** for **Data Field** and select **Apply**.
 
 29. The Business process flow should now look like the image below. Select **Save**.
 
@@ -151,13 +151,13 @@ In this task, you will create a business process flow for the Problem Report tab
 
 30. Select **Activate**.
 
-31. Select **Activate** again on the pop-up.
+31. To confirm, select **Activate** on the pop-up.
 
 32. Confirm that Status: **Active** shows at the bottom left of the Business Process Flow canvas.
 
     ![A screeshot of a high-level overview of a business process with the words "Status: Active" highlighted in the left bottom corner](02-2/media/image28.png)
 
-33. Close the process editor browser window or tab.
+33. Close the process editor browser tab.
 
 34. Select **Done**.
 
@@ -224,7 +224,7 @@ In this exercise, you will create a business rule that will block completion of 
 
 17. Select **Activate**.
 
-18. Select **Activate** again on the pop-up.
+18. To confirm, select **Activate** on the pop-up.
 
 19. Confirm activation. The **Activate** button will change to **Deactivate** and it will show **Activated** in the bottom left of the Business Rule canvas.
 
@@ -259,7 +259,7 @@ In this exercise, you will test the business process flow and the business rule 
 
     ![A Screenshot with an arrow pointing to the route stage at the top of the page](02-2/media/image23.png)
 
-6.  Enter `North-end` for **Location**, select **Maintenance** for **Department** and select the **Next stage** button.
+6.  Enter `North-end` for **Location**, select **Maintenance** for **Department** and select the **Next Stage** button.
 
     > **NOTE**
     >
