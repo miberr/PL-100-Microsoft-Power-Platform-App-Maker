@@ -79,7 +79,7 @@ In this task, you will import the shared components solution into your environme
 
 10. Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.    
 
-11. Select **Apps** and select the **Lamna Healthcare Shared Components App**.
+11. Select **Apps**, select **All** and select the **Lamna Healthcare Shared Components App**.
 
 12. Select **Edit** to edit the app.
 
