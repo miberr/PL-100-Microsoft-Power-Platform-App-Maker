@@ -338,11 +338,9 @@ In this exercise, add a form to the canvas app to submit new problem reports.
 
 6.  Remove the **Created On** Column.
 
-7.  Remove the **Location** Column.
-
 8.  Select **+ Add field**.
 
-9.  Select **Building**, **Department**, **Details**, and **Photo**, and then select **Add**.
+9.  Select **Building**, **Details**, and **Photo**, and then select **Add**. 
 
 10. Resize and reposition the form, setting the **Position, Y** value to `75` and the **Height** value to `900` 
 
