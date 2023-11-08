@@ -305,11 +305,13 @@ In this exercise, allow unassigned reports to be removed. This will allow users 
 
 5.  Make sure you still have the **Remove Report** icon selected. Change the **OnSelect** value to the formula below. This formula will remove item from the data source.
 
-    `Remove('Problem Reports', ThisItem)`
+    `Remove('Problem Reports', ThisItem)` 
 
-6.  Change the **Tooltip** value to `"Remove this report"`
+6.  Change the **Tooltip** value to `"Remove this report"` 
 
-7.  Select **Save**. 
+7.  Set all the **Padding** values to `0`, this allows the icon to better fill the space in the gallery row. 
+
+8.  Select **Save**. 
 
 
 ### Exercise 4: Add new report
@@ -336,11 +338,9 @@ In this exercise, add a form to the canvas app to submit new problem reports.
 
 6.  Remove the **Created On** Column.
 
-7.  Remove the **Location** Column.
-
 8.  Select **+ Add field**.
 
-9.  Select **Building**, **Department**, **Details**, and **Photo**, and then select **Add**.
+9.  Select **Building**, **Details**, and **Photo**, and then select **Add**. 
 
 10. Resize and reposition the form, setting the **Position, Y** value to `75` and the **Height** value to `900` 
 
