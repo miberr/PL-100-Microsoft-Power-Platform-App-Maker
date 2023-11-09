@@ -87,11 +87,11 @@ In this task, you will create a flow that send notification when the status of p
 
     ![A Screenshot with an arrow pointing to the add new step button](04/media/image4.png)
 
-11. Select **Connectors** tab and then select **Microsoft Dataverse**. Select **Get a row by ID**.
+11. On the **All** tab, select **Microsoft Dataverse** then select the **Get a row by ID** action. 
 
 12. Select **Users** for **Table name**.
 
-13. Select the **Row ID** field, go to the Dynamic pane, search for `created` and select **Created By (Value)** to add it.
+13. Select the **Row ID** field, go to the **Dynamic content** pane, search for `created` and select **Created By (Value)**.
 
 14. Select **Show advanced options** on the new step.
 
@@ -103,7 +103,7 @@ In this task, you will create a flow that send notification when the status of p
 
 18. Select **+ New step**.
 
-19. Search for `send email` and select **Send an email (V2).**
+19. Search for `send email` and select the **Send an email (V2)** action from the **Office 365 Outlook** connector.
 
 20. Select the **To** field and select the **Switch to Advanced Mode** arrows icon. Selecting this button toggles show/hide of the Dynamic content pane.
 
@@ -117,11 +117,11 @@ In this task, you will create a flow that send notification when the status of p
 
 24. Enter `The status of the problem you reported has changed.` and press the **[ENTER]** key.
 
-25. Enter `Problem Title:` followed by a **[SPACE]**, go to the **Dynamic content** pane, search for `title` and select **Title**.
+25. Enter `Problem Title: `, go to the **Dynamic content** pane, search for `title` and select **Title**.
 
 26. Press the **[ENTER]** key.
 
-27. Enter `Current Status:` followed by a **[SPACE]**, go to the **Dynamic content** pane, select the **Expression** tab, paste the expression below, and select **OK**. This expression will show the label of the Status Reason instead of the value.
+27. Enter `Current Status: `, go to the **Dynamic content** pane, select the **Expression** tab, paste the expression below, and select **OK**. This expression will show the label of the Status Reason instead of the value.
 
     `triggerOutputs()?['body/_statuscode_label']`
 
@@ -164,9 +164,9 @@ In this task, you will test the Notify Problem Creator flow.
 
 8.  Select **Solutions** and open the **Company 311** solution.
 
-9.  Locate and open the **Notify Problem Creator** Cloud flow.
+9.  Locate and open the **Notify Problem Creator** Cloud Flow Details in a new tab.
 
-10. You should see a succeeded flow run in the **28-day run history section**. Open the run.
+10. You should see a succeeded flow run in the **28-day run history** section. Open the run.
 
     ![A Screenshot with an arrow pointing to the start date of the 28-day run history section](04/media/image9.png)
 
@@ -187,9 +187,9 @@ In this task, you will test the Notify Problem Creator flow.
 
 In this exercise, you will create and add two new columns to the Problem Report table and create an escalation flow.
 
-#### Task 1: Add Columns
+#### Task 1: Add a new Column and update the Form
 
-In this task, you add a new Columns to the Problem Report table.
+In this task, you add a new Column to the Problem Report table and update the Main Form.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
@@ -199,13 +199,13 @@ In this task, you add a new Columns to the Problem Report table.
 
 4.  Select **+ New > Column**.
 
-5.  Enter **Estimated Cost** for **Display name**, select **Currency** for **Data type** and select **Save**.
+5.  Enter `Estimated Cost` for **Display name**, select **Currency** for **Data type** and select **Save**.
 
 6.  Select **Forms** from the **Objects** pane.
 
 7.  Open the **Information** form of type **Main**.
 
-8.  Add **Estimated Cost** column to the form and place it below the **Status Reason** column.
+8.  Add the **Estimated Cost** column to the form and place it below the **Status Reason** column.
 
 9.  Add the **Assign to** column and place it below the **Estimated Cost** column.
 
@@ -228,7 +228,7 @@ In this task, you will create the escalation flow.
 
 3.  Select **+ New > Automation > Cloud Flow > Automated**.
 
-4.  Search for **when a row is added** and select **When a row is added, modified, or deleted**  from **Microsoft Dataverse** connector then select **Create**.
+4.  Search for `when a row is added` and select **When a row is added, modified, or deleted** from the **Microsoft Dataverse** connector, then select **Create**.
 
 5.  Select **Added or Modified** for **Change type**, select **Problem Reports** for **Table name**, select **Organization** for **Scope** and select **Show advanced options**.
 
@@ -240,21 +240,21 @@ In this task, you will create the escalation flow.
 
 9.  Select **+ New step**.
 
-10. Search for **Condition** and Select **Condition** control.
+10. Search for `Condition` and select the **Condition** action from the **Control** connector.
 
 11. Select the first **Choose a value** field.
 
-12. Go to the Dynamic content pane, search for **estimated** and select **Estimated Cost**.
+12. Go to the **Dynamic content** pane, search for `estimated` and select **Estimated Cost**. 
 
     ![A screenshot of the dynamic content pane with the word estimated in the search bar](04/media/image13.png)
 
-13. Select **is greater than** in the second field and enter **1000** in the third field.
+13. Select **is greater than** in the second field and enter `1000` in the third field.
 
-14. Rename the condition step to **Check if cost is greater than 1000**.
+14. Rename the condition step to `Check if cost is greater than 1000`
 
 15. Go to the **If yes** branch and select **Add an action**.
 
-16. Search for **Get a row** and select **Get a row by ID** from **Microsoft Dataverse**.
+16. Search for `Get a row` and select the **Get a row by ID** action from the **Microsoft Dataverse** connector. 
 
 17. Select **Users** for **Table name**.
 
@@ -262,29 +262,29 @@ In this task, you will create the escalation flow.
 
 19. Select **Show advanced options**.
 
-20. Enter **internalemailaddress** for **Select columns**.
+20. Enter `internalemailaddress` for **Select columns**.
 
-21. Rename the **Get a Row by ID** step **Get user**.
+21. Rename the **Get a Row by ID** step `Get user`
 
 23. Select **Add an action**.
 
-24. Search for **approval** and select **Start and wait for an approval**.
+24. Search for `approval` and select the **Start and wait for an approval** action from the **Approvals** connector. 
 
 25. Select **Approve/Reject - Everyone must approve** for **Approval type**.
 
-26. Enter **Cost approval required** for **Title**.
+26. Enter `Cost approval required` for **Title**.
 
 27. Select the **Assigned to** field.
 
 28. Go to the **Dynamic content** pane and select **Primary Email** from the **Get user** step.
 
-29. Paste the markdown text below in the **Details** field.
+29. Enter the markdown text below in the **Details** field.
 
-    > \#\# URGENT Approval Required
-    >
-    > This is \*\*very\*\* expensive item with the estimated cost of
+    `\#\# URGENT Approval Required
+    
+    This is \*\*very\*\* expensive item with the estimated cost of `
 
-30. Place your cursor after cost of, go to the Dynamic content pane, select the **Expression** tab, paste the expression below, and select **OK**.
+30. Place your cursor after cost of, go to the **Dynamic content** pane, select the **Expression** tab, paste the expression below, and select **OK**.
 
     `formatNumber(triggerOutputs()?['body/lh_estimatedcost'], 'C2')`
 
@@ -292,23 +292,23 @@ In this task, you will create the escalation flow.
 
 31. Select **Add an action**.
 
-32. Search for **condition** and select the **Condition** action from the Control connector.
+32. Search for `condition` and select the **Condition** action from the **Control** connector.
 
 33. Select the first **Choose a value** field.
 
-34. Go to the **Dynamic content** pane, search for **Outcome** and select **Outcome**.
+34. Go to the **Dynamic content** pane, search for `Outcome` and select **Outcome**. 
 
-35. Select **equals to** in the second field and enter **Reject** for value in the third field.
+35. Enter **Reject** for value in the third field.
 
 36. Go to the **If yes** branch and select **Add an action**.
 
-37. Search for **update a Row** and select **Update a Row** from **Microsoft Dataverse**.
+37. Search for `update a row` and select the **Update a row** action from the **Microsoft Dataverse** connector. 
 
 38. Select **Problem Reports** for **Table name**.
 
 39. Select the **Row ID** field.
 
-40. Go to the **Dynamic content** pane, search for **problem report** and select **Problem Report**.
+40. Go to the **Dynamic content** pane, search for `problem report` and select **Problem Report**.
 
 41. Select **Show advanced options**.
 
@@ -316,9 +316,9 @@ In this task, you will create the escalation flow.
 
 43. Select **Won’t fix** for **Status Reason**.
 
-44. Rename the step **Update problem report**.
+44. Rename the step `Update problem report`
 
-45. Scroll up and rename the flow **Escalate Expense Approval**.
+45. Scroll up and rename the flow `Escalate Expense Approval`
 
 46. Select **Save**.
 
@@ -335,31 +335,31 @@ In this task, you will test the escalation flow.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
-2.  Select **Apps** and open the **Company 311 Admin** application.
+2.  Select **Apps**, and then select the **Company 311 Admin** Model-driven application. Select **Play**.
 
 3.  Open one of the **Problem Report** rows.
 
-4.  Scroll down, enter **2500** for **Estimated Cost**, assign it to **yourself** (for test purposes) and select **Save**.
+4.  Scroll down, enter `2500` for **Estimated Cost**, assign it to **yourself** (for test purposes) and select **Save**.
 
-5.  Navigate to the [Power Automate maker portal](https://make.powerautomate.com/).
+5.  Navigate to the Power Automate maker portal: `https://make.powerautomate.com/`
 
 6.  Select **Approvals**.
 
-7.  You should see at least one approval in the received tab. Open the approval. It can take around 10-15 minutes for approvals to show up here on the first run.
+7.  You should see at least one approval in the received tab. Open the approval. 
+
+    **Note:** It can take around 10-15 minutes for approvals to show up here on the first run as the Approvals app must provision itself in your environment.
 
     ![A Screenshot with an arrow pointing to the cost approval required request](04/media/image16.png)
 
-8.  Select **Reject**, enter **We don't have the funds for this item** for **comment**, and select **Confirm**.
+8.  Choose the **Reject** response, enter `We don't have the funds for this item` for **Add a comment**, and select **Confirm**. 
 
     ![A screenshot of the details of the request with the relevant text in each field](04/media/image17.png)
 
-9.  Go back to the **Company 311 Admin** application.
+9.  Go back to the **Company 311 Admin** Model-driven application.
 
-10. Change the view to **My Reports** and open the same row you change the estimated cost.
+10. Change the view to **My Reports** and open the test row on which the **Estimated Cost** was changed. 
 
 11. The **Status Reason** should be set to **Won’t fix** and the **Resolution** should contain the details of Approver, Response, Request Date and Response Date.
-
-12. Select **Save**, if you have not done so previously.
 
     ![A screenshot of the status reason and resolution matching the values and text you put into the request](04/media/image18.png)
 
