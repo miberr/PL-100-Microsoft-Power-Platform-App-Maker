@@ -463,7 +463,7 @@ In this task you will replace the approval sent by email with an adaptive card.
 
 24. The **Post card in a chat or channel** step should look like the image below:
 
-    ![A screenshot of the post adaptive card in a chat or channel pane](04/media/image-5-post-adaptive-card.png)
+    ![A screenshot of the post adaptive card in a chat or channel pane](04/media/image5-post-adaptive-card.png)
 
 25. Hover the cursor below the **Post card in a chat or channel** step, select **+** and then select **Add an action**.
 
@@ -510,9 +510,9 @@ In this task, you will test the escalation flow with the Teams and adaptive card
 
 5.  Navigate to [Microsoft Teams](https://teams.microsoft.com).
 
-6.  Select **Alerts**.
+6.  Select **Chat**.
 
-7. You should see the **Cost approval required** adaptive card in a message from **Power Automate**.
+7. You should see the **Cost approval required** adaptive card in a message from **Workflows**.
 
     ![A screen shot of the request for cost approval pane](04/media/image-5-sample-adaptive-card.png)  
 
