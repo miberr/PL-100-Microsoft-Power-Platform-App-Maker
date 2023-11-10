@@ -433,13 +433,13 @@ In this task you will replace the approval sent by email with an adaptive card.
     >
     > {details}
     >
-    > This is a \_very\_ expensive item with the estimated cost of
+    > This is a \_very\_ expensive item with the estimated cost of 
 
 13. Select **{title}** placeholder, go to the **Dynamic content** pane, locate and select **Title** field from **When a problem report is created or updated** step.
 
 14. Select **{details}** placeholder, go to the **Dynamic content** pane, locate and select **Details** field from **When a problem report is created or updated** step.
 
-15. Place your cursor after **cost of** , go to the **Dynamic content** pane, select the **Expression** tab, paste the expression below, and select **OK**.
+15. Place the cursor after **cost of**, go to the **Dynamic content** pane, select the **Expression** tab, paste the expression below, and select **OK**.
 
     `formatNumber(triggerOutputs()?['body/lh_estimatedcost'], 'C2')`
 
@@ -449,23 +449,23 @@ In this task you will replace the approval sent by email with an adaptive card.
 
 17. Hover your mouse again below Create an approval step, select **+** and then select **Add an action**.
 
-18. Search for `teams` and select **Post adaptive card and wait for a response** action.
+18. Search for `teams` and select **Post card in a chat or channel** action. 
 
-19. Select **Flow bot** for Post as and select **Chat with Flow bot** for Post in.
+19. Select **Flow bot** for Post as and select **Chat with Flow bot** for Post in. 
 
-20. Select the **Recipient** field.
+20. Select the **Recipient** field. 
 
-21. Go to the **Dynamic content** pane and select **Primary Email** from the **Get user** step.
+21. Go to the **Dynamic content** pane and select **Primary Email** from the **Get user** step. 
 
-22. Select **Message** field.
+22. Select **Message** field. 
 
 23. Go to the **Dynamic content** pane and select **Teams Adaptive Card** from the **Create an approval** step.
 
-24. The **Post adaptive card and wait for a response** step should look like the image below:
+24. The **Post card in a chat or channel** step should look like the image below:
 
-    ![A screenshot of the post adaptive card in a chat or channel pane](04/media/image-5-post-adaptive-card.png)
+    ![A screenshot of the post adaptive card in a chat or channel pane](04/media/image5-post-adaptive-card.png)
 
-25. Hover your mouse again below Post card in a chat or channel step, select **+** and then select **Add an action**.
+25. Hover the cursor below the **Post card in a chat or channel** step, select **+** and then select **Add an action**.
 
 26. Search for `approval` and select **Wait for an approval** action.
 
@@ -479,11 +479,11 @@ In this task you will replace the approval sent by email with an adaptive card.
 
     ![A screenshot of the current flow with: create an approval, post adaptive card in a chat or channel, and wait for an approval](04/media/image-5-replaced-approval.png)
 
-30. Expand the **Condition** step. The left side of the condition should be empty because it was referring the step which is now removed. 
+30. Expand the **Condition** step. The left value of the **Condition** step should be empty because it was referring to the old step which is now removed. 
 
 31. Go to the **Dynamic content** pane, search for `outcome`, and select **Outcome** from **Wait for an approval** step. 
 
-32. Locate **Update problem report** step under **If yes** branch. 
+32. Locate the **Update problem report** step, under the **If yes** branch. 
 
 33. Select **Show advanced options**.
 
@@ -502,7 +502,7 @@ In this task, you will test the escalation flow with the Teams and adaptive card
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
-2.  Select **Apps** and open the **Company 311 Admin** application.
+2.  Select **Apps**, and then select the **Company 311 Admin** Model-driven application. Select **Play**.
 
 3.  Open one of the **Problem Report** Rows.
 
@@ -512,7 +512,7 @@ In this task, you will test the escalation flow with the Teams and adaptive card
 
 6.  Select **Chat**.
 
-7. You should see the **Cost approval required** adaptive card in a message from **Power Automate**.
+7. You should see the **Cost approval required** adaptive card in a message from **Workflows**.
 
     ![A screen shot of the request for cost approval pane](04/media/image-5-sample-adaptive-card.png)  
 
