@@ -40,6 +40,7 @@ In this lab you will complete solution configuration by adding security roles fo
 ## Prerequisites
 
 * Must have completed **Lab 02.1: Data model and model-driven app**
+* Must have completed **Lab 03.2: Canvas app**, including importing the Lamba Healthcare Shared Components solution.
 
 ## Detailed steps
 
@@ -63,7 +64,7 @@ In this exercise, you will create security roles for users.
 
 7.  The read privileges for the **Building** and **Problem Report** Tables should now look like the image below. Select **Save Create New**.
 
-   ![A Screenshot with an arrow pointing to the save create new icon in the topmost part of the window and borders around the building and problem report on the list of custom entities](07/media/image2.png)
+    ![A Screenshot with an arrow pointing to the save create new icon in the topmost part of the window and borders around the building and problem report on the list of custom entities](07/media/image2.png)
 
 8.  Enter **Company 311 Admin** for **Role Name** and select the **Custom Entities** tab.
 
@@ -149,7 +150,6 @@ In this exercise, you use test studio to create test case for submitting a probl
 
     ![A screenshot of a StartScreen formula set to new reports screen](07/media/image7.png)
     
-
 9.  Select **Save**.
 
 10. Select **Publish**.
@@ -425,7 +425,7 @@ In this task, you will add the flow to the Company 311 solution.
 
 12. Select **Unmanaged**, change the **version** to match the managed solution you just exported and select **Export**.
 
-13. Wait for the export to complete and save the exported solution on your machine.
+13. Wait for the export to complete and select **Download** to save the exported solution file to your machine.
 
 
 #### Task 5: Import solution
@@ -448,9 +448,9 @@ In this task, you will import the solution into another environment.
 
 7.  Wait for the solution import to complete.
 
-8. Open the **Company 311** solution. 
+8.  Open the **Company 311** solution. 
 
-9. Locate the flow you added to the solution and open it.
+9.  Locate the flow you added to the solution and open it.
 
     ![A Screenshot with an arrow pointing to the name of the flow you added to the solution](07/media/image21.png)
 
@@ -480,5 +480,5 @@ In this task, you will import the solution into another environment.
 
 20. Select **Turn on**.
 
-21. The flow should show the status as **On**. You can verify the Status value in the Details sections.
+21. The flow should show the status as **On**. You can verify the Status value in the **Details** section.
 
