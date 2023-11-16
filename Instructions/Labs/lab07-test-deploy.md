@@ -203,9 +203,15 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 4.  Select all of the connection references and select **Add**.
 
-5.  Select **Publish all customizations** and wait for the publishing to complete.
+5.  Select **+ Add existing** > **Table**.
 
-6.  Navigate back to the **Solutions** list. 
+6.  Search for `Problem` and select the **Problem resolution process** table. Select **Next**.
+
+7.  Select **Include all objects** and select **Add**.
+
+8.  Select **Publish all customizations** and wait for the publishing to complete.
+
+9.  Navigate back to the **Solutions** list. 
 
 6.  Select the **Company 311** solution and select **Export Solution** from the toolbar.
 
