@@ -258,7 +258,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
     ![A screenshot of the form field height set to 4 rows](02-1/media/image36.png)
 
-12. Select the **+ Component** from the menu then select **1-column section**.
+12. Select **Components** from the left navigation menu then select **1-column section**.
 
     ![A screenshot of the form design with Components list visible and 1-column section entry selected.](02-1/media/image38.png)
 
