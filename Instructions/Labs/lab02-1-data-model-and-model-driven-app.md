@@ -4,14 +4,6 @@ lab:
     module: 'Module 02: Create a model-driven app'
 ---
 
-> **NOTE**
->
-> Effective November 2020:
-> - Common Data Service has been renamed to Microsoft Dataverse. [Learn more](https://aka.ms/PAuAppBlog)
-> - Some terminology in Microsoft Dataverse has been updated. For example, *entity* is now *table* and *field* is now *column*. [Learn more](https://go.microsoft.com/fwlink/?linkid=2147247)
->
-
-
 # Lab 02.1: Data model and model-driven app
 
 In this lab you will be implementing the data model for the solution and building a model-driven app that will be used for tracking problems and managing the overall effort.
@@ -56,9 +48,9 @@ In this exercise, you will create a custom solution publisher and a solution. Th
 
 #### Task 1: Create publisher and solution
 
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the practice environment you created. 
+1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the Dev One environment. 
 
-2.  From the left navigation pane, select **s** and then select **+ New solution**. 
+2.  From the left navigation pane, select **Solutions** and then select **+ New solution**. 
 
 3.  For **Display name**, enter `Company 311` 
 
@@ -266,7 +258,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
     ![A screenshot of the form field height set to 4 rows](02-1/media/image36.png)
 
-12. Select the **+ Component** from the menu then select **1-column section**.
+12. Select **Components** from the left navigation menu then select **1-column section**.
 
     ![A screenshot of the form design with Components list visible and 1-column section entry selected.](02-1/media/image38.png)
 
