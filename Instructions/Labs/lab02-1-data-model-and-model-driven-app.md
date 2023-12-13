@@ -437,7 +437,7 @@ In this exercise, you will create a model-driven application.
 
 22. Select **New Group**.
 
-23. Go to the **Properties** pane, enter `Taxonomy` for **Title**, and enter `group\_taxonomy` for **ID**.
+23. Go to the **Properties** pane, enter `Taxonomy` for **Title**, and enter `group_taxonomy` for **ID**.
 
 24. The navigation should now look like the image below. Select **Save**.
 
