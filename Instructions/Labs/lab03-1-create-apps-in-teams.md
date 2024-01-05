@@ -101,7 +101,7 @@ In this task, you will provision Dataverse for Teams by creating an application.
 
 3.  Select the **Green** team you created and select **Create**.
 
-4.  **Wait** until provisioning is complete.
+4.  Select **Close**. Select **Activity** and wait for the **Success!** notification.
 
 5.  Enter `Upcycle` for **App name** and select **Save**.
 
@@ -237,55 +237,55 @@ In this task, you will add one more column, edit the application to filter for g
 
     ![A Screenshot with an arrow pointing to the lock icon under the advanced tab](03-1/media/ex2-t4-image5_2.png)
 
-11. Search for `display` and change the **DisplayMode** value to `DisplayMode.View`
+21. Search for `display` and change the **DisplayMode** value to `DisplayMode.View`
 
     ![A screenshot with a border around the display mode field](03-1/media/ex2-t4-image5_3.png)
 
-12. Select the **BrowseGallery1** under **LeftContainer1** in the Tree view.
+22. Select the **BrowseGallery1** under **LeftContainer1** in the Tree view.
 
-13. Select **Items** on the formula bar and replace the value with formula below. This formula will filter the gadgets to show only the available gadgets.
+23. Select **Items** on the formula bar and replace the value with formula below. This formula will filter the gadgets to show only the available gadgets.
 
     ```Filter(Gadgets, Text(Availability) <> "Picked up")```
 
     ![Filter data - screenshot](03-1/media/ex2-t4-image6.png)
 
-14. Select the **Image1** inside the gallery.
+24. Select the **Image1** inside the gallery.
 
     ![A Screenshot with an arrow pointing to image 1 inside the gallery](03-1/media/ex2-t4-image7.png)
 
-15. Go to the formula bar and verify that the value of the **Image** property is set to the formula below.
+25. Go to the formula bar and verify that the value of the **Image** property is set to the formula below.
 
     ```ThisItem.Photo```
 
-16. Select the **Data** tab (database icon) in the left navigation, select the **...More actions** button of the **Gadgets** table and select **Refresh**.
+26. Select the **Data** tab (database icon) in the left navigation, select the **...More actions** button of the **Gadgets** table and select **Refresh**.
 
     ![A Screenshot with an arrow pointing to the ellipsis icon for more actions and a border around the refresh button](03-1/media/ex2-t4-image9.png)
 
-17. Select **Save** and wait for the app to be saved.
+27. Select **Save** and wait for the app to be saved.
 
-18. Select **Preview the app**.
+28. Select **Preview the app**.
 
-19. Select **+ New record**.
+29. Select **+ New record**.
 
     ![A screenshot of a border around the new record button](03-1/media/ex2-t4-image10.png)
 
-20. Fill out the form and select **Tap or click to add a picture**.
+30. Fill out the form and select **Tap or click to add a picture**.
 
     ![A Screenshot with an arrow pointing to the tap or click to add a picture button](03-1/media/ex2-t4-image11.png)
 
-21. Provide your own photo or choose one from the Lab Resources folder.
+31. Provide your own photo or choose one from the Lab Resources folder.
 
-22. Select **Save**.
+32. Select **Save**.
 
     ![A Screenshot with an arrow pointing to the tick icon to save](03-1/media/ex2-t4-image12.png)
 
-23. **Add** a few more new records.
+33. **Add** a few more new records.
 
-24. Your app should now look like the image below. Select **X** to close the preview..
+34. Your app should now look like the image below. Select **X** to close the preview..
 
     ![A screenshot of the running app with an arrow pointing to the cross icon to close the preview](03-1/media/ex2-t4-image13.png)
 
-25. **Do not** navigate away from this screen.
+35. **Do not** navigate away from this screen.
 
 
 #### Task 4: Update Dataverse rows
@@ -452,7 +452,7 @@ In this task, you will test the application.
 
 9.  **Close** preview mode.
 
-10.  Do not navigate away from this page.
+10. Do not navigate away from this page.
 
 
 #### Task 2: Publish application
