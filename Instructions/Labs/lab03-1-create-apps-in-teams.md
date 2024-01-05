@@ -48,9 +48,9 @@ In this exercise, you will create a new team and install Power Apps for Teams.
 
 In this task you will create a new team.
 
-1.  Navigate to [Microsoft Teams](https://teams.microsoft.com).
+1.  Navigate to [Microsoft Teams](https://teams.microsoft.com). `https://teams.microsoft.com`
 
-2.  Select **Teams**, hover over **Create a team** and select the **Create team** button.
+2.  Select **Teams**, select the **+** (Join or Create Team) and select **Create team**.
 
     ![A screenshot with a box around the teams button on the left side of the window and an arrow pointing to the create team button](03-1/media/ex1-t1-image1.png)
 
