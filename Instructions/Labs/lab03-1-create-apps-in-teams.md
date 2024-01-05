@@ -48,9 +48,9 @@ In this exercise, you will create a new team and install Power Apps for Teams.
 
 In this task you will create a new team.
 
-1.  Navigate to [Microsoft Teams](https://teams.microsoft.com).
+1.  Navigate to [Microsoft Teams](https://teams.microsoft.com). `https://teams.microsoft.com`
 
-2.  Select **Teams**, hover over **Create a team** and select the **Create team** button.
+2.  Select **Teams**, select the **+** (Join or Create Team) and select **Create team**.
 
     ![A screenshot with a box around the teams button on the left side of the window and an arrow pointing to the create team button](03-1/media/ex1-t1-image1.png)
 
@@ -101,7 +101,7 @@ In this task, you will provision Dataverse for Teams by creating an application.
 
 3.  Select the **Green** team you created and select **Create**.
 
-4.  **Wait** until provisioning is complete.
+4.  Select **Close**. Select **Activity** and wait for the **Success!** notification.
 
 5.  Enter `Upcycle` for **App name** and select **Save**.
 
@@ -119,74 +119,54 @@ In this task, you will create a table and columns.
 
     ![A screenshot with prompt to start with a blank table](03-1/media/ex2-t2-image7.png)
 
-3.  Click on **Edit table properties**.
+3.  Select **Edit table properties**.
 
-![A screenshot with highlight on edit table properties button](03-1/media/ex2-t2-image8.png)
+    ![A screenshot with highlight on edit table properties button](03-1/media/ex2-t2-image8.png)
 
 4.  Enter `Gadget` for **Table name** and select **Save**.
 
-5.  Click on **New column** and then **Edit column**.
+5.  Select the drop-down menu on the mandatory **New column** column and then select **Edit column**.
 
 6.  Enter `Name` for **Display name** and then select **Update**.
 
-![A screenshot with highlighted portions for renaming primary name field](03-1/media/ex2-t2-image9.png)
+    ![A screenshot with highlighted portions for renaming primary name field](03-1/media/ex2-t2-image9.png)
 
 7.  Select **+ New column**.
 
-8.  Enter `Description` for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**) and select **Save**.
+8.  Enter `Description` for **Display name** and select **Save**.
 
     ![A screenshot with filled in form for creating new description column](03-1/media/ex2-t2-image3.png)
 
 9.  Select **+ New column** again.
 
-10.  Enter `Availability` for Name, select **Choice** for Type, and select **+ New choice** under **Sync this choice with** drop-down box. That will open a window to create a global choice to sync with.
-
-11.  Enter `Availability` for **Display name**.
-
-12.  Enter `Available` for the first choice and select **+ New choice**.
-
-13. Enter `Reserved` for the second choice and select **+ New choice**.
-
-14. Enter `Picked up` for the third choice and select **Save**.
-
-    ![A screenshot of the new global choice with 3 choice values entered](03-1/media/ex2-t2-image4.png)
-
-15. Select **Availability** in **Sync this choice with**.
-
-16. Select **Available** for **Default choice** and select **Save**.
-
-    ![A screenshot of a new choice column with global choice to sync with selected](03-1/media/ex2-t2-image6.png)
-
-17. Select **+ New column** menu.
-
-18. Enter `Location` for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), select **Business required** for **Required** and select **Save**.
+10. Enter `Location` for **Display name**, enable **Required** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image.png)
 
-19. Select **+ New column**.
+11. Select **+ New column**.
 
-20. Enter `Photo` for **Display name**, select **File > Image** for **Data type**, check the **Primary image** checkbox and select **Save**.
+12. Enter `Photo` for **Display name**, select **File** > **Image** for **Data type**, check **Primary image** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image3.png)
 
-21. Select **+ New column**.
+13. Select **+ New column**.
 
-22. Enter `Reserved by` for **Display name**, select **Lookup** for Data type, select **User** for **Related table** and select **Save**.
+14. Enter `Reserved by` for **Display name**, select **Lookup** for Data type, select **User** for **Related table** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image4.png)
 
-23. Your table screen should now look like the image below.
+15. Your table screen should now look like the image below.
 
     ![A screenshot of the new Gadget table with all columns in a grid layout](03-1/media/ex2-t2-image5.png)
 
-24. Close the table editor by selecting the **Close** button.
+16. Select **Save and close**.
 
-25. Do not navigate away from this page.
+17. Do not navigate away from this page.
 
 
 #### Task 3: Edit the application
 
-In this task, you will edit the application by filters for gadgets that are available and edit the form.
+In this task, you will add one more column, edit the application to filter for gadgets that are available and make other changes to the form.
 
 > **NOTE**
 >
@@ -194,17 +174,42 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 1.  Select **Screen1**. If the screen already contains the form, move to the next step, otherwise select **With data** and select **Gadgets** table under **Current environment**. That will create the screen elements including the form.
 
-2.  Make sure **RightContainer1** is expanded and select the **EditForm1** control from tree view.
+2.  Select **Data** from the left navigation menu, under **Gadgets** select the menu and select **Edit data**.
+
+3.  Select **+ New column**.
+
+4.  Enter `Availability` for **Display name**, select **Choice** for Type, and select **+ New choice** under **Sync this choice with** drop-down box. That will open a window to create a global choice to sync with.
+
+5.  Enter `Availability` for **Display name**.
+
+6.  Enter `Available` for the first choice and select **+ New choice**.
+
+7.  Enter `Reserved` for the second choice and select **+ New choice**.
+
+8.  Enter `Picked up` for the third choice and select **Save**.
+
+    ![A screenshot of the new global choice with 3 choice values entered](03-1/media/ex2-t2-image4.png)
+
+9.  Select **Availability** in **Sync this choice with**.
+
+10. Select **Available** as the **Default choice** and select **Save**.
+
+    ![A screenshot of a new choice column with global choice to sync with selected](03-1/media/ex2-t2-image6.png)
+
+11. Select **Close**.
+
+12. Select **Tree view** from the left navigation menu. Make sure **RightContainer1** is expanded and select the **EditForm1** control.
 
     ![A screenshot with a border around the edit form button under screen 1](03-1/media/ex2-t4-image1.png)
 
-3.  Go to the **Properties** pane and select **Edit fields**.
+13. Go to the **Properties** pane and select **Edit fields**.
 
     ![A Screenshot with an arrow pointing to the edit fields button](03-1/media/ex2-t4-image2.png)
 
-4.  Select the **+ Add field** button.
+14. Select the **+ Add field** button.
 
-5.  If any of the fields below do not exist on the EditForm control, select the **+ Add field** button, select the missing field and select **Add**.
+15. If any of the fields below do not exist on the **EditForm** control, select the **+ Add field** button, select the missing field and select **Add**.
+
     - **Name**
     - **Description**
     - **Availability**
@@ -214,73 +219,73 @@ In this task, you will edit the application by filters for gadgets that are avai
 
     ![A screenshot of the add field window](03-1/media/ex2-t4-image3.png)
 
-6.  Remove any extra fields and close the **Fields** pane. Your form should only have **Name, Description, Availability, Location, Reserved By and Photo** columns.
+16. Remove any extra fields and close the **Fields** pane. Your form should only have **Name**, **Description**, **Availability**, **Location**, **Reserved By** and **Photo** columns.
 
-7.  Change **Columns** to **1**.
+17. Change **Columns** to **1**.
 
     ![A screenshot with a border around the columns field and the value of 1 in the field itself](03-1/media/ex2-t4-image4.png)
 
-8.  Select the **Photo_DataCard1** inside the form and change **Width** to `400`
+18. Select the **Photo_DataCard1** inside the form and change **Width** to `400`
 
     ![A screenshot of the photo selected inside the canvas and a border around the size field changed to 400 in the properties pane](03-1/media/ex2-t4-image5.png)
 
-9.  Expand the form and select the **Reserved by_DataCard1** data card.
+19. Expand the form and select the **Reserved by_DataCard1** data card.
 
     ![A screenshot of a border around reserved by data card selected under edit form 1](03-1/media/ex2-t4-image5_1.png)
 
-10. Go to the **Properties** pane, select the **Advanced** tab and select **Unlock**.
+20. Go to the **Properties** pane, select the **Advanced** tab and select **Unlock**.
 
     ![A Screenshot with an arrow pointing to the lock icon under the advanced tab](03-1/media/ex2-t4-image5_2.png)
 
-11. Search for `display` and change the **DisplayMode** value to `DisplayMode.View`
+21. Search for `display` and change the **DisplayMode** value to `DisplayMode.View`
 
     ![A screenshot with a border around the display mode field](03-1/media/ex2-t4-image5_3.png)
 
-12. Select the **BrowseGallery1** under **LeftContainer1** in the treeview.
+22. Select the **BrowseGallery1** under **LeftContainer1** in the Tree view.
 
-13. Select **Items** on the formula bar and replace the value with formula below. This formula will filter the gadgets to show only the available gadgets.
+23. Select **Items** on the formula bar and replace the value with formula below. This formula will filter the gadgets to show only the available gadgets.
 
-    ```Filter(Gadgets, Availability <> [@Availability].'Picked up')```
+    ```Filter(Gadgets, Text(Availability) <> "Picked up")```
 
     ![Filter data - screenshot](03-1/media/ex2-t4-image6.png)
 
-14. Select the **Image1** inside the gallery.
+24. Select the **Image1** inside the gallery.
 
     ![A Screenshot with an arrow pointing to image 1 inside the gallery](03-1/media/ex2-t4-image7.png)
 
-15. Go to the formula bar and verify that the value of the **Image** property is set to the formula below.
+25. Go to the formula bar and verify that the value of the **Image** property is set to the formula below.
 
     ```ThisItem.Photo```
 
-16. Select the **Data** tab (database icon) in the left navigation, select the **...More actions** button of the **Gadgets** table and select **Refresh**.
+26. Select the **Data** tab (database icon) in the left navigation, select the **...More actions** button of the **Gadgets** table and select **Refresh**.
 
     ![A Screenshot with an arrow pointing to the ellipsis icon for more actions and a border around the refresh button](03-1/media/ex2-t4-image9.png)
 
-17. Select **Save** and wait for the app to be saved.
+27. Select **Save** and wait for the app to be saved.
 
-18. Select **Preview the app**.
+28. Select **Preview the app**.
 
-19. Select **+ New record**.
+29. Select **+ New record**.
 
     ![A screenshot of a border around the new record button](03-1/media/ex2-t4-image10.png)
 
-20. Fill out the form and select **Tap or click to add a picture**.
+30. Fill out the form and select **Tap or click to add a picture**.
 
     ![A Screenshot with an arrow pointing to the tap or click to add a picture button](03-1/media/ex2-t4-image11.png)
 
-21. Provide your own photo or choose one from the Lab Resources folder.
+31. Provide your own photo or choose one from the Lab Resources folder.
 
-22. Select **Save**.
+32. Select **Save**.
 
     ![A Screenshot with an arrow pointing to the tick icon to save](03-1/media/ex2-t4-image12.png)
 
-23. **Add** a few more new records.
+33. **Add** a few more new records.
 
-24. Your app should now look like the image below. Select **X** to close the preview..
+34. Your app should now look like the image below. Select **X** to close the preview..
 
     ![A screenshot of the running app with an arrow pointing to the cross icon to close the preview](03-1/media/ex2-t4-image13.png)
 
-25. **Do not** navigate away from this screen.
+35. **Do not** navigate away from this screen.
 
 
 #### Task 4: Update Dataverse rows
@@ -447,7 +452,7 @@ In this task, you will test the application.
 
 9.  **Close** preview mode.
 
-10.  Do not navigate away from this page.
+10. Do not navigate away from this page.
 
 
 #### Task 2: Publish application
@@ -474,7 +479,7 @@ In this task, you will publish the application to Teams.
 
     ![A screenshot of the loaded app](03-1/media/ex3-t2-image4.png)
 
-7. **Test** the application in Teams and make sure it behaves as you expect.
+7.  Test the application in **Teams** and make sure it behaves as expected.
 
 
 #### Task 3: Give permissions
