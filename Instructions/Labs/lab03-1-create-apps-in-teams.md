@@ -139,7 +139,7 @@ In this task, you will create a table and columns.
 
 9.  Select **+ New column** again.
 
-10. Enter `Location` for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), enable **Required** and select **Save**.
+10. Enter `Location` for **Display name**, enable **Required** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image.png)
 
