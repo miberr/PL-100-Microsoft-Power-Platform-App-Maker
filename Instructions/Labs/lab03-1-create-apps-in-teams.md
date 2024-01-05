@@ -139,54 +139,34 @@ In this task, you will create a table and columns.
 
 9.  Select **+ New column** again.
 
-10. Enter `Availability` for Name, select **Choice** for Type, and select **+ New choice** under **Sync this choice with** drop-down box. That will open a window to create a global choice to sync with.
-
-11. Enter `Availability` for **Display name**.
-
-12. Enter `Available` for the first choice and select **+ New choice**.
-
-13. Enter `Reserved` for the second choice and select **+ New choice**.
-
-14. Enter `Picked up` for the third choice and select **Save**.
-
-    ![A screenshot of the new global choice with 3 choice values entered](03-1/media/ex2-t2-image4.png)
-
-15. Select **Availability** in **Sync this choice with**.
-
-16. Select **Available** as the **Default choice** and select **Save**.
-
-    ![A screenshot of a new choice column with global choice to sync with selected](03-1/media/ex2-t2-image6.png)
-
-17. Select **+ New column** again.
-
-18. Enter `Location` for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), enable **Required** and select **Save**.
+10. Enter `Location` for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), enable **Required** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image.png)
 
-19. Select **+ New column**.
+11. Select **+ New column**.
 
-20. Enter `Photo` for **Display name**, select **File** > **Image** for **Data type**, check **Primary image** and select **Save**.
+12. Enter `Photo` for **Display name**, select **File** > **Image** for **Data type**, check **Primary image** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image3.png)
 
-21. Select **+ New column**.
+13. Select **+ New column**.
 
-22. Enter `Reserved by` for **Display name**, select **Lookup** for Data type, select **User** for **Related table** and select **Save**.
+14. Enter `Reserved by` for **Display name**, select **Lookup** for Data type, select **User** for **Related table** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image4.png)
 
-23. Your table screen should now look like the image below.
+15. Your table screen should now look like the image below.
 
     ![A screenshot of the new Gadget table with all columns in a grid layout](03-1/media/ex2-t2-image5.png)
 
-24. Select **Save and close**.
+16. Select **Save and close**.
 
-25. Do not navigate away from this page.
+17. Do not navigate away from this page.
 
 
 #### Task 3: Edit the application
 
-In this task, you will edit the application by filters for gadgets that are available and edit the form.
+In this task, you will add one more column, edit the application to filter for gadgets that are available and make other changes to the form.
 
 > **NOTE**
 >
@@ -194,17 +174,41 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 1.  Select **Screen1**. If the screen already contains the form, move to the next step, otherwise select **With data** and select **Gadgets** table under **Current environment**. That will create the screen elements including the form.
 
-2.  Make sure **RightContainer1** is expanded and select the **EditForm1** control from tree view.
+2.  Select **Data** from the left navigation menu, under **Gadgets** select the menu and select **Edit data**.
+
+3.  Select **+ New column**.
+
+4.  Enter `Availability` for **Display name**, select **Choice** for Type, and select **+ New choice** under **Sync this choice with** drop-down box. That will open a window to create a global choice to sync with.
+
+5.  Enter `Availability` for **Display name**.
+
+6.  Enter `Available` for the first choice and select **+ New choice**.
+
+7.  Enter `Reserved` for the second choice and select **+ New choice**.
+
+8.  Enter `Picked up` for the third choice and select **Save**.
+
+    ![A screenshot of the new global choice with 3 choice values entered](03-1/media/ex2-t2-image4.png)
+
+9.  Select **Availability** in **Sync this choice with**.
+
+10. Select **Available** as the **Default choice** and select **Save**.
+
+    ![A screenshot of a new choice column with global choice to sync with selected](03-1/media/ex2-t2-image6.png)
+
+11. Select **Close**.
+
+12. Select **Tree view** from the left navigation menu. Make sure **RightContainer1** is expanded and select the **EditForm1** control.
 
     ![A screenshot with a border around the edit form button under screen 1](03-1/media/ex2-t4-image1.png)
 
-3.  Go to the **Properties** pane and select **Edit fields**.
+13. Go to the **Properties** pane and select **Edit fields**.
 
     ![A Screenshot with an arrow pointing to the edit fields button](03-1/media/ex2-t4-image2.png)
 
-4.  Select the **+ Add field** button.
+14. Select the **+ Add field** button.
 
-5.  If any of the fields below do not exist on the **EditForm** control, select the **+ Add field** button, select the missing field and select **Add**.
+15. If any of the fields below do not exist on the **EditForm** control, select the **+ Add field** button, select the missing field and select **Add**.
 
     - **Name**
     - **Description**
@@ -215,21 +219,21 @@ In this task, you will edit the application by filters for gadgets that are avai
 
     ![A screenshot of the add field window](03-1/media/ex2-t4-image3.png)
 
-6.  Remove any extra fields and close the **Fields** pane. Your form should only have **Name**, **Description**, **Availability**, **Location**, **Reserved By** and **Photo** columns.
+16. Remove any extra fields and close the **Fields** pane. Your form should only have **Name**, **Description**, **Availability**, **Location**, **Reserved By** and **Photo** columns.
 
-7.  Change **Columns** to **1**.
+17. Change **Columns** to **1**.
 
     ![A screenshot with a border around the columns field and the value of 1 in the field itself](03-1/media/ex2-t4-image4.png)
 
-8.  Select the **Photo_DataCard1** inside the form and change **Width** to `400`
+18. Select the **Photo_DataCard1** inside the form and change **Width** to `400`
 
     ![A screenshot of the photo selected inside the canvas and a border around the size field changed to 400 in the properties pane](03-1/media/ex2-t4-image5.png)
 
-9.  Expand the form and select the **Reserved by_DataCard1** data card.
+19. Expand the form and select the **Reserved by_DataCard1** data card.
 
     ![A screenshot of a border around reserved by data card selected under edit form 1](03-1/media/ex2-t4-image5_1.png)
 
-10. Go to the **Properties** pane, select the **Advanced** tab and select **Unlock**.
+20. Go to the **Properties** pane, select the **Advanced** tab and select **Unlock**.
 
     ![A Screenshot with an arrow pointing to the lock icon under the advanced tab](03-1/media/ex2-t4-image5_2.png)
 
