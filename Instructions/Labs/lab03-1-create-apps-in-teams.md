@@ -119,31 +119,31 @@ In this task, you will create a table and columns.
 
     ![A screenshot with prompt to start with a blank table](03-1/media/ex2-t2-image7.png)
 
-3.  Click on **Edit table properties**.
+3.  Select **Edit table properties**.
 
-![A screenshot with highlight on edit table properties button](03-1/media/ex2-t2-image8.png)
+    ![A screenshot with highlight on edit table properties button](03-1/media/ex2-t2-image8.png)
 
 4.  Enter `Gadget` for **Table name** and select **Save**.
 
-5.  Click on **New column** and then **Edit column**.
+5.  Select the drop-down menu on the mandatory **New column** column and then select **Edit column**.
 
 6.  Enter `Name` for **Display name** and then select **Update**.
 
-![A screenshot with highlighted portions for renaming primary name field](03-1/media/ex2-t2-image9.png)
+    ![A screenshot with highlighted portions for renaming primary name field](03-1/media/ex2-t2-image9.png)
 
 7.  Select **+ New column**.
 
-8.  Enter `Description` for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**) and select **Save**.
+8.  Enter `Description` for **Display name** and select **Save**.
 
     ![A screenshot with filled in form for creating new description column](03-1/media/ex2-t2-image3.png)
 
 9.  Select **+ New column** again.
 
-10.  Enter `Availability` for Name, select **Choice** for Type, and select **+ New choice** under **Sync this choice with** drop-down box. That will open a window to create a global choice to sync with.
+10. Enter `Availability` for Name, select **Choice** for Type, and select **+ New choice** under **Sync this choice with** drop-down box. That will open a window to create a global choice to sync with.
 
-11.  Enter `Availability` for **Display name**.
+11. Enter `Availability` for **Display name**.
 
-12.  Enter `Available` for the first choice and select **+ New choice**.
+12. Enter `Available` for the first choice and select **+ New choice**.
 
 13. Enter `Reserved` for the second choice and select **+ New choice**.
 
@@ -153,19 +153,19 @@ In this task, you will create a table and columns.
 
 15. Select **Availability** in **Sync this choice with**.
 
-16. Select **Available** for **Default choice** and select **Save**.
+16. Select **Available** as the **Default choice** and select **Save**.
 
     ![A screenshot of a new choice column with global choice to sync with selected](03-1/media/ex2-t2-image6.png)
 
-17. Select **+ New column** menu.
+17. Select **+ New column** again.
 
-18. Enter `Location` for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), select **Business required** for **Required** and select **Save**.
+18. Enter `Location` for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), enable **Required** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image.png)
 
 19. Select **+ New column**.
 
-20. Enter `Photo` for **Display name**, select **File > Image** for **Data type**, check the **Primary image** checkbox and select **Save**.
+20. Enter `Photo` for **Display name**, select **File** > **Image** for **Data type**, check **Primary image** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image3.png)
 
@@ -179,7 +179,7 @@ In this task, you will create a table and columns.
 
     ![A screenshot of the new Gadget table with all columns in a grid layout](03-1/media/ex2-t2-image5.png)
 
-24. Close the table editor by selecting the **Close** button.
+24. Select **Save and close**.
 
 25. Do not navigate away from this page.
 
@@ -204,7 +204,8 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 4.  Select the **+ Add field** button.
 
-5.  If any of the fields below do not exist on the EditForm control, select the **+ Add field** button, select the missing field and select **Add**.
+5.  If any of the fields below do not exist on the **EditForm** control, select the **+ Add field** button, select the missing field and select **Add**.
+
     - **Name**
     - **Description**
     - **Availability**
@@ -214,7 +215,7 @@ In this task, you will edit the application by filters for gadgets that are avai
 
     ![A screenshot of the add field window](03-1/media/ex2-t4-image3.png)
 
-6.  Remove any extra fields and close the **Fields** pane. Your form should only have **Name, Description, Availability, Location, Reserved By and Photo** columns.
+6.  Remove any extra fields and close the **Fields** pane. Your form should only have **Name**, **Description**, **Availability**, **Location**, **Reserved By** and **Photo** columns.
 
 7.  Change **Columns** to **1**.
 
@@ -236,11 +237,11 @@ In this task, you will edit the application by filters for gadgets that are avai
 
     ![A screenshot with a border around the display mode field](03-1/media/ex2-t4-image5_3.png)
 
-12. Select the **BrowseGallery1** under **LeftContainer1** in the treeview.
+12. Select the **BrowseGallery1** under **LeftContainer1** in the Tree view.
 
 13. Select **Items** on the formula bar and replace the value with formula below. This formula will filter the gadgets to show only the available gadgets.
 
-    ```Filter(Gadgets, Availability <> [@Availability].'Picked up')```
+    ```Filter(Gadgets, Text(Availability) <> "Picked up")```
 
     ![Filter data - screenshot](03-1/media/ex2-t4-image6.png)
 
@@ -474,7 +475,7 @@ In this task, you will publish the application to Teams.
 
     ![A screenshot of the loaded app](03-1/media/ex3-t2-image4.png)
 
-7. **Test** the application in Teams and make sure it behaves as you expect.
+7.  Test the application in **Teams** and make sure it behaves as expected.
 
 
 #### Task 3: Give permissions
