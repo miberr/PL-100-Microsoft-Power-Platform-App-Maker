@@ -17,10 +17,7 @@ model-driven application.
 
 -   Exercise – Configure forms and views
 
-
-
-
-### Exercise 3: Configure form and views
+### Exercise 1: Configure form and views
 
 In this exercise, you will configure form and views for the Problem Report table.
 
