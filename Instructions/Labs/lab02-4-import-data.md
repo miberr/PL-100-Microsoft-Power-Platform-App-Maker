@@ -45,7 +45,7 @@ In this exercise, you will input data to the Dataverse tables.
 
 10. Enter `London Paddington` for **Name** and select **Save & Close**. You should now have two Building rows.
 
-    ![A Screenshot with an arrow pointing to the chevron icon next to settings in the bottom left corner of the window](02-4\media\Lab2-4-Ex1-Task1-6.png)
+    ![A Screenshot with an arrow pointing to the chevron icon next to settings in the bottom left corner of the window](02-4/media/Lab2-4-Ex1-Task1-6.png)
 
 11. Use the area selector to navigate from Settings to **Manage Problems**.
 
@@ -63,7 +63,7 @@ In this exercise, you will input data to the Dataverse tables.
 
 16. The image should now display on the form.
 
-    ![A screenshot of a vector image of a door which should appear](02-4\media\Lab2-4-Ex1-Task1-10.png)
+    ![A screenshot of a vector image of a door which should appear](02-4/media/Lab2-4-Ex1-Task1-10.png)
 
 17. Select **Save & Close**.
 
@@ -108,7 +108,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 2.  Select the **Import Data** flow. 
 
-    ![A screenshot with the Import Data flow highlighted](02-4\media\Lab2-4-Ex2-Task2-1.png)
+    ![A screenshot with the Import Data flow highlighted](02-4/media/Lab2-4-Ex2-Task2-1.png)
 
 3.  Select **Edit** from the Command Bar.
  
@@ -128,7 +128,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 11. Select the **🡠** back button to go back to the previous page.
 
-    ![A Screenshot with an arrow pointing to the arrow icon to go back](02-4\media\Lab2-4-Ex2-Task2-2.png)
+    ![A Screenshot with an arrow pointing to the arrow icon to go back](02-4/media/Lab2-4-Ex2-Task2-2.png)
 
 12. Open the **Import Data** flow **Details** and select **Run**.
 
@@ -142,7 +142,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 15. Wait for the flow run to complete. Select the **Refresh Flow runs** button to check if the flow run completes successfully.
 
-    ![A Screenshot with an arrow pointing to the refresh button in the top right corner and a border around the status showing it has succeeded](02-4\media\Lab2-4-Ex2-Task2-3.png)
+    ![A Screenshot with an arrow pointing to the refresh button in the top right corner and a border around the status showing it has succeeded](02-4/media/Lab2-4-Ex2-Task2-3.png)
 
 17. Close the flow editor browser window or tab.
 
@@ -157,7 +157,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 3.  Select **Problem Reports**. You should see new rows of data.
 
-    ![A screenshot with a border around problem new reports rows.](02-4\media\Lab2-4-Ex2-Task3-1.png) 
+    ![A screenshot with a border around problem new reports rows.](02-4/media/Lab2-4-Ex2-Task3-1.png) 
 
     > **NOTE**
     >
@@ -167,7 +167,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 5.  Select the **Search** icon of the **Building** lookup and verify that building rows were imported.
 
-    ![A screenshot of a border around the building lookup with the building rows imported](02-4\media\Lab2-4-Ex2-Task3-2.png)
+    ![A screenshot of a border around the building lookup with the building rows imported](02-4/media/Lab2-4-Ex2-Task3-2.png)
 
 6.  Scroll down and select the **Department** lookup.
 
