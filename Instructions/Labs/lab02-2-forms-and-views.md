@@ -79,7 +79,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
 1.  In the **Problem Report** table, under **Data experiences**, select **Views**.
 
-    ![A screenshot of the table designer screen with Views selected under the table entry.](02-2\media\Lab2-2-Ex1-Task2-1.png)
+    ![A screenshot of the table designer screen with Views selected under the table entry.](02-2/media/Lab2-2-Ex1-Task2-1.png)
 
 2.  Open the **Active Problem Reports** view.
 
@@ -99,7 +99,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
 10. The filter should now look like the image below. Select **Ok**.
 
-    ![A screenshot of the edit filters window with the condition Status Reason equals New, Assigned, and In Progress](02-2\media\Lab2-2-Ex1-Task2-6.png)
+    ![A screenshot of the edit filters window with the condition Status Reason equals New, Assigned, and In Progress](02-2/media/Lab2-2-Ex1-Task2-6.png)
 
 11. Select **Save and publish**.
 
@@ -120,7 +120,7 @@ In this task, you will create a new view from the Active Problem Reports view.
 
 6.  The filter should now look like the image below. Select **Ok**.
 
-    ![A screenshot of the edit filters window with the following Status Reason values: Completed, Won't Fix, Inactive](02-2\media\Lab2-2-Ex1-Task2-10.png)
+    ![A screenshot of the edit filters window with the following Status Reason values: Completed, Won't Fix, Inactive](02-2/media/Lab2-2-Ex1-Task2-10.png)
 
 7.  Select **Save As**.
 
