@@ -29,7 +29,7 @@ In this exercise, you will create a model-driven application.
 
 3.  Select **+ New > App > Model-driven app** from the command bar.
 
-    ![A screenshot of the menu to create a new model-driven app](02-3\media\Lab2-3-Ex1-Task1-1.png) 
+    ![A screenshot of the menu to create a new model-driven app](02-3/media/Lab2-3-Ex1-Task1-1.png) 
 
 4.  Enter `Company 311 Admin` for name and select **Create**. 
 
@@ -39,7 +39,7 @@ In this exercise, you will create a model-driven application.
 
 7.  Select **Area1**. Select the ellipses on the right of **Area1** and select **Edit properties**. 
 
-    ![A screenshot of the area editing](02-3\media\Lab2-3-Ex1-Task1-4.png)
+    ![A screenshot of the area editing](02-3/media/Lab2-3-Ex1-Task1-4.png)
 
 8.  Go to the **Properties** pane, enter `Manage Problems` for **Title**, and enter `area_manage_problems` for **ID**.
 
@@ -75,7 +75,7 @@ In this exercise, you will create a model-driven application.
 
 24. The navigation should now look like the image below. Select **Save**.
 
-    ![A screenshot of the navigation in Settings area](02-3\media\Lab2-3-Ex1-Task1-8.png)
+    ![A screenshot of the navigation in Settings area](02-3/media/Lab2-3-Ex1-Task1-8.png)
 
 25. Select **Publish** to publish the sitemap and wait for the publishing to complete.
 
