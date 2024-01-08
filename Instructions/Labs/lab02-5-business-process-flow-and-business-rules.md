@@ -58,7 +58,7 @@ In this task, you will create a business process flow for the Problem Report tab
 
 3.  Select **+ New > Automation > Process > Business process flow**.
 
-    ![A screenshot of creating a business process flow](02-5\media\Lab2-5-Ex1-Task1-1.png)
+    ![A screenshot of creating a business process flow](02-5/media/Lab2-5-Ex1-Task1-1.png)
 
 4.  In the **New business process flow** panel, enter `Problem resolution process` for **Display name**, select **Problem Report** for **Table**, and select **Create**.
 
@@ -80,7 +80,7 @@ In this task, you will create a business process flow for the Problem Report tab
 
 13. The **Route** stage should now look like the image below.
 
-    ![A screenshot of the completed route stage with three data steps: building, location, and department](02-5\media\Lab2-5-Ex1-Task1-8.png)
+    ![A screenshot of the completed route stage with three data steps: building, location, and department](02-5/media/Lab2-5-Ex1-Task1-8.png)
 
 14. Select **+ Add** and select **Add Stage**.
 
@@ -114,7 +114,7 @@ In this task, you will create a business process flow for the Problem Report tab
 
 29. The Business process flow should now look like the image below. Select **Save**.
 
-    ![A screenshot of a Business Process Designer with an arrow pointing to the save button](02-5\media\Lab2-5-Ex1-Task1-9.png)
+    ![A screenshot of a Business Process Designer with an arrow pointing to the save button](02-5/media/Lab2-5-Ex1-Task1-9.png)
 
 30. Select **Activate**.
 
@@ -145,11 +145,11 @@ In this exercise, you will create a business rule that will block completion of 
 
 6.  Select the **Show details** chevron located next to New business rule title on the same row as the scope.
 
-    ![A Screenshot with an arrow pointing to the drop down icon next to the text problem report: new business rule and a border around the scope set to entity on the right hand side of the page](02-5\media\Lab2-5-Ex2-Task1-2.png)
+    ![A Screenshot with an arrow pointing to the drop down icon next to the text problem report: new business rule and a border around the scope set to entity on the right hand side of the page](02-5/media/Lab2-5-Ex2-Task1-2.png)
 
 7.  Change **Business rule name** to `Completion rule` and select the **Hide details** chevron.
 
-    ![A screenshot of a business rules property pane with an arrow pointing to the shevron that collapses the entire property pane](02-5\media\Lab2-5-Ex2-Task1-3.png)
+    ![A screenshot of a business rules property pane with an arrow pointing to the shevron that collapses the entire property pane](02-5/media/Lab2-5-Ex2-Task1-3.png)
  
 8.  Select the **Condition**.
 
@@ -159,13 +159,13 @@ In this exercise, you will create a business rule that will block completion of 
 
     ![A screenshot of the rules panel](Lab2-5-Ex2-Task1-6.png)
 
-111. Select **+ New**.
+11. Select **+ New**.
 
-    ![A Screenshot with an arrow pointing to the new button](02-2/media/image15.png)
+    ![A Screenshot with an arrow pointing to the new business rule name](02-5/media/Lab2-5-Ex2-Task1-3.png)
 
 12. Scroll down to **Rule 2**, select **Resolution** for **Field**, select **Does not contain data** for **Operator**, make sure **AND** is selected for **Rule Logic**, and select **Apply**.
 
-    ![A screenshot of the rules panel if you scroll further down with the relevant text in each field](02-2/media/image16.png)
+    ![A screenshot of the rules panel if you scroll further down with the relevant text in each field](02-5/media/Lab2-5-Ex2-Task1-6.png)
 
 13. Select **+ Add**.
 
@@ -177,7 +177,7 @@ In this exercise, you will create a business rule that will block completion of 
 
 17. The business rule should now look like the image below. Select **Save**.
 
-    ![A Screenshot with an arrow pointing to the save button](02-5\media\Lab2-5-Ex2-Task1-10.png) 
+    ![A Screenshot with an arrow pointing to the save button](02-5/media/Lab2-5-Ex2-Task1-10.png) 
 
 18. Select **Activate**.
 
@@ -221,7 +221,7 @@ In this exercise, you will create a business rule that will block completion of 
 
 38.	The business rule should now look like the image below. Select **Save**.
 
-    ![A Screenshot with an arrow pointing to the save button](02-5\media\Lab2-5-Ex2-Task1-19.png) 
+    ![A Screenshot with an arrow pointing to the save button](02-5/media/Lab2-5-Ex2-Task1-19.png) 
 
 39.  Select **Activate**.
 
@@ -250,7 +250,7 @@ In this exercise, you will test the business process flow and the business rules
 
 2.  Select **Apps** and run the **Company 311 Admin** application.
 
-    ![A Screenshot with an arrow pointing to the company 311 admin option in apps](02-5\media\Lab2-5-Ex3-Task1-1.png)
+    ![A Screenshot with an arrow pointing to the company 311 admin option in apps](02-5/media/Lab2-5-Ex3-Task1-1.png)
 
 3.  Select **Problem Reports** and select **+ New**.
 
