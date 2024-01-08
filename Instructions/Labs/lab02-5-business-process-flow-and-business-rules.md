@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab 02.2: Business Process Flows and Business Rules'
+    title: 'Lab 02.5: Business process flows and business rules'
     module: 'Module 02: Building model-driven apps'
 ---
 
@@ -31,7 +31,15 @@ In this lab you will enhance the data model and improve the app behavior by addi
 
 ## Prerequisites
 
-* Must have completed **Lab 02.1: Data model and model-driven app**
+Must have completed the following labs:
+
+-   02.1: Data model
+
+-   02.2: Work with forms and views
+
+-   02.3: Compose a model-driven app
+
+-   02.4: Import data
 
 
 ## Detailed steps
@@ -40,28 +48,7 @@ In this lab you will enhance the data model and improve the app behavior by addi
 
 In this exercise, you will create a business process flow for the problem report table.
 
-#### Task 1: Customize Table
-
-In this task, you will add a lookup Column to the problem report table.
-
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.
-
-2.  Select **Solutions** and open the **Company 311** solution.
-
-3.  Locate and open the **Problem Report** table. 
-
-4.  Select **+ New**, then select **Column**. 
-
-5.  Enter `Assign to` for **Display name**, select **Lookup** for **Data type**, select **User** for **Related table**, and select **Save**.
-
-    ![A screenshot of the column properties panel for Assign To column with all relevant values in each field](02-2/media/image1.png)
-
-6.  Select **All** in the **Objects** navigation tree.
-
-7.  Select **Publish all customizations** and wait for the publishing to complete.
-
-
-#### Task 2: Create business process flow
+#### Task 1: Create business process flow
 
 In this task, you will create a business process flow for the Problem Report table.
 
@@ -71,31 +58,19 @@ In this task, you will create a business process flow for the Problem Report tab
 
 3.  Select **+ New > Automation > Process > Business process flow**.
 
-    ![image-20221004145025636](02-2/media/image2.png)
+    ![A screenshot of creating a business process flow](02-5\media\Lab2-5-Ex1-Task1-1.png)
 
 4.  In the **New business process flow** panel, enter `Problem resolution process` for **Display name**, select **Problem Report** for **Table**, and select **Create**.
 
-    ![A screenshot of New business process flow panel with relevant field values.](02-2/media/image3.png)
-
-5.  Open the **Problem resolution process** Business Process flow created in the previous step. Select the **New stage**, go to the **Properties** pane, change the **Display Name** to `Route` and select **Apply**. 
-
-    ![A screenshot of the new stage and properties pane](02-2/media/image4.png)
+5.  Open the **Problem resolution process** business process flow created in the previous step. Select the **New stage**, go to the **Properties** pane, change the **Display Name** to `Route` and select **Apply**. 
 
 6.  Expand **Details** of the **Route** stage.
 
-    ![A Screenshot with an arrow pointing to the details button](02-2/media/image5.png)
-
 7.  Select **Data Step \#1**, go to the **Properties** pane, select **Building** for **Data Field**, and select **Apply**.
-
-    ![A screenshot of the new stage with data step one selected and the properties pane open](02-2/media/image6.png)
 
 8.  Select **+ Add** and select **Add Data Step**.
 
-    ![A Screenshot with an arrow pointing to the add button and a border around add data step button](02-2/media/image7.png)
-
 9.  Select the **+** option to add the data step below the **Building** data step.
-
-    ![A screenshot of a data step being about to be added to the process stage](02-2/media/image27.png)
 
 10. Select the new data step, go to the **Properties** pane, select **Location** for **Data Field**, and select **Apply**.
 
@@ -105,7 +80,7 @@ In this task, you will create a business process flow for the Problem Report tab
 
 13. The **Route** stage should now look like the image below.
 
-    ![A screenshot of the completed route stage with three data steps: building, location, and department](02-2/media/image8.png)
+    ![A screenshot of the completed route stage with three data steps: building, location, and department](02-5\media\Lab2-5-Ex1-Task1-8.png)
 
 14. Select **+ Add** and select **Add Stage**.
 
@@ -139,15 +114,13 @@ In this task, you will create a business process flow for the Problem Report tab
 
 29. The Business process flow should now look like the image below. Select **Save**.
 
-    ![A screenshot of a Business Process Designer with an arrow pointing to the save button](02-2/media/image9.png)
+    ![A screenshot of a Business Process Designer with an arrow pointing to the save button](02-5\media\Lab2-5-Ex1-Task1-9.png)
 
 30. Select **Activate**.
 
 31. To confirm, select **Activate** on the pop-up.
 
-32. Confirm that Status: **Active** shows at the bottom left of the Business Process Flow canvas.
-
-    ![A screeshot of a high-level overview of a business process with the words "Status: Active" highlighted in the left bottom corner](02-2/media/image28.png)
+32. Confirm that 'Status: **Active**' shows at the bottom left of the Business Process Flow canvas.
 
 33. Close the process editor browser tab.
 
@@ -168,88 +141,122 @@ In this exercise, you will create a business rule that will block completion of 
 
 4.  Select **+ New** and under **Customizations**, select **Business rule**.
 
-    ![A screenshot of the flyout New menu with the cursor positioned over the highlighted Business rule entry](02-2/media/image12.png)
-
 5.  Make sure the **Scope** is set to **Entity** in the selector in the right corner of the screen. 
 
 6.  Select the **Show details** chevron located next to New business rule title on the same row as the scope.
 
-    ![A Screenshot with an arrow pointing to the drop down icon next to the text problem report: new business rule and a border around the scope set to entity on the right hand side of the page](02-2/media/image13.png)
+    ![A Screenshot with an arrow pointing to the drop down icon next to the text problem report: new business rule and a border around the scope set to entity on the right hand side of the page](02-5\media\Lab2-5-Ex2-Task1-2.png)
 
-6.  Change **Business rule name** to `Completion rule` and select the **Hide details** chevron.
+7.  Change **Business rule name** to `Completion rule` and select the **Hide details** chevron.
 
-    ![A screenshot of a business rules property pane with an arrow pointing to the shevron that collapses the entire property pane](02-2/media/image29.png)
+    ![A screenshot of a business rules property pane with an arrow pointing to the shevron that collapses the entire property pane](02-5\media\Lab2-5-Ex2-Task1-3.png)
  
-7.  Select the **Condition**.
+8.  Select the **Condition**.
 
-8.  Go to the **Properties** pane and change the **Display Name** to `Resolution required`
+9.  Go to the **Properties** pane and change the **Display Name** to `Resolution required`
 
-9.  Scroll down the **Rules** section, select **Status Reason** for **Field**, select **Equals** for **Operator**, select **Value** for **Type**, select **Completed** for **Value**, and select **Apply**.
+10.  Scroll down the **Rules** section, select **Status Reason** for **Field**, select **Equals** for **Operator**, select **Value** for **Type**, select **Completed** for **Value**, and select **Apply**.
 
-    ![A screenshot of the rules panel](02-2/media/image14.png)
+    ![A screenshot of the rules panel](Lab2-5-Ex2-Task1-6.png)
 
-10. Select **+ New**.
+111. Select **+ New**.
 
     ![A Screenshot with an arrow pointing to the new button](02-2/media/image15.png)
 
-11. Scroll down to **Rule 2**, select **Resolution** for **Field**, select **Does not contain data** for **Operator**, make sure **AND** is selected for **Rule Logic**, and select **Apply**.
+12. Scroll down to **Rule 2**, select **Resolution** for **Field**, select **Does not contain data** for **Operator**, make sure **AND** is selected for **Rule Logic**, and select **Apply**.
 
     ![A screenshot of the rules panel if you scroll further down with the relevant text in each field](02-2/media/image16.png)
 
-12. Select **+ Add**.
+13. Select **+ Add**.
 
-    ![A Screenshot with an arrow pointing to the add button](02-2/media/image17.png)
+14. Select **Add Show Error Message**.
 
-13. Select **Add Show Error Message**.
+15. Add the action on the **true** path of the condition, indicated by the tick.
 
-14. Add the action on the **true** path of the condition, indicated by the tick.
+16. Select the new action, go to the **Properties** pane, enter **Show message** for **Display Name**, select **Status Reason** for **Field**, enter `The Problem must have a resolution before it can be closed.` for **Message**, and select **Apply**.
 
-    ![A Screenshot with an arrow pointing to the add button on the true path of the condition](02-2/media/image18.png)
+17. The business rule should now look like the image below. Select **Save**.
 
-15. Select the new action, go to the **Properties** pane, enter **Show message** for **Display Name**, select **Status Reason** for **Field**, enter `The Problem must have a resolution before it can be closed.` for **Message**, and select **Apply**.
+    ![A Screenshot with an arrow pointing to the save button](02-5\media\Lab2-5-Ex2-Task1-10.png) 
 
-    ![A screenshot of the properties panel with the relevant text in the fields](02-2/media/image19.png)
+18. Select **Activate**.
 
-16. The business rule should now look like the image below. Select **Save**.
+19. To confirm, select **Activate** on the pop-up.
 
-    ![A Screenshot with an arrow pointing to the save button](02-2/media/image20.png)
+20. Confirm activation. The **Activate** button will change to **Deactivate** and it will show **Activated** in the bottom left of the Business Rule canvas.
 
-17. Select **Activate**.
+21. Close the process editor browser window or tab.
 
-18. To confirm, select **Activate** on the pop-up.
+22. Select **Done**.
 
-19. Confirm activation. The **Activate** button will change to **Deactivate** and it will show **Activated** in the bottom left of the Business Rule canvas.
+23.	Select + New and under Customizations, select Business rule.
 
-20. Close the process editor browser window or tab.
+24.	Make sure the Scope is set to Entity in the selector in the right corner of the screen.
 
-21. Select **Done**.
+25.	Select the Show details chevron located next to New business rule title on the same row as the scope.
 
-22.  Select **All** in the **Objects** navigation tree.
+26.	Change Business rule name to Resolved on rule and select the Hide details chevron.
 
-23.  Select **Publish all customizations** and wait for the publishing to complete.
+27.	Select the Condition.
 
+28.	Go to the Properties pane and change the Display Name to Resolved on Required
+
+29.	Scroll down the Rules section, select Resolution for Field, select Contains Data for Operator, and select Apply.
+
+30.	Select + Add.
+
+31.	Select Add Set Business Required.
+
+32.	Add the action on the true path of the condition, indicated by the tick.
+
+33.	Select the new action, go to the Properties pane, enter Make Required for Display Name, select Resolved On for Field, Select Business Required, and select Apply.
+
+34.	Select + Add.
+
+35.	Select Add Set Business Required.
+
+36.	Add the action on the false path of the condition, indicated by the tick.
+
+37.	Select the new action, go to the Properties pane, enter Make Not Required for Display Name, select Resolved On for Field, Select Business Required, and select Apply.
+
+38.	The business rule should now look like the image below. Select **Save**.
+
+    ![A Screenshot with an arrow pointing to the save button](02-5\media\Lab2-5-Ex2-Task1-19.png) 
+
+39.  Select **Activate**.
+
+40.  To confirm, select **Activate** on the pop-up.
+
+41.  Confirm activation. The **Activate** button will change to **Deactivate**
+    and it will show **Activated** in the bottom left of the Business Rule
+    canvas.
+
+42.  Close the process editor browser window or tab.
+
+43.  Select **Done**.
+
+44.  Select **All** in the **Objects** navigation tree.
+
+45.  Select **Publish all customizations** and wait for the publishing to
+    complete.
 
 ### Exercise 3: Test processes
 
-In this exercise, you will test the business process flow and the business rule you created.
+In this exercise, you will test the business process flow and the business rules you created.
 
 #### Task 1: Test processes
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.
 
-2.  Select **Apps** and open the **Company 311 Admin** application.
+2.  Select **Apps** and run the **Company 311 Admin** application.
 
-    ![A Screenshot with an arrow pointing to the company 311 admin option in apps](02-2/media/image21.png)
+    ![A Screenshot with an arrow pointing to the company 311 admin option in apps](02-5\media\Lab2-5-Ex3-Task1-1.png)
 
 3.  Select **Problem Reports** and select **+ New**.
 
 4.  You should see the business process flow stages. Enter `Dark parking lot` for **Title**, select **London Paddington** for **Building**, enter `There are no lights at the north end of the parking lot` for **Details**, and select **Save**.
 
-    ![A screenshot of the new problem report](02-2/media/image22.png)
-
 5.  Select the **Route** stage.
-
-    ![A Screenshot with an arrow pointing to the route stage at the top of the page](02-2/media/image23.png)
 
 6.  Enter `North-end` for **Location**, select **Maintenance** for **Department** and select the **Next Stage** button.
 
@@ -257,19 +264,13 @@ In this exercise, you will test the business process flow and the business rule 
     >
     > If the **Next Stage** button is not visible, then refresh the page.
 
-    ![A screenshot of the drop down from the route stage with the relevant options selected and entered](02-2/media/image24.png)
-
 7.  Select a user for **Assign to** and select **Next Stage**.
 
 8.  Select an appropriate date and time for the **Resolved on** and leave the **Resolution** value empty.
 
 9.  Scroll down to the **Resolution details** section and select **Completed** for **Status Reason**. You should see the business rule error message defined earlier.
 
-    ![A screenshot of the error message under status reason](02-2/media/image25.png)
-
 10. Enter `Installed lights on the North-end of the parking lot` for **Resolution**. The error message should go away.
-
-    ![A screenshot of the form without the error message after resolution](02-2/media/image26.png)
 
 11. Select **Save** to save the Problem Report.
 

@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab 02.3: Compose your model-driven app'
+    title: 'Lab 02.3: Compose a model-driven app'
     module: 'Module 02: Get started using Dataverse'
 ---
 
