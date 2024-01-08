@@ -62,7 +62,7 @@ In this task, you will import the shared components solution into your environme
 
 9.  The solution should have one item in it. (**Lamna Healthcare Shared Components**)
 
-    ![A screenshot of the shared components window with the Lamna Healthcare shared components item](03\media\lab3-Exx1-task1-2.png)
+    ![A screenshot of the shared components window with the Lamna Healthcare shared components item](03/media/lab3-Exx1-task1-2.png)
 
     > **IMPORTANT**
     >
@@ -74,7 +74,7 @@ In this task, you will import the shared components solution into your environme
 
 12. Select **Edit** to edit the app.
 
-    ![A Screenshot with an arrow pointing to the edit button](03\media\lab3-Exx1-task1-3.png)
+    ![A Screenshot with an arrow pointing to the edit button](03/media/lab3-Exx1-task1-3.png)
 
 13. If prompted, select your **Region/Country** and select **Get started** or select **Skip**.
     
@@ -86,7 +86,7 @@ In this task, you will import the shared components solution into your environme
 
 15. Change app name to `Lamna Healthcare Shared Components A` and select **Save**.
 
-    ![A screenshot with a border around the app name saved as Lamna Healthcare Shared Components A](03\media\lab3-Exx1-task1-4.png)
+    ![A screenshot with a border around the app name saved as Lamna Healthcare Shared Components A](03/media/lab3-Exx1-task1-4.png)
 
 16. Select **OK** when prompted to save as a new library.
 
@@ -105,7 +105,7 @@ In this task, create a view that will show the current user’s problem reports.
 
 4.  Select **Views** in the tree view in the **Objects** pane and open the **Active Problem Reports** view.
 
-    ![A screenshot of the solution explorer screen with Views selected under problem report table and the cursor over the active problem reports view link](03\media\lab3-Exx1-task2-1.png)
+    ![A screenshot of the solution explorer screen with Views selected under problem report table and the cursor over the active problem reports view link](03/media/lab3-Exx1-task2-1.png)
 
 5.  Select **Edit filters**.
 
@@ -146,23 +146,23 @@ In this task, create a canvas app using the phone form factor.
 
 10. Expand the **Lamna Healthcare Shared Components A** Library, select **Header** and **Tab Control**, and then select **Import**.
 
-    ![A screenshot of the import components window with Ta control and header selected](03\media\lab3-Exx1-task3-5.png)
+    ![A screenshot of the import components window with Ta control and header selected](03/media/lab3-Exx1-task3-5.png)
 
 11. Expand **Library components**, select **Header** and **Tab Control**. These are both components from the library you imported earlier in the lab.
 
-    ![A screenshot with a border around the library components Header and Tab control](03\media\lab3-Exx1-task3-6.png)
+    ![A screenshot with a border around the library components Header and Tab control](03/media/lab3-Exx1-task3-6.png)
 
 12. Move the **Tab Control** to the bottom of the screen and the **Header Control** to the top of the screen.
 
 13. Select the **Header Control** and change the **Text** value to `Company 311`.
 
-    ![A screenshot of a border around the expression tab with the text value set to company 311](03\media\lab3-Exx1-task3-7.png)
+    ![A screenshot of a border around the expression tab with the text value set to company 311](03/media/lab3-Exx1-task3-7.png)
 
 14. Set the **Height** of the **Header Control** to `75`
 
 15. In the **Tree view**, right-click on the Main Screen and select **Duplicate screen**.
 
-    ![A screenshot with a border around the duplicate screen button](03\media\lab3-Exx1-task3-9.png)
+    ![A screenshot with a border around the duplicate screen button](03/media/lab3-Exx1-task3-9.png)
 
 16. Rename the new screen `New Reports Screen`
 
@@ -190,7 +190,7 @@ In this task, create a canvas app using the phone form factor.
 
 18. Select the **Tab Control** component in the **Main Screen** and change the **Items** value to `'My Tabs'`
 
-    ![A screenshot of the items value set to my tabs for Tab control](03\media\lab3-Exx1-task3-11.png)
+    ![A screenshot of the items value set to my tabs for Tab control](03/media/lab3-Exx1-task3-11.png)
 
 19. Change the **SelectedColor** value to `Color.WhiteSmoke`
 
@@ -200,11 +200,11 @@ In this task, create a canvas app using the phone form factor.
 
 22. In the **Tree view**, right-click on **App** and select **Run OnStart**.
 
-    ![A screenshot of the run on start button coming from the ellipsis icon for see more under the app button](03\media\lab3-Exx1-task3-12.png)
+    ![A screenshot of the run on start button coming from the ellipsis icon for see more under the app button](03/media/lab3-Exx1-task3-12.png)
 
 23. The tab names should update.
 
-    ![A screenshot of the two tabs you added](03\media\lab3-Exx1-task3-13.png)
+    ![A screenshot of the two tabs you added](03/media/lab3-Exx1-task3-13.png)
 
 24. Select **Save** from the command bar.
 
@@ -225,7 +225,7 @@ In this exercise, add a gallery that will show reports created by the current lo
 
     It should look like this example:
 
-    ![A screenshot of the my reports gallery selected](03\media\lab3-Exx2-task1-2.png)
+    ![A screenshot of the my reports gallery selected](03/media/lab3-Exx2-task1-2.png)
 
 4.  Select **My Reports Gallery**, go to the **Properties** pane, and select **Problem Reports** for **Data Source**. If you do not see Problem Reports, select **See all tables** or **Search** for the table.
 
@@ -254,7 +254,7 @@ In this exercise, allow unassigned reports to be removed. This will allow users 
 
 2.  Select the **Icon** inside the **My Reports Gallery**.
 
-    ![A screenshot of the arrow icon inside the my reports gallery](03\media\lab3-Exx3-task1-1.png)
+    ![A screenshot of the arrow icon inside the my reports gallery](03/media/lab3-Exx3-task1-1.png)
 
 3.  In the **Tree view**, double-click **NextArrow1** and rename it to `Remove Report`
 
@@ -264,7 +264,7 @@ In this exercise, allow unassigned reports to be removed. This will allow users 
 
     `If(ThisItem.'Status Reason' = 'Status Reason (Problem Reports)'.New, true, false)`
 
-    ![A screenshot of the expression tab with the relevant command pasted in](03\media\lab3-Exx3-task1-3.png)
+    ![A screenshot of the expression tab with the relevant command pasted in](03/media/lab3-Exx3-task1-3.png)
 
 6.  Make sure you still have the **Remove Report** icon selected. Change the **OnSelect** value to the formula below. This formula will remove item from the data source.
 
@@ -303,7 +303,7 @@ In this exercise, add a form to the canvas app to submit new problem reports.
 
     It takes most of the page and leave enough room for a button at the bottom.
 
-    ![A screenshot of the form resized and reposition for room at the bottom for a button](03\media\lab3-Exx4-task1-4.png)
+    ![A screenshot of the form resized and reposition for room at the bottom for a button](03/media/lab3-Exx4-task1-4.png)
 
 10. Select the **New Reports Screen**.
 
@@ -347,11 +347,11 @@ In this exercise, test the canvas application by submitting a problem report.
 #### Task 1: Test application
 
 1.  Select the **Main Screen** and select **Preview the app**.
-    ![Play button to preview the app](03\media\lab3-Exx5-task1-1.png)
+    ![Play button to preview the app](03/media/lab3-Exx5-task1-1.png)
 
 2.  The application should load, and the list should show all the reports you created.
 
-    ![A screen of your loaded application](03\media\lab3-Exx5-task1-2.png)
+    ![A screen of your loaded application](03/media/lab3-Exx5-task1-2.png)
 
 3.  Select the **New Report** tab.
 
@@ -367,11 +367,11 @@ In this exercise, test the canvas application by submitting a problem report.
 
 9.  You should see the new report you created. Select the **Remove Report** button to test the delete.
 
-    ![A Screenshot with an arrow pointing to the trash can icon to delete](03\media\lab3-Exx5-task1-4.png)
+    ![A Screenshot with an arrow pointing to the trash can icon to delete](03/media/lab3-Exx5-task1-4.png)
 
 10. The row should be deleted and removed from the list.
 
-    ![A screenshot of the row deleted and removed from the list](03\media\lab3-Exx5-task1-5.png) 
+    ![A screenshot of the row deleted and removed from the list](03/media/lab3-Exx5-task1-5.png) 
 
 11. **Close** the preview mode.
 
