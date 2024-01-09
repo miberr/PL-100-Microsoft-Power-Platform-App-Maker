@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab 05: Power BI'
+    title: 'Lab 05.1: Power BI'
     module: 'Module 05: Power BI'
 ---
 
