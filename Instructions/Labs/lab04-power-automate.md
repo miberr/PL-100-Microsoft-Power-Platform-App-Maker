@@ -14,8 +14,6 @@ The following have been identified as requirements you must implement to complet
 
   - Notify reporting user about the issue status changes 
 
-  - How to use a business rule to implement logic.
-
 ## What you will learn
 
   - How to design data columns (in the data model) to support automation 
@@ -33,22 +31,31 @@ The following have been identified as requirements you must implement to complet
 
 ## Prerequisites
 
-* Must have completed **Lab 02.1: Data model and model-driven app**
-* Must have completed **Lab 02.2: Business Process Flows and Business Rules**
+Must have completed the following labs:
+
+-   02.1: Data model
+
+-   02.2: Work with forms and views
+
+-   02.3: Compose a model-driven app
+
+-   02.4: Import data
+
+-   02.5: Business process flows and business rules
 
 ## Things to consider before you begin
 
-  - What is the most efficient way to identify urgent maintenance issues and escalate them
+  - What is the most efficient way to identify urgent maintenance issues and escalate them?
 
 ## Detailed steps  
 
-### Exercise 1: Build notify flow
+### Exercise 1: Build notification flow
 
 In this exercise, you create a flow that will notify the creator of a problem when the status changes.
 
 #### Task 1: Create flow
 
-In this task, you will create a flow that send notification when the status of problem report row changes.
+In this task, you will create a flow that send a notification when the status of problem report row changes.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
@@ -56,27 +63,23 @@ In this task, you will create a flow that send notification when the status of p
 
 3.  Select **+ New** > **Automation** > **Cloud Flow** > **Automated**.
 
-    ![A screenshot showing dropdown menu to create new automated cloud flow](04/media/image1.png)
+    ![A screenshot showing dropdown menu to create new automated cloud flow](04/media/Lab4-Ex1-Task1-1.png)
 
-4.  Enter `when a row` in the search box, then locate and select the **When a row is added, modified or deleted** action from the **Microsoft Dataverse** connector. 
+4.  Search for and select the **When a row is added, modified or deleted** action from the **Microsoft Dataverse** connector. 
 
 5.  Select **Create**.
-
-    ![Trigger selection screen with Microsoft Dataverse trigger selected and a cursor over Create button](04/media/image1-1.png)
 
 6.  Select **Modified** for **Change type**, select **Problem Reports** for **Table name**, **Organization** for **Scope** and expand **Show advanced options**.
 
 7.  Enter `statuscode` for **Select columns** then select **… Menu** button of the trigger step.
 
-    ![A Screenshot with an arrow pointing to the ellipses icon for more options and a border around the select columns statuscode](04/media/image3.png)
+    ![A Screenshot with an arrow pointing to the ellipses icon for more options and a border around the select columns statuscode](04/media/Lab4-Ex1-Task1-3.png)
 
 8.  Select **Rename**.
 
 9.  Rename the trigger step `When problem report status changes`
 
 10.  Select **+ New step**.
-
-    ![A Screenshot with an arrow pointing to the add new step button](04/media/image4.png)
 
 11. On the **All** tab, select **Microsoft Dataverse** then select the **Get a row by ID** action. 
 
@@ -98,7 +101,7 @@ In this task, you will create a flow that send notification when the status of p
 
 20. Select the **To** field and select the **Switch to Advanced Mode** arrows icon. Selecting this button toggles show/hide of the Dynamic content pane.
 
-    ![A Screenshot with an arrow pointing to the switch to advanced mode icon](04/media/image5.png)
+    ![A Screenshot with an arrow pointing to the switch to advanced mode icon](04/media/Lab4-Ex1-Task1-5.png) 
 
 21. Select the **Primary Email** field from the **Get problem creator** step.
 
@@ -116,7 +119,7 @@ In this task, you will create a flow that send notification when the status of p
 
     `triggerOutputs()?['body/_statuscode_label']`
 
-    ![A Screenshot with an arrow pointing to the ok button under the expression tab with the relevant expression pasted into it](04/media/image6.png)
+    ![A Screenshot with an arrow pointing to the ok button under the expression tab with the relevant expression pasted into it](04/media/Lab4-Ex1-Task1-6.png)
 
 28. Select the **… Menu** button of the new step and select **Rename**.
 
@@ -124,7 +127,7 @@ In this task, you will create a flow that send notification when the status of p
 
 30. The step should now look like the image below.
 
-    ![A screenshot of the modify problem creator window being to primary email, the subject being problem report status change notification, and the body being "The status of the problem you reported has changed" with the problem title and current status as trigger outputs below that](04/media/image7.png)
+    ![A screenshot of the modify problem creator window being to primary email, the subject being problem report status change notification, and the body being "The status of the problem you reported has changed" with the problem title and current status as trigger outputs below that](04/media/Lab4-Ex1-Task1-7.png)
 
 31. At the top of the page, change the flow name from **Untitled** to `Notify Problem Creator`
 
@@ -159,19 +162,19 @@ In this task, you will test the Notify Problem Creator flow.
 
 10. You should see a succeeded flow run in the **28-day run history** section. Open the run.
 
-    ![A Screenshot with an arrow pointing to the start date of the 28-day run history section](04/media/image9.png)
+    ![A Screenshot with an arrow pointing to the start date of the 28-day run history section](04/media/Lab4-Ex1-Task2-1.png)
 
 11. All the flow steps should have a **green** check mark.
 
 12. Select the **App launcher** and under **Apps**, select **Outlook**.
 
-    ![A Screenshot with an arrow pointing to the app launcher and a border around outlook](04/media/image10.png)
+    ![A Screenshot with an arrow pointing to the app launcher and a border around outlook](04/media/Lab4-Ex1-Task2-2.png)
 
-13. You should have received an email from the Cloud flow. **Open** the email.
+13. You should have received an email from the cloud flow. **Open** the email.
 
-14. The email should look like the image below.
+14. The email should resemble the image below.
 
-    ![A screenshot of the email you should receive with the status of the problem, problem title, and its current status](04/media/image11.png)
+    ![A screenshot of the email you should receive with the status of the problem, problem title, and its current status](04/media/Lab4-Ex1-Task2-3.png)
 
 
 ### Exercise 2: Build escalation flow
@@ -208,7 +211,7 @@ In this task, you add a new Column to the Problem Report table and update the Ma
 
 12. Select **All**, select **Publish all customizations**, and wait for the publishing to complete.
 
-
+*******************************************************
 #### Task 2: Build escalation flow
 
 In this task, you will create the escalation flow.
@@ -235,9 +238,7 @@ In this task, you will create the escalation flow.
 
 11. Select the first **Choose a value** field.
 
-12. Go to the **Dynamic content** pane, search for `estimated` and select **Estimated Cost**. 
-
-    ![A screenshot of the dynamic content pane with the word estimated in the search bar](04/media/image13.png)
+12. Go to the **Dynamic content** pane, search for and select **Estimated Cost**. 
 
 13. Select **is greater than** in the second field and enter `1000` in the third field.
 
@@ -255,69 +256,67 @@ In this task, you will create the escalation flow.
 
 20. Enter `internalemailaddress` for **Select columns**.
 
-21. Rename the **Get a Row by ID** step `Get user`
+21. Rename the **Get a Row by ID** step `Get user`.
 
-23. Select **Add an action**.
+22. Select **Add an action**.
 
-24. Search for `approval` and select the **Start and wait for an approval** action from the **Approvals** connector. 
+23. Search for `approval` and select the **Start and wait for an approval** action from the **Approvals** connector. 
 
-25. Select **Approve/Reject - Everyone must approve** for **Approval type**.
+24. Select **Approve/Reject - Everyone must approve** for **Approval type**.
 
-26. Enter `Cost approval required` for **Title**.
+25. Enter `Cost approval required` for **Title**.
 
-27. Select the **Assigned to** field.
+26. Select the **Assigned to** field.
 
-28. Go to the **Dynamic content** pane and select **Primary Email** from the **Get user** step.
+27. Go to the **Dynamic content** pane and select **Primary Email** from the **Get user** step.
 
-29. Enter the markdown text below in the **Details** field.
+28. Enter the markdown text below in the **Details** field.
 
     `\#\# URGENT Approval Required
     
     This is \*\*very\*\* expensive item with the estimated cost of `
 
-30. Place your cursor after cost of, go to the **Dynamic content** pane, select the **Expression** tab, paste the expression below, and select **OK**.
+29. Place your cursor after cost of, go to the **Dynamic content** pane, select the **Expression** tab, paste the expression below, and select **OK**.
 
     `formatNumber(triggerOutputs()?['body/lh_estimatedcost'], 'C2')`
 
-    ![A Screenshot with an arrow pointing to the ok button in the expression tab under the pasted expression](04/media/image14.png)
+    ![A Screenshot with an arrow pointing to the ok button in the expression tab under the pasted expression](04/media/Lab4-Ex2-Task1-2.png)
 
-31. Select **Add an action**.
+30. Select **Add an action**.
 
-32. Search for `condition` and select the **Condition** action from the **Control** connector.
+31. Search for and select the **Condition** action from the **Control** connector.
 
-33. Select the first **Choose a value** field.
+32. Select the first **Choose a value** field.
 
-34. Go to the **Dynamic content** pane, search for `Outcome` and select **Outcome**. 
+33. Go to the **Dynamic content** pane, search for and select **Outcome**. 
 
-35. Enter **Reject** for value in the third field.
+34. Enter **Reject** for value in the third field.
 
-36. Go to the **If yes** branch and select **Add an action**.
+35. Go to the **If yes** branch and select **Add an action**.
 
-37. Search for `update a row` and select the **Update a row** action from the **Microsoft Dataverse** connector. 
+36. Search for and select the **Update a row** action from the **Microsoft Dataverse** connector. 
 
-38. Select **Problem Reports** for **Table name**.
+37. Select **Problem Reports** for **Table name**.
 
-39. Select the **Row ID** field.
+38. Select the **Row ID** field.
 
-40. Go to the **Dynamic content** pane, search for `problem report` and select **Problem Report**.
+39. Go to the **Dynamic content** pane, search for `problem report` and select **Problem Report**.
 
-41. Select **Show advanced options**.
+40. Select **Show advanced options**.
 
-42. Select the **Resolution** field, go to the **Dynamic content** pane and select **Response summary**.
+41. Select the **Resolution** field, go to the **Dynamic content** pane and select **Response summary**.
 
-43. Select **Won’t fix** for **Status Reason**.
+42. Select **Won’t fix** for **Status Reason**.
 
-44. Rename the step `Update problem report`
+43. Rename the step `Update problem report`
 
-45. Scroll up and rename the flow `Escalate Expense Approval`
+44. Scroll up and rename the flow `Escalate Expense Approval`
 
-46. Select **Save**.
+45. Select **Save**.
 
-    ![A screenshot of the current flow](04/media/image15.png)
+46. Close the flow designer browser window or tab.
 
-47. Close the flow designer browser window or tab.
-
-48. Select **Done** on the popup.
+47. Select **Done** on the popup.
 
 
 #### Task 3: Test flow
@@ -340,20 +339,13 @@ In this task, you will test the escalation flow.
 
     **Note:** It can take around 10-15 minutes for approvals to show up here on the first run as the Approvals app must provision itself in your environment.
 
-    ![A Screenshot with an arrow pointing to the cost approval required request](04/media/image16.png)
-
 8.  Choose the **Reject** response, enter `We don't have the funds for this item` for **Add a comment**, and select **Confirm**. 
-
-    ![A screenshot of the details of the request with the relevant text in each field](04/media/image17.png)
 
 9.  Go back to the **Company 311 Admin** Model-driven application.
 
 10. Change the view to **My Reports** and open the test row on which the **Estimated Cost** was changed. 
 
 11. The **Status Reason** should be set to **Won’t fix** and the **Resolution** should contain the details of Approver, Response, Request Date and Response Date.
-
-    ![A screenshot of the status reason and resolution matching the values and text you put into the request](04/media/image18.png)
-
 
 ### Exercise 3: Send approval requests as adaptive card in Microsoft Teams
 
@@ -367,21 +359,17 @@ In this exercise, you will setup a team in Microsoft Teams dedicated to the Comp
 
 In this task you will setup a Microsoft Teams team for the Lamna Healthcare Company, if you have not done so in previous exercises.
 
-**Note:** If you have already created the **Company 311** Teams in the Microsoft teams, skip this part and continue to the next task.
-
 1.  Navigate to [Microsoft Teams](https://teams.microsoft.com) and sign in with the same credentials you have been using previously.
 
 2.  Select **Use the web app instead** on the welcome screen.
 
-    ![A screenshot of the Microsoft Teams landing page with a border around the use the web app instead button](04/media/image-5-teams.png)
+    ![A screenshot of the Microsoft Teams landing page with a border around the use the web app instead button](04/media/Lab4-Ex3-Task1-1.png)
 
 3.  When the Microsoft Teams window opens, dismiss the welcome messages.
 
 4.  On the bottom left corner, choose **Join or create a team**.
 
 5.  Select **Create a team**.
-
-    ![A screenshot with a box around the join or create a team button at the bottom of the window and a border around the create a team button](04/media/image-5-createteam.png)
 
 6.  Press **From scratch**.
 
@@ -402,13 +390,13 @@ In this task you will replace the approval sent by email with an adaptive card.
 
 3.  Select **Cloud flows** from the **Objects** pane and open the **Escalate Expense Approval** flow. Select **Edit**. 
 
-4.  Locate **Start and wait for an approval** step created earlier in **Exercise 2, Task 2**. 
+4.  Locate **Start and wait for an approval** step created earlier in **Exercise 2**. 
 
 5.  Select the **...** menu, and then select **Delete**. 
 
 6.  Hover your mouse between the steps, select the **+** to insert a new step then select **Add an action**. 
 
-7.  Search for **approval**, and select **Create an approval**. 
+7.  Search for and select **Create an approval**. 
 
 8.  Select **Approve/Reject - Everyone must approve** for **Approval type**. 
 
@@ -432,13 +420,11 @@ In this task you will replace the approval sent by email with an adaptive card.
 
 15. Place the cursor after **cost of**, go to the **Dynamic content** pane, select the **Expression** tab, paste the expression below, and select **OK**.
 
-    `formatNumber(triggerOutputs()?['body/lh_estimatedcost'], 'C2')`
-
 16. Your step should look like the following: 
 
-    ![A screenshot of the create an approval window with the following. Approval type as approve/reject - everyone must approve, title as cost approval required, assigned to primary email, details as title, details, some text and format number, item link, and item link description](04/media/image-5-create-approval.png)
+    ![A screenshot of the create an approval window with the following. Approval type as approve/reject - everyone must approve, title as cost approval required, assigned to primary email, details as title, details, some text and format number, item link, and item link description](04/media/Lab4-Ex3-Task1-3.png) 
 
-17. Hover your mouse again below Create an approval step, select **+** and then select **Add an action**.
+17. Hover your mouse again below **Create an approval** step, select **+** and then select **Add an action**.
 
 18. Search for `teams` and select **Post card in a chat or channel** action. 
 
@@ -454,7 +440,7 @@ In this task you will replace the approval sent by email with an adaptive card.
 
 24. The **Post card in a chat or channel** step should look like the image below:
 
-    ![A screenshot of the post adaptive card in a chat or channel pane](04/media/image5-post-adaptive-card.png)
+    ![A screenshot of the post adaptive card in a chat or channel pane](04/media/Lab4-Ex3-Task1-4.png)
 
 25. Hover the cursor below the **Post card in a chat or channel** step, select **+** and then select **Add an action**.
 
@@ -464,15 +450,13 @@ In this task you will replace the approval sent by email with an adaptive card.
 
 28. Go to the **Dynamic content** pane and select **Approval ID** from the **Create an approval** step.
 
-    ![A screenshot of the wait for an approval panel with approval ID in the approval ID field](04/media/image-5-wait-for-approval.png)
-
 29. You now have replaced **Start and wait for an approval** step with the following:
 
-    ![A screenshot of the current flow with: create an approval, post adaptive card in a chat or channel, and wait for an approval](04/media/image-5-replaced-approval.png)
+    ![A screenshot of the current flow with: create an approval, post adaptive card in a chat or channel, and wait for an approval](04/media/Lab4-Ex3-Task1-6.png)
 
 30. Expand the **Condition** step. The left value of the **Condition** step should be empty because it was referring to the old step which is now removed. 
 
-31. Go to the **Dynamic content** pane, search for `outcome`, and select **Outcome** from **Wait for an approval** step. 
+31. Go to the **Dynamic content** pane, search for  and select **Outcome** from **Wait for an approval** step. 
 
 32. Locate the **Update problem report** step, under the **If yes** branch. 
 
@@ -505,22 +489,15 @@ In this task, you will test the escalation flow with the Teams and adaptive card
 
 7. You should see the **Cost approval required** adaptive card in a message from **Workflows**.
 
-    ![A screen shot of the request for cost approval pane](04/media/image-5-sample-adaptive-card.png)  
-
 8. Select the **Reject** button and enter a comment of your choice in the **Comments** area, for example **The item is too expensive**.
 
 9. Select **Submit**. The card will become read-only.
 
-    ![A screenshot of the request once you have rejected it](04/media/image-5-readonly-card.png)
-
 10. Go back to the **Company 311 Admin** application.
 
-11. Change the view to **My Reports** and open the same Row you change the estimated cost.
+11. Change the view to **My Reports** and open the same row you changed the estimated cost for.
 
 12. The **Status Reason** should be set to **Won’t fix** and the **Resolution** should contain the details of Approver, Response, Request Date and Response Date.
-
-    ![A screenshot of the status reason and resolution matching the details of your response to the request](04/media/problemreportadaptivecard.png)
-
 
 ## **Discussion**
 
@@ -531,5 +508,4 @@ In this task, you will test the escalation flow with the Teams and adaptive card
 
   - Add ability for the users to subscribe to the reported problems and only notify if there is a subscription. 
   - Auto-subscribe creator of the problem report.
-  - How to find out previous value of status reason?
-  - Create your own adaptive card using [Adaptive Cards Designer](https://adaptivecards.io/designer/).
+  - How could you find out previous value of status reason?
