@@ -357,8 +357,6 @@ In this exercise, you will add a canvas application to Power BI as a visual.
 
 1.  Right-click on the **Gallery** and select **Delete**.
 
-    ![Delete gallery button - screenshot](05/media/ex_5_deletegallery.png)
-
 2.  Select **Settings** from the toolbar. 
 
 3.  Select the **Display** tab.
@@ -369,19 +367,13 @@ In this exercise, you will add a canvas application to Power BI as a visual.
 
 6.  Select **Data** and select **Add data**.
 
-    ![Add data - screenshot](05/media/ex_5_adddata.png)
-
 7.  Select the **Problem reports** table.
-
-    ![Select data table - screenshot](05/media/ex_5_datatable.png)
 
 8.  From the **Tree view**, select the **App** object.
 
 9.  Select the **OnStart** property of the **App** object (found in the **Advanced** tab) and set it to the formula below. This formula will create two variables one to keep track of the current index of the reports table and another to keep track of the current item row.
 
     ```Set(currentIndex,1);Set(CurrentItem, LookUp('Problem Reports', 'Problem Report' = GUID(Last(FirstN([@PowerBIIntegration].Data,currentIndex)).'Problem Report'))) ```
-
-    ![A screentshot showing OnStart property set to the expression described on the previous step](05/media/ex_5_apponstart.png)
 
 10. Select the **+ Insert** button, expand **Media** group, then select **Image**.
 
@@ -391,11 +383,7 @@ In this exercise, you will add a canvas application to Power BI as a visual.
 
 12. Select the **...** menu button of the **App** object and select **Run OnStart**.
 
-    ![Run app OnStart - screenshot](05/media/ex_5_runonstart.png)
-
 13. The photo from the Problem Report should load. If you are not seeing the photo, then go to the Admin **Model-driven App** and add photo to any Problem Report records where the **Photo** field is **empty**. 
-
-    ![Current image with photo - screenshot](05/media/ex_7_imagephoto.png)
 
 14. Set the **X** value of the image to **0**.
 
@@ -410,8 +398,6 @@ In this exercise, you will add a canvas application to Power BI as a visual.
     ```Parent.Height```
 
 18. The image should fill the screen.
-
-    ![Image position - screenshot](05/media/ex_7_imageposition.png)
 
 19. Do not navigate away from this page.
 
@@ -436,17 +422,15 @@ In this exercise, you will add a canvas application to Power BI as a visual.
 
     ```Parent.Width```
 
-7.  Set the **Fill** value of the label to **RGBA(0, 108, 191, .5)**.
+7.  Set the **Fill** value of the label to `RGBA(0, 108, 191, .5).`
 
-8.  Set the **Color** value of the label to **RGBA(255, 255, 255, 1)**.
+8.  Set the **Color** value of the label to `RGBA(255, 255, 255, 1)`.
 
 9.  Set the **Align** value to the formula below.
 
     ```Align.Center```
 
-10. The label should now look like the image below. If you don't see the title, select the **...** button of the **App** object and select **Run OnStart** again.
-
-    ![Resized label - screenshot](05/media/ex_7_resizedlabel.png)
+10. If you don't see the title, select the **...** button of the **App** object and select **Run OnStart** again.
 
 11. Select **+ Insert**, enter **next** in the search box, then select **Next arrow** under **Icons**.
 
@@ -456,13 +440,13 @@ In this exercise, you will add a canvas application to Power BI as a visual.
 
 14. Double-click on the name of second icon you just added and rename it **Back icon**.
 
-15. Drag and place the the **Next icon** above the right side of the label.
+15. Drag and place the **Next icon** above the right side of the label.
 
-16. Drag and place the the **Back icon** above the left side of the label.
+16. Drag and place the **Back icon** above the left side of the label.
 
 17. The icons should now look like the image below.
 
-    ![Icon location - screenshot](05/media/ex_7_iconlocation.png)
+    ![Icon location - screenshot](05/media/Lab5-Ex5-Task1-11.png)
 
 18.  Select the **Next icon** and set the **OnSelect** value to the formula below.
 
@@ -510,19 +494,13 @@ In this exercise, you will add a canvas application to Power BI as a visual.
 
 35. Select the **Next** and **Back** icons to make sure the application loads the images.
 
-    ![Canvas inside Power BI report - screenshot](05/media/ex_7_canvasembedded.png)
-
 36. Select the **Completed** column of the stacked column chart and make a note how many rows are completed.
 
 37. Select any column of the stacked column chart apart from **Completed**. Select the **next** icon to see the next image.
 
 38. Select the **Complete** icon.
 
-    ![Complete status of problem - screenshot](05/media/ex_7_complete.png)
-
 39. The completed count should increase. If the completed count doesn't increase, select refresh and wait for the visuals to be refreshed.
-
-    ![Increased completed count - screenshot](05/media/ex_7_increasedcount.png)
 
 40. **Save** the report.
 
@@ -540,7 +518,7 @@ In this exercise, you will add a canvas application to Power BI as a visual.
 
 ### Import sample data
 
-In this exercise you will import sample data into Power BI service. That allows you to complete the lab exercises even if do not have required permissions to install desktop applications, or experience difficulties in configuring Power BI Desktop and connecting it to the data. After completion of this exercise you can skip **Exercise1** and start the lab on **Exercise 2** using Power BI service ([https://app.powerbi.com](https://app.powerbi.com)) instead of Power BI Desktop. 
+In this exercise, you will import sample data into Power BI service. That allows you to complete the lab exercises even if do not have required permissions to install desktop applications, or experience difficulties in configuring Power BI Desktop and connecting it to the data. After completion of this exercise you can skip **Exercise1** and start the lab on **Exercise 2** using Power BI service ([https://app.powerbi.com](https://app.powerbi.com)) instead of Power BI Desktop. 
 
 1.  Download [problem-reports-data.pbix](05\Resources\problem-reports-data.pbix) and save on your computer.
 
