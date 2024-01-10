@@ -378,8 +378,142 @@ In this exercise, test the canvas application by submitting a problem report.
 12. **Close** the app studio by closing the browser tab.
 
 
-### Exercise 6: Explore other ways to build canvas apps
+### Exercise 6: Explore Other ways to build Canvas applications. 
 
-In this exercise, 
+1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page
+    and make sure you are in the correct environment.
 
-#### Task 1: 
+2.  Select + **Create**.
+
+3.  Under the **Start From** section, select **Image**.
+
+4.  From the **Convert into an app** screen, select **Next**.
+
+5.  Name the app **Report Problems** and set the app format to **Phone**.
+
+6.  Select the **Choose File** button and select the **Report a Problem.png**
+    file from your class resources folder, select the **Next** button.
+
+7.  On the Draw tags and assign components screen, verify your screen matches
+    the image below:
+
+    ![A screenshot of a computer Description automatically generated](03/media/lab3-Exx6-task1-3.png) 
+
+8.  Select the **Text Input** box under the **Status** label, from the menu that
+    appears, change the **Data Type** to **Drop Down.**
+
+9.  Select the **Text Input** box under the **Resolved On** label, from the menu
+    that appears, change the **Data Type** to **Date Picker.**
+
+10. Your tagged form should resemble the image below:
+
+![A screenshot of a computer Description automatically generated](03/media/lab3-Exx6-task1-6.png)
+
+11.  Select the **Next** button.
+
+12.  On the **Set up your Data** screen, ensure that **Connect to a Dataverse
+    table is selected**, then select **Next.**
+
+13.  On the **Select table** screen, choose **Problem Report**, then select
+    **Next**.
+
+Next, we will tag the specific fields to the correct column in Dataverse.
+
+    > **NOTE**
+    >
+    >  When defining how the columns will be set up, you need to make sure that the selector includes both the **Label** and **Input** Field. Your app may not render correctly if not.
+
+14.  Select the Tag around the Name label and the field below.
+
+15.  Assign the item to the **Title** column, select **Save**.
+
+16.  Using the table below, repeat the above process for each item on the form.
+
+| Field       | Dataverse Column |
+|-------------|------------------|
+| Building    | Building         |
+| Details     | Details          |
+| Department  | Department       |
+| Status      | Status Reason    |
+| Resolved On | Resolved On      |
+| Resolution  | Resolution       |
+
+17.  Once complete your tagged columns should resemble the image below, select
+    the **Next** button.
+
+    ![A screenshot of a computer Description automatically generated](03/media/)
+
+18.  On the **Review** screen, verify that your problem report resembles, the
+    image below:
+
+19.  Select **Create.**
+
+    **Note:** It can take a few minutes for your new app to be created.
+
+20.  Your newly created app will resemble the image below:
+
+    ![A screenshot of a computer Description automatically generated](03/media/)
+
+    When you create an app from an image, you are somewhat limited as to the types
+    of fields that you can select. For this reason, some items such as lookup fields
+    will not display properly since the data type was defined as text. For this
+    reason, we will make some modifications to the application to fix this.
+
+    Both the Department and Building field are lookup fields. We are going to remove
+    the generated ones and replace them with the actual fields from Dataverse.
+
+21.  On the left side of your app screen, select the **Form1** control.
+
+22.  In the **Properties** section on the right of the screen, select **Edit
+    Fields.**
+
+23.  Hover the **Building_DataCardXXX (Custom)** field and **Remove** it.
+
+24.  Hover the **Department_DataCardXXX (Custom)** field and **Remove** it as
+    well.
+
+    Next, we are going to add the actual Lookup field from Dataverse to the app.
+
+25.  Select **Add Fields.**
+
+26.  From the menu that appears, select the **Building** and **Department**
+    fields.
+
+    Next, we are going to make some formatting changes to ensure that all the
+    Data Cards on the form look the same.
+
+27.  Using the **Sizing controls** on **Form1**, make the form bigger so that the
+    **Department** field displays.
+
+28.  In the **Fields** menu to the left of the actual Canvas App screen, move the
+    **Building** field below the **Name** field.
+
+29.  Move the **Department** field below the **Building** field.
+
+30. On **Form1**, Select the **Label** control on the **Details** Data Card.
+
+31. Change the **Font** to **21** and the **Font Weight** to **Semibold**.
+
+32. Repeat that process for the **Status**, **Resolved On** and **Resolution**
+    Data Cards.
+
+33. On **Form1** in Tree View, select the **Name_DataCardXXX (Custom)** control
+
+34. Using the **Sizing** controls, change the **Height** of the control to about
+    142.
+
+35. Move the **Name** Data Card’s, **Textinput** control to the bottom of the
+    control, and expand the controls width so that it is the same width of the
+    other controls on the form.
+
+36. Move the controls **TextLabel** to align with the other labels on the form.
+
+37. Change the **Name Label Font** to **21** and the **Font Weight** to
+    **Semibold**.
+
+38. If necessary, resize the **Form** control to ensure that the **Resolution**
+    field is completely displayed.
+
+39. Your completed App should resemble the Image below.
+
+    ![A screenshot of a computer Description automatically generated](03/media/)
