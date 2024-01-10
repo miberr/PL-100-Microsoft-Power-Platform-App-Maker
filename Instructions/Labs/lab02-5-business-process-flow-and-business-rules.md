@@ -5,7 +5,7 @@ lab:
 ---
 
 
-# Lab 02.2: Business Process Flows and Business Rules
+# Lab 02.5: Business Process Flows and Business Rules
 
 In this lab you will enhance the data model and improve the app behavior by adding a business process flow and a business rule.
 
