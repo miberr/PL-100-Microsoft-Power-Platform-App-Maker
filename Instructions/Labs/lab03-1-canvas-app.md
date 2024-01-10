@@ -441,7 +441,7 @@ Next, we will tag the specific fields to the correct column in Dataverse.
 17.  Once complete your tagged columns should resemble the image below, select
     the **Next** button.
 
-    ![A screenshot of a computer Description automatically generated](03/media/)
+    ![A screenshot of a computer Description automatically generated](03/media/Lab3-Ex6-step17.png)
 
 18.  On the **Review** screen, verify that your problem report resembles, the
     image below:
@@ -452,7 +452,7 @@ Next, we will tag the specific fields to the correct column in Dataverse.
 
 20.  Your newly created app will resemble the image below:
 
-    ![A screenshot of a computer Description automatically generated](03/media/)
+    ![A screenshot of a computer Description automatically generated](03/media/Lab3-Ex6-step20.png)
 
     When you create an app from an image, you are somewhat limited as to the types
     of fields that you can select. For this reason, some items such as lookup fields
@@ -516,4 +516,4 @@ Next, we will tag the specific fields to the correct column in Dataverse.
 
 39. Your completed App should resemble the Image below.
 
-    ![A screenshot of a computer Description automatically generated](03/media/)
+    ![A screenshot of a computer Description automatically generated](03/media/Lab3-Ex6-step39.png)
