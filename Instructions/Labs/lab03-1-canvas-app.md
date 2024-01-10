@@ -415,13 +415,11 @@ In this exercise, test the canvas application by submitting a problem report.
     table is selected**, then select **Next.**
 
 13.  On the **Select table** screen, choose **Problem Report**, then select
-    **Next**.
-
-Next, we will tag the specific fields to the correct column in Dataverse.
-
+    **Next**. Next, we will tag the specific fields to the correct column in Dataverse.
+    
     > **NOTE**
     >
-    >  When defining how the columns will be set up, you need to make sure that the selector includes both the **Label** and **Input** Field. Your app may not render correctly if not.
+    > When defining how the columns will be set up, you need to make sure that the selector includes both the **Label** and **Input** Field. Your app may not render correctly if not.
 
 14.  Select the Tag around the Name label and the field below.
 
@@ -447,8 +445,10 @@ Next, we will tag the specific fields to the correct column in Dataverse.
     image below:
 
 19.  Select **Create.**
-
-    **Note:** It can take a few minutes for your new app to be created.
+    
+    > **NOTE**
+    >
+    > It can take a few minutes for your new app to be created.
 
 20.  Your newly created app will resemble the image below:
 
