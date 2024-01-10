@@ -52,7 +52,7 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 3.  Select **+ Add existing**, select **More**, then select **Connection Reference**.
 
-    ![A screenshot of the expanded Add existing menu with add connection reference menu item selected](07/media/Lab6-Ex1-Task1-1.png)
+    ![A screenshot of the expanded Add existing menu with add connection reference menu item selected](06/media/Lab6-Ex1-Task1-1.png)
 
 4.  Select all of the connection references and select **Add**.
 
@@ -62,7 +62,7 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 7.  Select the **Company 311** solution and select **Export Solution** from the toolbar.
 
-    ![A Screenshot with cursor pointing to the Export Solution button](07/media/Lab6-Ex1-Task1-2.png) 
+    ![A Screenshot with cursor pointing to the Export Solution button](06/media/Lab6-Ex1-Task1-2.png) 
 
 8.  Select **Next**.
 
@@ -99,7 +99,7 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 9.  Select the managed solution you exported and select **Open**.
 
-    ![A screenshot of a border around a zip file of the managed solution you exported](07/media/Lab6-Ex1-Task2-1.png)
+    ![A screenshot of a border around a zip file of the managed solution you exported](06/media/Lab6-Ex1-Task2-1.png)
 
 10. Select **Next**. 
 
@@ -107,7 +107,7 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 12. Select **Select connection** for outlook and then select **+ New connection**.
 
-    ![A Screenshot with an arrow pointing to the drop down icon and a border around the plus new connection button](07/media/Lab6-Ex1-Task2-2.png)
+    ![A Screenshot with an arrow pointing to the drop down icon and a border around the plus new connection button](06/media/Lab6-Ex1-Task2-2.png)
 
 13. It will open a new window. Select **Create**.
 
@@ -172,13 +172,13 @@ In this exercise, you will create security roles for users.
 9.  Set all privileges of the **Building**, **Department**, and **Problem
     Reports** tables to **Organization**.
 
-    ![A screenshot of building, department, and problem report having all privileges selected in the custom entities tab]Instructions\Labs\06\media\Lab6-Ex2-Task1-2.png
+    ![A screenshot of building, department, and problem report having all privileges selected in the custom entities tab](06\media\Lab6-Ex2-Task1-2.png)
 
 10. Select the **Customization** tab.
 
 11. Set all privileges for **Model-driven app**.
 
-    ![A screenshot of the security role edit dialog with all privileges selected for Model Driven app table]Instructions\Labs\06\media\Lab6-Ex2-Task1-3.png
+    ![A screenshot of the security role edit dialog with all privileges selected for Model Driven app table](06\media\Lab6-Ex2-Task1-3.png)
 
 12. Select **Save and Close**.
 
