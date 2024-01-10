@@ -4,6 +4,8 @@ lab:
     module: 'Module 02: Get started using Dataverse'
 ---
 
+# Lab 02.4: Import data
+
 In this lab you will be implementing the data model for the solution and
 building a model-driven app that will be used for tracking problems and managing
 the overall effort.
