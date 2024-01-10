@@ -1,8 +1,9 @@
 ---
 lab:
-    title: 'Lab 02.3: Compose a model-driven app'
+    title: ''
     module: 'Module 02: Get started using Dataverse'
 ---
+# Lab 02.3: Compose a model-driven app
 
 In this lab you will be model-driven app that will be used for tracking problems
 and managing the overall effort.
