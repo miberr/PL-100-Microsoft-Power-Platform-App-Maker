@@ -4,6 +4,8 @@ lab:
     module: 'Module 02: Get started using Dataverse'
 ---
 
+# Lab 02.2: Work with forms & views
+
 In this lab you will be designing the forms and views that will be used in your
 model-driven application.
 
