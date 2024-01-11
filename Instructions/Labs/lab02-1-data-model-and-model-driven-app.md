@@ -99,7 +99,7 @@ In this task, you will add Columns to the Problem Report Table.
 
 2.  Select **Solutions** and open the **Company 311** solution you created in exercise 1.
 
-3.  Select the **Problem Report** Table.
+3.  Select the **Problem Report** table.
 
 4.  There are many ways to add a new column to the table. For this lab, select **+ New**, then select **Column** from the Schema group. 
 
@@ -135,6 +135,7 @@ In this task, you will add Columns to the Problem Report Table.
 >
 > Do not navigate away from this page until all customizations have been published successfully.
 
+
 #### Task 3: Edit Status Reason Choice
 
 In this task, you will edit the Status Reason column of the Problem Report table.
@@ -145,15 +146,15 @@ In this task, you will edit the Status Reason column of the Problem Report table
     Report**, select **Columns**. Locate and select the **Status Reason**
     column.
 
-3.  Change the existing label for the **Active** option to New
+3.  Change the existing label for the **Active** option to `New`
 
-4.  Select **+ New choice** and enter Assigned for **Label**.
+4.  Select **+ New choice** and enter `Assigned` for **Label**.
 
-5.  Select **+ New choice** and enter In Progress for **Label**.
+5.  Select **+ New choice** and enter `In Progress` for **Label**.
 
-6.  Select **+ New choice** and enter Completed for **Label**.
+6.  Select **+ New choice** and enter `Completed` for **Label**.
 
-7.  Select **+ New choice** and enter Won’t Fix for **Label**.
+7.  Select **+ New choice** and enter `Won’t Fix` for **Label**.
 
 8.  You should now have 5 options. Verify the **Default choice** is set as
     **New** and select **Save**.
@@ -169,30 +170,27 @@ In this task, you will edit the Status Reason column of the Problem Report table
 
 In this task, you will create lookups to create many-to-one relationships between the Problem Report table and the Building and Department tables.
 
-1.  In the **Objects** navigation tree expand **Tables**, select and expand
+1.  In the **Objects** navigation tree expand **Tables**, select and expand the
     **Problem Report** table.
 
-2.  Select **+ New \> Column**.
+2.  Select **+ New** > **Column**.
 
-3.  Enter Building for **Display name**, select **Lookup** for **Data type**,
-    set the Related Table to **Building** and select **Save**.
-
+3.  Enter `Building` for **Display name**, select **Lookup** for **Data type**,
+    set the **Related table** to `Building` and select **Save**.
 
     ![A screenshot of the solution window with Problem Report table selected and + New > Relationship > Many-to-one menu selected.](02-1/media/Lab2-1-Ex2-Task4-1.png)
 
-4.	Select + New > Column again.
+4.	Select **+ New** > **Column** again.
 
-5.	Enter Department for Display name, select Lookup for Data type, set the Related Table to Department and select Save.
+5.	Enter `Department` for **Display name**, select **Lookup** for **Data type**,
+    set the **Related Table** to `Department` and select **Save**.
 
-6.	Select + New > Column again.
+6.	Select **+ New** > **Column** again.
 
-7.	Enter Department for Display name, select Lookup for Data type, set the Related Table to Department and select Save.
+7.	Enter `Assign to` for **Display name**, select **Lookup** for Data type, 
+    set the **Related table** to `User`, and select **Save**.
 
-8.	Enter Assign to for Display name, select Lookup for Data type, select User for Related table, and select Save.
+8.	Select **All** from the tree view in the **Objects** pane.
 
-9.	Select All from the tree view in the Objects pane.
-
-10.	Select Publish all customizations and wait for the publishing to complete.
-
-
+9.	Select **Publish all customizations** and wait for the publishing to complete.
 
