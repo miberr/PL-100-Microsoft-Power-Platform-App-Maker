@@ -127,9 +127,13 @@ In this task, you will add Columns to the Problem Report Table.
 
 14.  Enter `Resolved On` for **Display name**, select **Date and time** for **Data type**, and select **Save**. 
 
-15.  Select **All** from the tree view in the **Objects** pane. 
+15.  Select **+ New** \> **Column**.
 
-16.  Select **Publish all customizations** from the command bar and wait for the publishing to complete.
+16.  Enter `Estimated Cost` for **Display name**, select **Currency** for **Data type**, and select **Save**. 
+
+17.  Select **All** from the tree view in the **Objects** pane. 
+
+18.  Select **Publish all customizations** from the command bar and wait for the publishing to complete.
 
 > **IMPORTANT**
 >
