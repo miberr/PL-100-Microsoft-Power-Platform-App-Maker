@@ -110,7 +110,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
 In this task, you will create a new view from the Active Problem Reports view.
 
-1.  Select **Edit filters**.
+1.  With the **Active Problem Reports** view still open, select **Edit filters**.
 
 2.  Remove **In Progress** from the filter.
 
