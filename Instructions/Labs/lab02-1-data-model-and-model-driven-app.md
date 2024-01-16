@@ -105,7 +105,7 @@ In this task, you will add Columns to the Problem Report Table.
 
     ![A screenshot of the solution page with +New menu expanded and cursor pointing to the Column item](02-1/media/Lab2-1-Ex2-Task2-1.png)
 
-5.  Enter `Location` for **Display name**. Select **Text > Single line of text > Plain text** for **Data type**. 
+5.  Enter `Location` for **Display name**. Select **Text** > **Plain text** for **Data type**. 
 
 6. Expand the **Advanced options** section, change **Maximum character count** to `150`, then select **Save**. 
 
@@ -113,7 +113,7 @@ In this task, you will add Columns to the Problem Report Table.
 
 7.  Select **+ New \> Column** from the top menu. 
 
-8.  Enter `Details` for **Display name**, select **Text \> Multiple lines of text \> Plain Text** for **Data type**, make the Column **Business required**, and select **Save**. 
+8.  Enter `Details` for **Display name**, select **Text** > **Plain Text** for **Data type**, make the Column **Business required**, and select **Save**. 
 
 9.  Select **+ New \> Column** again.
 
@@ -121,7 +121,7 @@ In this task, you will add Columns to the Problem Report Table.
 
 11.  Select **+ New \> Column**.
 
-12.  Enter `Resolution` for **Display name**, select **Text \> Multiple lines of text \> Plain Text** for **Data type**, and select **Save**.
+12.  Enter `Resolution` for **Display name**, select **Text** > **Plain Text** for **Data type**, and select **Save**.
 
 13.  Select **+ New \> Column**.
 
