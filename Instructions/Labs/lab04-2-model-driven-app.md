@@ -32,7 +32,7 @@ In this exercise, you will create a model-driven application.
 
     ![A screenshot of the menu to create a new model-driven app](02-3/media/Lab2-3-Ex1-Task1-1.png) 
 
-4.  Enter `Company 311 Admin` for name and select **Create**. 
+4.  Enter `Company 311 Admin` for **Name** and select **Create**. 
 
 5.  Select **Navigation** from the left menu. 
 
