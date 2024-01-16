@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab 06.1: Test & Deploy'
-    module: 'Module 06: Testing & deployment'
+    title: 'Lab 08.1: Test & deploy'
+    module: 'Module 06: Get started with AI Builder'
 ---
 
-# Lab 06: Test & Deploy
+# Lab 08.1: Test & deploy
 
 In this lab you will complete solution configuration by adding security roles for the users. Then you will verify, test, and deploy the solution in the production environment.
 
