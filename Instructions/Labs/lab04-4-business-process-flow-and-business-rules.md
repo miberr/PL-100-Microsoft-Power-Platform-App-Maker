@@ -157,7 +157,7 @@ In this exercise, you will create a business rule that will block completion of 
 
 10.  Scroll down the **Rules** section, select **Status Reason** for **Field**, select **Equals** for **Operator**, select **Value** for **Type**, select **Completed** for **Value**, and select **Apply**.
 
-    ![A screenshot of the rules panel](Lab2-5-Ex2-Task1-6.png)
+    ![A screenshot of the rules panel](02-5/media/Lab2-5-Ex2-Task1-6.png)
 
 11. Select **+ New**.
 
