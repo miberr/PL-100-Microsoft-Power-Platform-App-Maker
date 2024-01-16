@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 02.5: Create business process flows and business rules'
-    module: 'Module 02: Building model-driven apps'
+    module: 'Module 02: Get started using Dataverse'
 ---
 
 
