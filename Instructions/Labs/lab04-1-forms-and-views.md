@@ -61,7 +61,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
 15. Select **Table columns** from the toolbar.
 
-16.  Add **Department**, **Status Reason**, **Resolved On**, **Assigned to**,
+16.  Add **Department**, **Status Reason**, **Resolved On**, **Assign to**,
     **Estimated Cost**, and **Resolution** columns to the **Resolution details**
     section.
 
