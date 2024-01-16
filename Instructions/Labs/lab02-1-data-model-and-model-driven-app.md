@@ -117,13 +117,13 @@ In this task, you will add Columns to the Problem Report Table.
 
 9.  Select **+ New \> Column** again.
 
-10.  Enter `Photo` for **Display name**, select **File > Image** for **Data type**, and select **Save**.
+10.  Enter `Photo` for **Display name**, select **File** > **Image** for **Data type**, and select **Save**.
 
 11.  Select **+ New \> Column**.
 
-12.  Enter `Resolution` for **Display name**, select **Text** > > **Multiple lines of text** > **Plain Text** for **Data type**, and select **Save**.
+12.  Enter `Resolution` for **Display name**, select **Text** > **Multiple lines of text** > **Plain Text** for **Data type**, and select **Save**.
 
-13.  Select **+ New \> Column**.
+13.  Select **+ New** \> **Column**.
 
 14.  Enter `Resolved On` for **Display name**, select **Date and time** for **Data type**, and select **Save**. 
 
