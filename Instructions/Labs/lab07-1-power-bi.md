@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab 05.1: Build Power BI dashboards'
-    module: 'Module 05: Create and use analytics in Power BI'
+    title: 'Lab 07.1: Build Power BI dashboards'
+    module: 'Module 07: Create and use analytics in Power BI'
 ---
 
-# Lab 05: Power BI
+# Lab 07.1: Build Power BI dashboards
 
 In this lab, you will build a Power BI dashboard that visualizes data about problems reported by company employees.
 
