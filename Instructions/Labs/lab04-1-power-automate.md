@@ -4,7 +4,7 @@ lab:
     module: 'Module 04: Power Automate'
 ---
 
-# Lab 04: Create Power Automate flows
+# Lab 04.1: Create Power Automate flows
 
 In this lab, you will create Power Automate cloud flows to automate various parts of the Company 311 solution.
 
