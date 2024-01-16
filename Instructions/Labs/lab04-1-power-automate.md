@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 04.1: Create Power Automate flows'
-    module: 'Module 04: Power Automate'
+    module: 'Module 04: Automate a business process using Power Automate'
 ---
 
 # Lab 04.1: Create Power Automate flows
