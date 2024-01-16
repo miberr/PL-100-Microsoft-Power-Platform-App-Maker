@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Lab 02.5: Business process flows and business rules'
+    title: 'Lab 02.5: Create business process flows and business rules'
     module: 'Module 02: Building model-driven apps'
 ---
 
 
-# Lab 02.5: Business Process Flows and Business Rules
+# Lab 02.5: Create business process flows and business rules
 
 In this lab you will enhance the data model and improve the app behavior by adding a business process flow and a business rule.
 
