@@ -173,22 +173,22 @@ In this task, you will create lookups to create many-to-one relationships betwee
 1.  In the **Objects** navigation tree expand **Tables**, select and expand the
     **Problem Report** table.
 
-2.  Select **+ New** > **Column**.
+2.	Select **+ New** > **Column**.
 
-3.  Enter `Building` for **Display name**, select **Lookup** for **Data type**,
-    set the **Related table** to `Building` and select **Save**.
-
-    ![A screenshot of the solution window with Problem Report table selected and + New > Relationship > Many-to-one menu selected.](02-1/media/Lab2-1-Ex2-Task4-1.png)
+3.	Enter `Department` for **Display name**, select **Lookup** for **Data type**,
+    set the **Related Table** to `Department` and select **Save**.
 
 4.	Select **+ New** > **Column** again.
 
-5.	Enter `Department` for **Display name**, select **Lookup** for **Data type**,
-    set the **Related Table** to `Department` and select **Save**.
-
-6.	Select **+ New** > **Column** again.
-
-7.	Enter `Assign to` for **Display name**, select **Lookup** for Data type, 
+5.	Enter `Assign to` for **Display name**, select **Lookup** for Data type, 
     set the **Related table** to `User`, and select **Save**.
+
+6.  Select **+ New** > **Column** again.
+
+7.  Enter `Building` for **Display name**, select **Lookup** for **Data type**,
+    set the **Related table** to `Building` and select **Save**.
+
+    ![A screenshot of the solution window with Problem Report table selected and + New > Relationship > Many-to-one menu selected.](02-1/media/Lab2-1-Ex2-Task4-1.png)
 
 8.	Select **All** from the tree view in the **Objects** pane.
 
