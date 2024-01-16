@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab 05.1: Power BI'
+    title: 'Lab 05.1: Build Power BI dashboards'
     module: 'Module 05: Create and use analytics in Power BI'
 ---
 
