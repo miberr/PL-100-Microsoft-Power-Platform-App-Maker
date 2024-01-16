@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Lab 02.5: Create business process flows and business rules'
-    module: 'Module 02: Get started using Dataverse'
+    title: 'Lab 04.4: Create business process flows and business rules'
+    module: 'Module 04: Create model-driven app'
 ---
 
 
-# Lab 02.5: Create business process flows and business rules
+# Lab 04.4: Create business process flows and business rules
 
 In this lab you will enhance the data model and improve the app behavior by adding a business process flow and a business rule.
 
