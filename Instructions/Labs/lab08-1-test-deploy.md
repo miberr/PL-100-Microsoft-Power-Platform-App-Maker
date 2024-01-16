@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 08.1: Test & deploy'
-    module: 'Module 06: Get started with AI Builder'
+    module: 'Module 08: Get started with AI Builder'
 ---
 
 # Lab 08.1: Test & deploy
