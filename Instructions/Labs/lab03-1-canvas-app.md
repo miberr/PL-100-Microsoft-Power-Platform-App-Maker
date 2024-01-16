@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab 03.1: Build canvas apps'
-    module: 'Module 03: Create a canvas app'
+    title: 'Lab 05.1: Build canvas apps'
+    module: 'Module 05: Create a canvas app'
 ---
 
-# Lab 03.1: Build canvas apps
+# Lab 05.1: Build canvas apps
 
 In this module you will design and build a canvas app for the company employees to submit problem reports.
 
