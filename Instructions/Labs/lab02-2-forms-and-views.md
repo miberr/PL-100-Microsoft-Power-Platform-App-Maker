@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab 02.2: Work with forms & views'
-    module: 'Module 02: Get started using Dataverse'
+    title: 'Lab 04.1: Work with forms & views'
+    module: 'Module 04: Create model-driven apps'
 ---
 
-# Lab 02.2: Work with forms & views
+# Lab 04.1: Work with forms & views
 
 In this lab you will be designing the forms and views that will be used in your
 model-driven application.
