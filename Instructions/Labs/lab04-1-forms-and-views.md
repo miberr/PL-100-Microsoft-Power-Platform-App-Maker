@@ -108,7 +108,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
 #### Task 3: Create view from existing
 
-In this task, you will create a new view from the Active Problem Reports view.
+In this task, you will edit the Active Problem Reports view and save it as a new view for Resolved Problems.
 
 1.  With the **Active Problem Reports** view still open, select **Edit filters**.
 
