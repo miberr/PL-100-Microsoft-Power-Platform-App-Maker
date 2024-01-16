@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab 02.1: Data model'
+    title: 'Lab 02.1: Data modeling'
     module: 'Module 02: Get started using Dataverse'
 ---
 
-# Lab 02.1: Data model and model-driven app
+# Lab 02.1: Data modeling
 
 In this lab you will be implementing the data model for the solution.
 
