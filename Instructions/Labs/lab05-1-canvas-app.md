@@ -387,7 +387,7 @@ In this exercise, create a canvas app from an image mockup.
 6.  Name the app **Report Problems** and set the app format to **Phone**.
 
 7.  Select the **Choose File** button and select the **Report a Problem.png**
-    file from your class resources folder, select the **Next** button.
+    file from your class resources folder, select the **Next** button. (You can find that file [here](https://github.com/MicrosoftLearning/PL-100-Microsoft-Power-Platform-App-Maker/blob/jan2024update/Instructions/Labs/03/Resources/Report%20a%20Problem.png))
 
 8.  On the Draw tags and assign components screen, verify your screen matches
     the image below:
