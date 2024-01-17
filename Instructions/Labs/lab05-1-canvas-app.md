@@ -62,10 +62,6 @@ In this task, you will import the shared components solution into your environme
 
 9.  The solution should have one item in it: **Lamna Healthcare Shared Components**
 
-    > **IMPORTANT**
-    >
-    > There is an issue where importing the app as part of a solution may not add it to your components library. The following steps are designed to resolve the issue.
-
 10. Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.    
 
 11. Select **Apps** and select the **Lamna Healthcare Shared Components App** to edit the app.
