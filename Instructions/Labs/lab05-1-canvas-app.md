@@ -381,30 +381,30 @@ In this exercise, create a canvas app from an image mockup.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page
     and make sure you are in the correct environment.
-
-2.  Select + **Create**.
+    
+2.  Select + **Create** on the left navigation.
 
 3.  Under the **Start From** section, select **Image**.
 
-4.  From the **Convert into an app** screen, select **Next**.
+5.  From the **Convert into an app** screen, select **Next**.
 
-5.  Name the app **Report Problems** and set the app format to **Phone**.
+6.  Name the app **Report Problems** and set the app format to **Phone**.
 
-6.  Select the **Choose File** button and select the **Report a Problem.png**
+7.  Select the **Choose File** button and select the **Report a Problem.png**
     file from your class resources folder, select the **Next** button.
 
-7.  On the Draw tags and assign components screen, verify your screen matches
+8.  On the Draw tags and assign components screen, verify your screen matches
     the image below:
 
     ![A screenshot of a computer Description automatically generated](03/media/lab3-Exx6-task1-3.png) 
 
-8.  Select the **Text Input** box under the **Status** label, from the menu that
+9.  Select the **Text Input** box under the **Status** label, from the menu that
     appears, change the **Data Type** to **Drop Down.**
 
-9.  Select the **Text Input** box under the **Resolved On** label, from the menu
+10.  Select the **Text Input** box under the **Resolved On** label, from the menu
     that appears, change the **Data Type** to **Date Picker.**
 
-10. Your tagged form should resemble the image below:
+11. Your tagged form should resemble the image below:
 
 ![A screenshot of a computer Description automatically generated](03/media/lab3-Exx6-task1-6.png)
 
