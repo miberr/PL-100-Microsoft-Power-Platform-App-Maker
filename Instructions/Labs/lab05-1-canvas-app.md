@@ -374,7 +374,7 @@ In this exercise, test the canvas application by submitting a problem report.
 12. **Close** the app studio by closing the browser tab.
 
 
-### Exercise 6: Explore Other ways to build Canvas applications. 
+### Exercise 6: Explore other ways to build canvas applications
 In this exercise, create a canvas app from an image mockup.
 
 #### Task 1: Create an app from an image
@@ -470,41 +470,43 @@ Both the Department and Building field are lookup fields. We are going to remove
 5.  Select **Add Fields.**
 
 6.  From the menu that appears, select the **Building** and **Department**
-    fields. Next, we are going to make some formatting changes to ensure that all the
+    fields and select **Add**. Next, we are going to make some formatting changes to ensure that all the
     Data Cards on the form look the same.
 
-7.  Using the **Sizing controls** on **Form1**, make the form bigger so that the
+7.  Close the Fields pane.
+
+8.  Using the **Sizing controls** on **Form1**, make the form bigger so that the
     **Department** field displays.
 
-8.  In the **Fields** menu to the left of the actual Canvas App screen, move the
+9.  In the **Fields** menu to the left of the canvas app screen, move the
     **Building** field below the **Name** field.
 
-9.  Move the **Department** field below the **Building** field.
+10.  Move the **Department** field below the **Building** field.
 
-10. On **Form1**, Select the **Label** control on the **Details** Data Card.
+11. On **Form1**, Select the **Label** control on the **Details** Data Card.
 
-11. Change the **Font** to **21** and the **Font Weight** to **Semibold**.
+12. Change the **Font** to **21** and the **Font Weight** to **Semibold**.
 
-12. Repeat that process for the **Status**, **Resolved On** and **Resolution**
+13. Repeat that process for the **Status**, **Resolved On** and **Resolution**
     Data Cards.
 
-13. On **Form1** in Tree View, select the **Name_DataCardXXX (Custom)** control
+14. On **Form1** in Tree View, select the **Name_DataCardXXX (Custom)** control
 
-14. Using the **Sizing** controls, change the **Height** of the control to about
+15. Using the **Sizing** controls, change the **Height** of the control to about
     142.
 
-15. Move the **Name** Data Card’s, **Textinput** control to the bottom of the
+16. Move the **Name** Data Card’s, **Textinput** control to the bottom of the
     control, and expand the controls width so that it is the same width of the
     other controls on the form.
 
-16. Move the controls **TextLabel** to align with the other labels on the form.
+17. Move the controls **TextLabel** to align with the other labels on the form.
 
-17. Change the **Name Label Font** to **21** and the **Font Weight** to
+18. Change the **Name Label Font** to **21** and the **Font Weight** to
     **Semibold**.
 
-18. If necessary, resize the **Form** control to ensure that the **Resolution**
+19. If necessary, resize the **Form** control to ensure that the **Resolution**
     field is completely displayed.
 
-19. Your completed App should resemble the Image below.
+20. Your completed App should resemble the Image below.
 
     ![A screenshot of a computer Description automatically generated](03/media/Lab3-Ex6-step39.png)
