@@ -133,7 +133,7 @@ In this task, you will create a flow that send a notification when the status of
 
 32. Select **Save** and wait for the flow to be saved.
 
-    ![A screenshot of the current flow](04/media/image8.png)
+    ![A screenshot of the current flow](04/media/Lab4-Ex1-Task1-8.png)
 
 33. Select the **🡠** button to go back to the previous page.
 
