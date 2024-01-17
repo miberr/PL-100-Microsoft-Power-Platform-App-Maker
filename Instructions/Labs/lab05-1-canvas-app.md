@@ -46,11 +46,11 @@ In this task, you will import the shared components solution into your environme
 
 3.  Select **Browse**.
 
-4.  Go to the Lab Resources folder, select the **Shared Components** solution file, and select **Open**.
+4.  Go to the Lab Resources folder, select the **Shared Components** solution file, and select **Open**. You may also download the file to your computer [here](https://github.com/MicrosoftLearning/PL-100-Microsoft-Power-Platform-App-Maker/raw/jan2024update/Instructions/Labs/03/Resources/SharedComponents_1_0_0_4.zip). 
 
     > **TIP**
     > 
-    > The lab resources can be found here: `D:\Instructions\Labs\03-1\Resources\SharedComponents_1_0_0_4.zip`
+    > The lab resources can be found here: `D:\Instructions\Labs\03\Resources\SharedComponents_1_0_0_4.zip`
 
 5.  Select **Next**.
 
