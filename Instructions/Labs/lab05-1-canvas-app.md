@@ -282,9 +282,9 @@ In this exercise, add a form to the canvas app to submit new problem reports.
 
 2.  Rename the form to `New Report Form`
 
-3.  Select **New Report Form**, go to the **Properties** pane, and select **Problem Report** for **Data source**.
+3.  Select **New Report Form**, go to the **Properties** pane, and select **Problem Reports** for **Data source**.
 
-4.  Select **Edit fields**.
+4.  Select **Edit fields** (this may display as "4 selected" beside Fields; select "4 selected).
 
 5.  Remove the **Status Reason** Column.
 
@@ -292,45 +292,47 @@ In this exercise, add a form to the canvas app to submit new problem reports.
 
 7.  Select **+ Add field**.
 
-8.  Select **Building**, **Details**, and **Photo**, and then select **Add**. 
+8.  Select **Building**, **Details**, and **Photo**, and then select **Add**.
 
-9. Resize and reposition the form, setting the **Position, Y** value to `75` and the **Height** value to `900` 
+9.  Close the **Fields** pane.
+
+10. Resize and reposition the form, setting the **Y** value to `75` and the **Height** value to `900` 
 
     It takes most of the page and leave enough room for a button at the bottom.
 
     ![A screenshot of the form resized and reposition for room at the bottom for a button](03/media/lab3-Exx4-task1-4.png)
 
-10. Select the **New Reports Screen**.
+11. Select the **New Reports Screen**.
 
-11. Select **Insert** then select **Button**.
+12. Select **Insert** then select **Button**.
 
-12. Rename the button `Submit Report`
+13. Rename the button `Submit Report`
 
-13. Move the button below the form, or set **Position, X** value to `180` and **Y** value to `990`
+14. Move the button below the form, or set **X** value to `180` and **Y** value to `990`
 
-14. Change the **Submit Report** button **Text** property to `Submit`
+15. Change the **Submit Report** button **Text** property to `Submit`
 
-15. Select the **Submit Report** button and change the **OnSelect** value to the formula below. This formula will create a new Row in the Problem Reports table.
+16. Select the **Submit Report** button and change the **OnSelect** value to the formula below. This formula will create a new Row in the Problem Reports table.
 
-    `SubmitForm('New Report Form') `
+    `SubmitForm('New Report Form')`
 
-16. Select the **New Report Form**.
+17. Select the **New Report Form**.
 
-17. Change the **OnSuccess** value to the formula below. This formula will show a notification after the new Row gets created and clear the form when the record creation is successful.
+18. Change the **OnSuccess** value to the formula below. This formula will show a notification after the new Problem Report row gets created and clears the form when the record creation is successful.
 
     `Notify("Created new problem report row");NewForm('New Report Form')`
 
-18. Select the **New Reports Screen**.
+19. Select the **New Reports Screen**.
 
-19. Set the **OnVisible** value to the formula below. This formula will create a new form when the screen becomes visible.
+20. Set the **OnVisible** value to the formula below. This formula will create a new form when the screen becomes visible.
 
     `NewForm('New Report Form')`
 
-20. Select **Save**.
+21. Select **Save**.
 
-21. Select **Publish**.
+22. Select **Publish**.
 
-22. Select **Publish this version** and wait for the publishing to complete.
+23. Select **Publish this version** and wait for the publishing to complete.
 
     Do not navigate away from this page.
 
@@ -341,7 +343,8 @@ In this exercise, test the canvas application by submitting a problem report.
 
 #### Task 1: Test application
 
-1.  Select the **Main Screen** and select **Preview the app**.
+1.  Select the **Main Screen** and select the Play icon to **Preview the app**.
+
     ![Play button to preview the app](03/media/lab3-Exx5-task1-1.png)
 
 2.  The application should load, and the list should show all the reports you created.
@@ -350,7 +353,7 @@ In this exercise, test the canvas application by submitting a problem report.
 
 3.  Select the **New Report** tab.
 
-4.  The **New Report Form** should load. Fill out the form and select the **Photo** Column.
+4.  The **New Report Form** should load. Fill out the form and select the area under the **Photo** label.
 
 5.  Select an image.
 
