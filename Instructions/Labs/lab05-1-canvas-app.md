@@ -375,6 +375,7 @@ In this exercise, test the canvas application by submitting a problem report.
 ### Exercise 6: Explore Other ways to build Canvas applications. 
 In this exercise, create a canvas app from an image mockup.
 
+#### Task 1: Create an app from an image
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page
     and make sure you are in the correct environment.
     
@@ -412,9 +413,9 @@ In this exercise, create a canvas app from an image mockup.
 13.  On the **Select table** screen, choose **Problem Report**, then select
     **Next**. Next, we will tag the specific fields to the correct column in Dataverse.
     
-    > **NOTE**
-    >
-    > When defining how the columns will be set up, you need to make sure that the selector includes both the **Label** and **Input** Field. Your app may not render correctly if not.
+> **NOTE**
+>
+> When defining how the columns will be set up, you need to make sure that the selector includes both the **Label** and **Input** Field. Your app may not render correctly if not.
 
 14.  Select the Tag around the **Name** label and the input field.
 
@@ -434,28 +435,25 @@ In this exercise, create a canvas app from an image mockup.
 17.  Once complete your tagged columns should resemble the image below, select
     the **Next** button.
 
-    ![A screenshot of a computer Description automatically generated](03/media/Lab3-Ex6-step17.png)
+![A screenshot of a computer Description automatically generated](03/media/Lab3-Ex6-step17.png)
 
 18.  On the **Review** screen, verify that your problem report resembles, the
     image below:
 
 19.  Select **Create.**
     
-    > **NOTE**
-    >
-    > It can take a few minutes for your new app to be created.
+> **NOTE**
+>
+> It can take a few minutes for your new app to be created.
 
 20.  Your newly created app will resemble the image below:
 
-    ![A screenshot of a computer Description automatically generated](03/media/Lab3-Ex6-step20.png)
+![A screenshot of a computer Description automatically generated](03/media/Lab3-Ex6-step20.png)
+    
+#### Task 2: Modify your canvas app
+When you create an app from an image, you are somewhat limited as to the types of fields that you can select. For this reason, some items such as lookup fields will not display properly since the data type was defined as text. For this reason, we will make some modifications to the application to fix this.
 
-    When you create an app from an image, you are somewhat limited as to the types
-    of fields that you can select. For this reason, some items such as lookup fields
-    will not display properly since the data type was defined as text. For this
-    reason, we will make some modifications to the application to fix this.
-
-    Both the Department and Building field are lookup fields. We are going to remove
-    the generated ones and replace them with the actual fields from Dataverse.
+Both the Department and Building field are lookup fields. We are going to remove the generated ones and replace them with the actual fields from Dataverse.
 
 21.  On the left side of your app screen, select the **Form1** control.
 
