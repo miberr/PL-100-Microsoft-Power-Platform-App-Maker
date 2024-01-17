@@ -209,29 +209,33 @@ In this exercise, add a gallery that will show reports created by the current lo
 
 #### Task 1: Add gallery
 
-1.  Select the **Main Screen**, select **Insert** menu, then select **Vertical gallery**.
+1.  In the tree view, select the **Main Screen**
 
-2.  Rename the new gallery to `My Reports Gallery`
+2.  Select **Insert** menu, then select **Vertical gallery**.
 
-3.  Resize and reposition **My Reports Gallery**, setting the **Position, Y** value to `75` and the **Height** value to `1000` 
+3.  Select the tree view and rename the new gallery to `My Reports Gallery`
 
-    It should look like this example:
+4.  Resize and reposition **My Reports Gallery**, setting the **Y** value to `75` and the **Height** value to `1000` 
+
+    Your Main Screen should resemble this example:
 
     ![A screenshot of the my reports gallery selected](03/media/lab3-Exx2-task1-2.png)
 
-4.  Select **My Reports Gallery**, go to the **Properties** pane, and select **Problem Reports** for **Data Source**. If you do not see Problem Reports, select **See all tables** or **Search** for the table.
+5.  Select **My Reports Gallery**, go to the **Properties** pane, and select **Problem Reports** for **Data Source**. If you do not see Problem Reports, select **See all tables** or **Search** for the table.
 
-5.  Select the **My Reports** view you created for **View**.
+6.  Select the **My Reports** view you created for **View**.
 
-6.  Under **Fields**, select **Edit**.
+7.  Under **Fields**, select **Edit** (you may also have "7 selected" displayed; click "7 selected" to edit the fields).
 
-7.  Change Subtitle1 to **statuscode**. This is the **Status Reason** column.
+8.  Change Subtitle1 to **statuscode**. This is the **Status Reason** column.
 
-8.  Select **Image** control within the gallery. Set **Image** value to the formula below. This allows images to be displayed correctly when view is used as a source.
+9.  Select **Image** control within the gallery by expanding **My Reports Gallery** in the tree view and selecting **Image1**.
+
+10.  Set **Image** value to the formula below. This allows images to be displayed correctly when view is used as a source.
 
     `LookUp('Problem Reports', 'Problem Report' = ThisItem.'Problem Report').Photo`
 
-9.  Select the **Save** icon.
+11.  Select the **Save** icon.
 
     Do not navigate away from this page.
 
