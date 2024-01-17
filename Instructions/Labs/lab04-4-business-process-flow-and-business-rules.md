@@ -159,9 +159,7 @@ In this exercise, you will create a business rule that will block the completion
 
 10.  Scroll down the **Rules** section, select **Status Reason** for **Field**, select **Equals** for **Operator**, select **Value** for **Type**, select **Completed** for **Value**, and select **Apply**.
 
-    ![A screenshot of the rules panel](02-5/media/Lab2-5-Ex2-Task1-6.png)
-
-11. Select **+ New**.
+11. Next to **Rules** in the Properties pane, select **+ New**.
 
 12. Scroll down to **Rule 2**, select **Resolution** for **Field**, select **Does not contain data** for **Operator**, make sure **AND** is selected for **Rule Logic**, and select **Apply**.
 
@@ -171,9 +169,9 @@ In this exercise, you will create a business rule that will block the completion
 
 14. Select **Add Show Error Message**.
 
-15. Add the action on the **true** path of the condition, indicated by the tick.
+15. Add the action on the **true** path of the condition, indicated by the checkmark.
 
-16. Select the new action, go to the **Properties** pane, enter **Show message** for **Display Name**, select **Status Reason** for **Field**, enter `The Problem must have a resolution before it can be closed.` for **Error Message**, and select **Apply**.
+16. Select the new action, go to the **Properties** pane, enter **Show message** for **Display Name**, select **Status Reason** for **Field**, enter `The Problem must have a resolution before it can be closed.` for the **Error Message**, and select **Apply**.
 
 17. The business rule should now look like the image below. Select **Save**.
 
@@ -219,11 +217,11 @@ In this exercise, you will create a business rule that will block the completion
 
 37.	Select the new action, go to the Properties pane, enter Make Not Required for Display Name, select Resolved On for Field, Select Business Required, and select Apply.
 
-38.	The business rule should now look like the image below. Select **Save**.
+38.	The business rule should now match the image below. Select **Save the rule**.
 
     ![A Screenshot with an arrow pointing to the save button](02-5/media/Lab2-5-Ex2-Task1-19.png) 
 
-39.  Select **Activate**.
+39.  Select **Activate the rule**.
 
 40.  To confirm, select **Activate** on the pop-up.
 
@@ -248,7 +246,7 @@ In this exercise, you will test the business process flow and the business rules
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.
 
-2.  Select **Apps** and run the **Company 311 Admin** application.
+2.  Select **Apps** and play the **Company 311 Admin** application.
 
     ![A Screenshot with an arrow pointing to the company 311 admin option in apps](02-5/media/Lab2-5-Ex3-Task1-1.png)
 
@@ -256,7 +254,7 @@ In this exercise, you will test the business process flow and the business rules
 
 4.  You should see the business process flow stages. Enter `Dark parking lot` for **Title**, select **London Paddington** for **Building**, enter `There are no lights at the north end of the parking lot` for **Details**, and select **Save**.
 
-5.  Select the **Route** stage.
+5.  Your business process flow should appear (you may need to refresh). Select the **Route** stage.
 
 6.  Enter `North-end` for **Location**, select **Maintenance** for **Department** and select the **Next Stage** button.
 
