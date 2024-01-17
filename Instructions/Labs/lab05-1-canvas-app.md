@@ -80,8 +80,6 @@ In this task, you will import the shared components solution into your environme
 
 15. Change app name to `Lamna Healthcare Shared Components A` and select **Save**.
 
-    ![A screenshot with a border around the app name saved as Lamna Healthcare Shared Components A](03/media/lab3-Exx1-task1-4.png)
-
 16. Select **OK** when prompted to save as a new library.
 
 17. Close the **Lamna Healthcare Shared Components** tab in your browser.
