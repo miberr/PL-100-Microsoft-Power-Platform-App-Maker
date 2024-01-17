@@ -161,8 +161,6 @@ In this exercise, you will create a business rule that will block completion of 
 
 11. Select **+ New**.
 
-    ![A Screenshot with an arrow pointing to the new business rule name](02-5/media/Lab2-5-Ex2-Task1-3.png)
-
 12. Scroll down to **Rule 2**, select **Resolution** for **Field**, select **Does not contain data** for **Operator**, make sure **AND** is selected for **Rule Logic**, and select **Apply**.
 
     ![A screenshot of the rules panel if you scroll further down with the relevant text in each field](02-5/media/Lab2-5-Ex2-Task1-6.png)
