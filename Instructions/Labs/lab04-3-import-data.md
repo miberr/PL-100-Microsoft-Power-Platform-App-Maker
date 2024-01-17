@@ -132,7 +132,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
     ![A Screenshot with an arrow pointing to the arrow icon to go back](02-4/media/Lab2-4-Ex2-Task2-2.png)
 
-12. Open the **Import Data** flow **Details** and select **Run**.
+12. Open the **Import Data** flow details page again and select **Run**.
 
     > **TIP**
     >
@@ -146,18 +146,14 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
     ![A Screenshot with an arrow pointing to the refresh button in the top right corner and a border around the status showing it has succeeded](02-4/media/Lab2-4-Ex2-Task2-3.png)
 
-17. Close the flow editor browser window or tab.
-
-18. Select **Done** on the popup, if prompted.
-
 
 #### Task 3: Review imported data
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
-2.  Select **Apps** and open the **Company 311 Admin** model-driven application.
+2.  Select **Apps** and play the **Company 311 Admin** model-driven application.
 
-3.  Select **Problem Reports**. You should see new rows of data.
+3.  The app should open with the Active Problem Reports view. You should see new rows of data.
 
     ![A screenshot with a border around problem new reports rows.](02-4/media/Lab2-4-Ex2-Task3-1.png) 
 
