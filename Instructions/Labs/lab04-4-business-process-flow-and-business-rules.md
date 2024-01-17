@@ -171,7 +171,7 @@ In this exercise, you will create a business rule that will block completion of 
 
 15. Add the action on the **true** path of the condition, indicated by the tick.
 
-16. Select the new action, go to the **Properties** pane, enter **Show message** for **Display Name**, select **Status Reason** for **Field**, enter `The Problem must have a resolution before it can be closed.` for **Message**, and select **Apply**.
+16. Select the new action, go to the **Properties** pane, enter **Show message** for **Display Name**, select **Status Reason** for **Field**, enter `The Problem must have a resolution before it can be closed.` for **Error Message**, and select **Apply**.
 
 17. The business rule should now look like the image below. Select **Save**.
 
