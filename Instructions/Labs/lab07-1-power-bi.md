@@ -66,53 +66,6 @@ Before you Begin, download the [problem-reports-data.pbix](05/Resources/problem-
 
 9.  Once data load is complete, select **problem-reports-data** report.
 
-#### Task 2: Prepare Data
-
-1.  Open Power BI if it is not already open.
-
-2.  Select **Get data** > **Dataverse**.
-
-3.  Select **Sign in**.
-
-    ![A screenshot of the dataverse selected in the power platform window](05/media/Lab5-Ex1-Task1-1.png)
-
-4.  The connection details dialog will open up. If you are not signed in, select **Sign in** and follow the prompts to sign in. Select **Connect**. 
-
-5.  Expand environment node. Using `lh_` to filter, select the **lh_building**, **lh_department**, **lh_problemreport** tables and select **Load**. Wait until the load is complete.
-
-    ![A Screenshot with an arrow pointing to the load button](05/media/Lab5-Ex1-Task1-2.png) 
-
-6.  On the **Connection settings** window, choose **DirectQuery** and select **OK**.
-
-7.  Select the **Model** icon on the left vertical toolbar.
-
-8.  Power BI should detect the relationships between the tables. The relationship should look like the image below.
-
-    ![A screenshot of the relationship between the table. There should be three main panels, Ih_building, Ih_problemreport, and Ih_department](05/media/Lab5-Ex1-Task1-4.png)
-
-9. Select the **Report** icon on the left side of the canvas.
-
-10. Expand the **lh_problemreport** node in the **Data** panel. 
-
-11. Select the **...** More options button of the **lh_ProblemReport** table. 
-
-12. Select **New column**. 
-
-13. Complete the formula as below and press ENTER or select the checkmark button. That will add a new column with the building name into the problem report data.
-
-    ```Building = RELATED(lh_Building[lh_name])```
-
-14. Repeat the three previous steps on **lh_problemreport** node to add a column **Department** with the below formula.
-
-    ```Department = RELATED(lh_Department[lh_name])```
-
-15. Select the **...** menu next to the **lh_problemreportid** column of the **lh_problemreport** table and select **Rename**. Enter `Problem Report` as the column name.
-
-16. Select the **...** menu next to the **statuscodename** column and select **Rename**. Enter `Status` as the column name.
-
-17. Save work in progress by selecting **File** > **Save** and enter `Problem management` as a filename.
-
-
 ### Exercise 2: Create Power BI Report 
 
 In this exercise, you will create a Power BI report based on data from Microsoft Dataverse tables.
