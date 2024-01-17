@@ -40,28 +40,31 @@ We will follow the below steps to design and create the Power BI dashboard:
 
 ## Detailed steps
 
-### Exercise 1: Prepare environment & data  
+### Exercise 1: Create a workspace
 
-In this exercise, you will install and configure Power BI Desktop and configure a connection to Microsoft Dataverse. 
+In this exercise, you will create a Power BI report based on data from Microsoft Dataverse tables.
 
-> **IMPORTANT**
->
-> If you do not have required permissions to install desktop applications or experience difficulties in configuring Power BI Desktop and connecting it to the data, follow **Addendum: Import sample data** and then continue on **Exercise 2** but using Power BI service instead of Power BI Desktop.
+#### Task 1: Create a new workspace
 
-#### Task 1: Configure Power BI Desktop
+Before you Begin, download the [problem-reports-data.pbix](https://github.com/MicrosoftLearning/PL-100-Microsoft-Power-Platform-App-Maker/blob/master/Instructions/Labs/05%5CResources%5Cproblem-reports-data.pbix) file and save it to your computer.
 
-1.  Open Power BI and select **Get started**.
+1.  Navigate to [Power BI](https://app.powerbi.com)
 
-2.  Subscribe to the email list or select **Maybe later** and select **Close**.
+2.  On the left side of your screen, select Workspaces.
 
-    **Note:** If you were signed into Power BI Desktop previously, select **File** > **Sign out**. 
+3.  Choose **New Workspace**.
 
-4.  Enter your email address and select **Continue**. Sign in with your provided credentials if prompted or select **File** > **Sign in** to sign in.
+4.  Name the Workspace `311 Workspace`.
 
-5.  Select **Work or school account** and select **Continue**.
+5.  Select Apply.
 
-6.  Sign in using your M365 credentials and select **No, sign into this app only**. 
+6.  Select **Upload**.
 
+7.  From the menu that appears, select **Browse**.     
+
+8.  Locate and select **problem-report-data.pbix** file that you've downloaded earlier.
+
+9.  Once data load is complete, select **problem-reports-data** report.
 
 #### Task 2: Prepare Data
 
