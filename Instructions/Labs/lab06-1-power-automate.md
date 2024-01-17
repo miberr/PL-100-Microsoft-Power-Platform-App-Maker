@@ -179,39 +179,8 @@ In this task, you will test the Notify Problem Creator flow.
 
 ### Exercise 2: Build escalation flow
 
-In this exercise, you will create and add two new columns to the Problem Report table and create an escalation flow.
+In this exercise, you will create an escalation flow.
 
-#### Task 1: Add a new Column and update the Form
-
-In this task, you add a new Column to the Problem Report table and update the Main Form.
-
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
-
-2.  Select **Solutions** and open the **Company 311** solution.
-
-3.  Locate and open the **Problem Report** table in the **Objects** pane.
-
-4.  Select **+ New > Column**.
-
-5.  Enter `Estimated Cost` for **Display name**, select **Currency** for **Data type** and select **Save**.
-
-6.  Select **Forms** from the **Objects** pane.
-
-7.  Open the **Information** form of type **Main**.
-
-8.  Add the **Estimated Cost** column to the form and place it below the **Status Reason** column.
-
-9.  Add the **Assign to** column and place it below the **Estimated Cost** column.
-
-10. The **Resolution details** section of the form should now look like the image below. Select **Save and publish**.
-
-    ![A screenshot with a border around estimated cost and assign to columns placed on the form and an arrow pointing to the save button](04/media/image12.png)
-
-11. Select the **← Back** button located on the top left of the screen.
-
-12. Select **All**, select **Publish all customizations**, and wait for the publishing to complete.
-
-*******************************************************
 #### Task 2: Build escalation flow
 
 In this task, you will create the escalation flow.
@@ -498,14 +467,3 @@ In this task, you will test the escalation flow with the Teams and adaptive card
 11. Change the view to **My Reports** and open the same row you changed the estimated cost for.
 
 12. The **Status Reason** should be set to **Won’t fix** and the **Resolution** should contain the details of Approver, Response, Request Date and Response Date.
-
-## **Discussion**
-
-  - Would creating a boolean field for Approved/Rejected be better?
-  - What are the pros and cons of using Microsoft Teams over regular email?
-
-## **Bonus exercises**
-
-  - Add ability for the users to subscribe to the reported problems and only notify if there is a subscription. 
-  - Auto-subscribe creator of the problem report.
-  - How could you find out previous value of status reason?
