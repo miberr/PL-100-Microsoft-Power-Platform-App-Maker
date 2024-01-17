@@ -74,62 +74,64 @@ In this task, you will create a business process flow for the Problem Report tab
 
 10. Select the new data step, go to the **Properties** pane, select **Location** for **Data Field**, and select **Apply**.
 
-11. Select **+ Add** again and select **Add Data Step**.
+11. Select **+ Add** again and select **Add Data Step**. 
 
-12. Select the new data step, go to the **Properties** pane, select **Department** for **Data Field**, and select **Apply**.
+12. Select the **+** option to add the data step below the **Location** data step.
 
-13. The **Route** stage should now look like the image below.
+13. Select the new data step, go to the **Properties** pane, select **Department** for **Data Field**, and select **Apply**.
+
+14. The **Route** stage should now match the image below.
 
     ![A screenshot of the completed route stage with three data steps: building, location, and department](02-5/media/Lab2-5-Ex1-Task1-8.png)
 
-14. Select **+ Add** and select **Add Stage**.
+15. Select **+ Add** and select **Add Stage**.
 
-15. Add the new stage after the **Route** stage.
+16. Add the new stage after the **Route** stage.
 
-16. Select the stage, go to the **Properties** pane, enter `Fix` for **Display Name**, and select **Apply**.
+17. Select the stage, go to the **Properties** pane, enter `Fix` for **Display Name**, and select **Apply**.
 
-17. Expand **Details** of the **Fix** stage.
+18. Expand **Details** of the **Fix** stage.
 
-18. Select **Data Step \#1** of the **Fix** stage.
+19. Select **Data Step \#1** of the **Fix** stage.
 
-19. Go to the **Properties** pane, select **Assign to** for **Data Field** and select **Apply**.
+20. Go to the **Properties** pane, select **Assign to** for **Data Field** and select **Apply**.
 
-20. Select **+ Add** and select **Add Stage**.
+21. Select **+ Add** and select **Add Stage**.
 
-21. Add the new stage after the **Fix** stage.
+22. Add the new stage after the **Fix** stage.
 
-22. Select the new stage, go to the **Properties** pane, enter `Resolve` for **Display Name** and select **Apply**.
+23. Select the new stage, go to the **Properties** pane, enter `Resolve` for **Display Name** and select **Apply**.
 
-23. Expand **Details** of the **Resolve** stage.
+24. Expand **Details** of the **Resolve** stage.
 
-24. Select **Data Step \#1** of the **Resolve** stage.
+25. Select **Data Step \#1** of the **Resolve** stage.
 
-25. Go to the **Properties** pane, select **Resolution** for **Data Field** and select **Apply**.
+26. Go to the **Properties** pane, select **Resolution** for **Data Field** and select **Apply**.
 
-26. Select **+ Add** and select **Add Data Step**.
+27. Select **+ Add** and select **Add Data Step**.
 
-27. Add the new data step below the **Resolution** data step.
+28. Add the new data step below the **Resolution** data step.
 
-28. Select the new data step, go to the **Properties** pane, select **Resolved On** for **Data Field** and select **Apply**.
+29. Select the new data step, go to the **Properties** pane, select **Resolved On** for **Data Field** and select **Apply**.
 
-29. The Business process flow should now look like the image below. Select **Save**.
+30. The Business process flow should resemble the image below. Select **Save**.
 
     ![A screenshot of a Business Process Designer with an arrow pointing to the save button](02-5/media/Lab2-5-Ex1-Task1-9.png)
 
-30. Select **Activate**.
+31. Select the icon at the top to **Activate Business Process Flow**.
 
-31. To confirm, select **Activate** on the pop-up.
+32. To confirm, select **Activate** on the pop-up.
 
-32. Confirm that 'Status: **Active**' shows at the bottom left of the Business Process Flow canvas.
+33. Confirm that 'Status: **Active**' shows at the bottom left of the Business Process Flow canvas.
 
-33. Close the process editor browser tab.
+34. Close the process editor browser tab.
 
-34. Select **Done**.
+35. Select **Done**.
 
 
 ### Exercise 2: Create business rule
 
-In this exercise, you will create a business rule that will block completion of problems without resolution.
+In this exercise, you will create a business rule that will block the completion of problems without resolution.
 
 #### Task 1: Create business rule
 
@@ -143,7 +145,7 @@ In this exercise, you will create a business rule that will block completion of 
 
 5.  Make sure the **Scope** is set to **Entity** in the selector in the right corner of the screen. 
 
-6.  Select the **Show details** chevron located next to New business rule title on the same row as the scope.
+6.  Select the **Show details** chevron located next to **Problem Report: New business rule** title at the top.
 
     ![A Screenshot with an arrow pointing to the drop down icon next to the text problem report: new business rule and a border around the scope set to entity on the right hand side of the page](02-5/media/Lab2-5-Ex2-Task1-2.png)
 
@@ -151,7 +153,7 @@ In this exercise, you will create a business rule that will block completion of 
 
     ![A screenshot of a business rules property pane with an arrow pointing to the shevron that collapses the entire property pane](02-5/media/Lab2-5-Ex2-Task1-3.png)
  
-8.  Select the **Condition**.
+8.  Select the **New Condition** in the Business Rule editor canvas.
 
 9.  Go to the **Properties** pane and change the **Display Name** to `Resolution required`
 
