@@ -248,30 +248,29 @@ In this exercise, allow unassigned reports to be removed. This will allow users 
 
 1.  Expand the **My Reports Gallery**.
 
-2.  Select the **Icon** inside the **My Reports Gallery**.
+2.  Select the **NextArrow1** icon inside the **My Reports Gallery**.
 
     ![A screenshot of the arrow icon inside the my reports gallery](03/media/lab3-Exx3-task1-1.png)
 
 3.  In the **Tree view**, double-click **NextArrow1** and rename it to `Remove Report`
 
-4.  Change the **Icon** value to **Icon.Trash**.
+4.  While still selected on the Remove Report icon, change the **Icon** value to **Icon.Trash**.
 
 5.  Change the **Visible** value to the formula below. This formula will hide the icon if the status reason is not New.
 
     `If(ThisItem.'Status Reason' = 'Status Reason (Problem Reports)'.New, true, false)`
 
-    ![A screenshot of the expression tab with the relevant command pasted in](03/media/lab3-Exx3-task1-3.png)
-
-6.  Make sure you still have the **Remove Report** icon selected. Change the **OnSelect** value to the formula below. This formula will remove item from the data source.
+6.  Make sure you still have the **Remove Report** icon selected. Change the **OnSelect** value to the formula below. This formula will remove the Problem Report row when a user selects the Remove Report (trash) icon.
 
     `Remove('Problem Reports', ThisItem)` 
 
 7.  Change the **Tooltip** value to `"Remove this report"` 
 
-8.  Set all the **Padding** values to `0`, this allows the icon to better fill the space in the gallery row. 
+8.  On the properties pane, set all the **Padding** values to `0`. This allows the icon to better fill the space in the gallery row. 
 
 9.  Select **Save**. 
 
+    Do not navigate away from this page.
 
 ### Exercise 4: Add new report
 
