@@ -377,6 +377,7 @@ In this exercise, test the canvas application by submitting a problem report.
 
 
 ### Exercise 6: Explore Other ways to build Canvas applications. 
+In this exercise, create a canvas app from an image mockup.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page
     and make sure you are in the correct environment.
