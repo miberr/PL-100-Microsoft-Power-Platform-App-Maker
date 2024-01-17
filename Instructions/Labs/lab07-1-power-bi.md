@@ -112,34 +112,8 @@ In this exercise, you will create a Power BI report based on data from Microsoft
 
 ### Exercise 3: Create Power BI Dashboard
 
-#### Task 1: Publish Power BI Report
 
-1.  Navigate to [Power BI Service](https://app.powerbi.com)
-
-2.  Select **Workspaces** and select **Create a workspace**.
-
-3.  Enter **311 Workspace** for Workspace name and select **Save**.
-
-4.  Go back to the Power BI desktop application, select the **Home** tab, and select **Publish**.
-
-5.  Select **311 Workspace** as the destination.
-
-6.  **Wait** until publishing is complete and open the **<name of your report\>.pbix** file in Power BI.
-
-    This will open the published report in the browser.
-
-> **NOTE**
->
-> If you are getting an error on PowerBI Service with message "the data source is missing credentials and cannot be accessed", follow the below steps:
->
-> 1. Select **311 Workspace** and select the **Problem Management** dataset.
-> 2. Expand Refresh dropdown and select **Schedule refresh**.
-> 3. Expand **Data Source credentials** section and select **Edit Credentials**.
-> 4. Select **OAuth2** for **Authentication** Method and **Organizational** for **Privacy level setting**.
-> 5. Select **Sign in**. This will resolve the issue for report and it should display properly on Power BI.
-
-
-#### Task 2: Create Power BI Dashboard
+#### Task 1: Create Power BI Dashboard
 
 1.  Click on **311 Workspace**. If it is not in your menu, select **Workspaces** and then **311 Workspace**
 
@@ -156,7 +130,7 @@ In this exercise, you will create a Power BI report based on data from Microsoft
 7.  Test interactivity of the pie and bar charts that are displayed.
 
 
-#### Task 3: Add Visualizations Using Natural Language
+#### Task 2: Add Visualizations Using Natural Language
 
 1.  Select **Ask a question about your data** on top of the dashboard.
 
@@ -167,7 +141,7 @@ In this exercise, you will create a Power BI report based on data from Microsoft
 4.  Select **Existing dashboard**, select **Problem Management dashboard**, select **Pin**.
 
 
-#### Task 4: Build Mobile Phone View
+#### Task 3: Build Mobile Phone View
 
 1.  Select the **Problem Management dashboard** from **Dashboards** area.
 
