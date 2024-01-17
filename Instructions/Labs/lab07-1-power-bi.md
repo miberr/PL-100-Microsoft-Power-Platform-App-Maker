@@ -46,7 +46,7 @@ In this exercise, you will create a Power BI report based on data from Microsoft
 
 #### Task 1: Create a new workspace
 
-Before you Begin, download the [problem-reports-data.pbix](https://github.com/MicrosoftLearning/PL-100-Microsoft-Power-Platform-App-Maker/blob/master/Instructions/Labs/05%5CResources%5Cproblem-reports-data.pbix) file and save it to your computer.
+Before you Begin, download the [problem-reports-data.pbix](05/Resources/problem-reports-data.pbix) file and save it to your computer.
 
 1.  Navigate to [Power BI](https://app.powerbi.com)
 
