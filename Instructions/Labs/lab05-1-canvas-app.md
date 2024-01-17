@@ -436,8 +436,7 @@ In this exercise, create a canvas app from an image mockup.
 
 ![A screenshot of a computer Description automatically generated](03/media/Lab3-Ex6-step17.png)
 
-18.  On the **Review** screen, verify that your problem report resembles, the
-    image below:
+18.  On the **Review** screen, verify that your Problem Report columns are mapped correctly.
 
 19.  Select **Create.**
     
