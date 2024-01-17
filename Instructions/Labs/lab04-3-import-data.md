@@ -6,17 +6,17 @@ lab:
 
 # Lab 04.3: Import data
 
-In this lab you will be implementing the data model for the solution and
-building a model-driven app that will be used for tracking problems and managing
-the overall effort.
+In this lab you will be inputting data into your Dataverse tables, refining some views, and importing data using a Power Automate flow.
 
 ## What you will learn
 
 -   Import data and refine views
+-   Import solutions
 
 ## High-level lab steps
 
--   Input data and refine some views, import some problem reports
+-   Input data and refine views
+-   Import Problem Report rows using a Power Automate flow
 
 ## Detailed steps
 
