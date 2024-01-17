@@ -126,21 +126,21 @@ In this task, create a canvas app using the phone form factor.
 
 5.  Select **Skip**.
 
-6.  In the **Tree view**, select the three dots menu for **Screen1** and select **Rename**.
+6.  In the **Tree view**, select the three dots (**...**) beside **Screen1** and select **Rename**.
 
-7.  Rename the screen to `Main Screen`
+7.  Rename the screen to `Main Screen` and press Enter on your keyboard.
 
     It’s always a good idea to give screens a meaningful name.
 
-8.  Select the **Main Screen** and then select **+ Insert** from the left navigation pane.
+8.  Select the **Main Screen** and then select **+** icon from the left navigation pane.
 
-9.  Select **Get more components**.
+9.  Select **Get more components** at the bottom of the Insert pane.
 
-10. Expand the **Lamna Healthcare Shared Components A** Library, select **Header** and **Tab Control**, and then select **Import**.
+10. In the **Lamna Healthcare Shared Components A** Library, select **Header** and **TabControl**, and then select **Import**.
 
     ![A screenshot of the import components window with Ta control and header selected](03/media/lab3-Exx1-task3-5.png)
 
-11. Expand **Library components**, select **Header** and **Tab Control**. These are both components from the library you imported earlier in the lab.
+11. Expand **Library components** in the Insert pane, select **Header** and **Tab Control**. These are both components from the library you imported earlier in the lab.
 
     ![A screenshot with a border around the library components Header and Tab control](03/media/lab3-Exx1-task3-6.png)
 
@@ -184,11 +184,11 @@ In this task, create a canvas app using the phone form factor.
 
     ![A screenshot of the items value set to my tabs for Tab control](03/media/lab3-Exx1-task3-11.png)
 
-19. Change the **SelectedColor** value to `Color.WhiteSmoke`
+19. With the Main Screen Tab Control component still selected, change the **SelectedColor** value to `Color.WhiteSmoke`
 
-20. Select the **Tab Control** inside the **New Report Screen** and set the Item value to `'My Tabs'`
+20. Select the **Tab Control** inside the **New Report Screen** and set the **Items** value to `'My Tabs'`
 
-21. Change the **SelectedColor** value to `Color.WhiteSmoke`
+21. With the New Report Screen Tab Control still selected, change the **SelectedColor** value to `Color.WhiteSmoke`
 
 22. In the **Tree view**, right-click on **App** and select **Run OnStart**.
 
