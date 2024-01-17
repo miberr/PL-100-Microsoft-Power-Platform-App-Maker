@@ -420,7 +420,7 @@ In this exercise, create a canvas app from an image mockup.
 
 15.  Assign the item to the **Title** column, select **Save**.
 
-16.  Using the table below, repeat the above process for each item on the form.
+16.  Using the table below, repeat the above process for each item on the form to update the column that they represent.
 
 | Field       | Dataverse Column |
 |-------------|------------------|
@@ -431,7 +431,7 @@ In this exercise, create a canvas app from an image mockup.
 | Resolved On | Resolved On      |
 | Resolution  | Resolution       |
 
-17.  Once complete your tagged columns should resemble the image below, select
+17.  Once complete, your tagged columns should resemble the image below, select
     the **Next** button.
 
 ![A screenshot of a computer Description automatically generated](03/media/Lab3-Ex6-step17.png)
