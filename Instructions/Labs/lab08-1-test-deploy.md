@@ -172,13 +172,13 @@ In this exercise, you will create security roles for users.
 9.  Set all privileges of the **Building**, **Department**, and **Problem
     Reports** tables to **Organization**.
 
-    ![A screenshot of building, department, and problem report having all privileges selected in the custom entities tab](06\media\Lab6-Ex2-Task1-2.png)
+    ![A screenshot of building, department, and problem report having all privileges selected in the custom entities tab](06/media/Lab6-Ex2-Task1-2.png)
 
 10. Select the **Customization** tab.
 
 11. Set all privileges for **Model-driven app**.
 
-    ![A screenshot of the security role edit dialog with all privileges selected for Model Driven app table](06\media\Lab6-Ex2-Task1-3.png)
+    ![A screenshot of the security role edit dialog with all privileges selected for Model Driven app table](06/media/Lab6-Ex2-Task1-3.png)
 
 12. Select **Save and Close**.
 
