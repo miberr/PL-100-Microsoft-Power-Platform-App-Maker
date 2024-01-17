@@ -410,9 +410,8 @@ In this exercise, create a canvas app from an image mockup.
 12.  On the **Set up your Data** screen, ensure that **Connect to a Dataverse
     table is selected**, then select **Next.**
 
-13.  On the **Select table** screen, choose **Problem Report**, then select
-    **Next**. Next, we will tag the specific fields to the correct column in Dataverse.
-    
+13.  On the **Select table** screen, choose **Problem Report**, then select **Next**. Next, we will tag the specific fields to the correct column in Dataverse.
+
 > **NOTE**
 >
 > When defining how the columns will be set up, you need to make sure that the selector includes both the **Label** and **Input** Field. Your app may not render correctly if not.
@@ -455,58 +454,56 @@ When you create an app from an image, you are somewhat limited as to the types o
 
 Both the Department and Building field are lookup fields. We are going to remove the generated ones and replace them with the actual fields from Dataverse.
 
-21.  On the left side of your app screen, select the **Form1** control.
+1.  On the left side of your app screen, select the **Form1** control.
 
-22.  In the **Properties** section on the right of the screen, select **Edit
+2.  In the **Properties** section on the right of the screen, select **Edit
     Fields.**
 
-23.  Hover the **Building_DataCardXXX (Custom)** field and **Remove** it.
+3.  Hover the **Building_DataCardXXX (Custom)** field and **Remove** it.
 
-24.  Hover the **Department_DataCardXXX (Custom)** field and **Remove** it as
+4.  Hover the **Department_DataCardXXX (Custom)** field and **Remove** it as
     well.
 
     Next, we are going to add the actual Lookup field from Dataverse to the app.
 
-25.  Select **Add Fields.**
+5.  Select **Add Fields.**
 
-26.  From the menu that appears, select the **Building** and **Department**
-    fields.
-
-    Next, we are going to make some formatting changes to ensure that all the
+6.  From the menu that appears, select the **Building** and **Department**
+    fields. Next, we are going to make some formatting changes to ensure that all the
     Data Cards on the form look the same.
 
-27.  Using the **Sizing controls** on **Form1**, make the form bigger so that the
+7.  Using the **Sizing controls** on **Form1**, make the form bigger so that the
     **Department** field displays.
 
-28.  In the **Fields** menu to the left of the actual Canvas App screen, move the
+8.  In the **Fields** menu to the left of the actual Canvas App screen, move the
     **Building** field below the **Name** field.
 
-29.  Move the **Department** field below the **Building** field.
+9.  Move the **Department** field below the **Building** field.
 
-30. On **Form1**, Select the **Label** control on the **Details** Data Card.
+10. On **Form1**, Select the **Label** control on the **Details** Data Card.
 
-31. Change the **Font** to **21** and the **Font Weight** to **Semibold**.
+11. Change the **Font** to **21** and the **Font Weight** to **Semibold**.
 
-32. Repeat that process for the **Status**, **Resolved On** and **Resolution**
+12. Repeat that process for the **Status**, **Resolved On** and **Resolution**
     Data Cards.
 
-33. On **Form1** in Tree View, select the **Name_DataCardXXX (Custom)** control
+13. On **Form1** in Tree View, select the **Name_DataCardXXX (Custom)** control
 
-34. Using the **Sizing** controls, change the **Height** of the control to about
+14. Using the **Sizing** controls, change the **Height** of the control to about
     142.
 
-35. Move the **Name** Data Card’s, **Textinput** control to the bottom of the
+15. Move the **Name** Data Card’s, **Textinput** control to the bottom of the
     control, and expand the controls width so that it is the same width of the
     other controls on the form.
 
-36. Move the controls **TextLabel** to align with the other labels on the form.
+16. Move the controls **TextLabel** to align with the other labels on the form.
 
-37. Change the **Name Label Font** to **21** and the **Font Weight** to
+17. Change the **Name Label Font** to **21** and the **Font Weight** to
     **Semibold**.
 
-38. If necessary, resize the **Form** control to ensure that the **Resolution**
+18. If necessary, resize the **Form** control to ensure that the **Resolution**
     field is completely displayed.
 
-39. Your completed App should resemble the Image below.
+19. Your completed App should resemble the Image below.
 
     ![A screenshot of a computer Description automatically generated](03/media/Lab3-Ex6-step39.png)
