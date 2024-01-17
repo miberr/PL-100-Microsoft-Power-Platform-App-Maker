@@ -97,15 +97,17 @@ In this task, create a view that will show the current user’s problem reports.
 
 5.  Select **Edit filters**.
 
-6.  Change the filter to **Created By, Equals current user** and select **Ok**.
+6.  You want to show the Problem Reports that were created by you. Change Status Reason to **Created By** and Equals to **Equals current user**.
 
-7.  Select **Save As**.
+7.  Select **Ok**.
 
-8.  Enter `My Reports` for **Name** and select **Save**.
+8.  Select **Save As**.
 
-9.  Select **Save and publish** and wait for the publishing to complete.
+9.  Enter `My Reports` for **Name** and select **Save**.
 
-10. Select the **🡠 Back** button on the command bar to go back to the Problem Report table details.
+10.  Select **Save and publish** and wait for the publishing to complete.
+
+11. Select the **🡠 Back** button on the command bar to go back to the Problem Report table details.
 
 
 #### Task 3: Create the user application
