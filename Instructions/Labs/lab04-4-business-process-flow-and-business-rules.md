@@ -35,11 +35,11 @@ Must have completed the following labs:
 
 -   02.1: Data model
 
--   02.2: Work with forms and views
+-   04.1: Work with forms and views
 
--   02.3: Compose a model-driven app
+-   04.2: Compose a model-driven app
 
--   02.4: Import data
+-   04.3: Import data
 
 
 ## Detailed steps
