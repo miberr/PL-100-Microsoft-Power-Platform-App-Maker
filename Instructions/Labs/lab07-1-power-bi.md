@@ -247,7 +247,7 @@ In this task you will setup a Microsoft Teams team for the Lamna Healthcare Comp
 
 2.  Select **Use the web app instead** on the welcome screen.
 
-    ![A screenshot of the Microsoft Teams landing page and a border around the use the web app instead button](05/media/image-6-teams.png)
+    ![A screenshot of the Microsoft Teams landing page and a border around the use the web app instead button](05/media/Lab5-Ex4-Task1-1.png)
 
 3.  When the Microsoft Teams window opens, dismiss the welcome messages.
 
