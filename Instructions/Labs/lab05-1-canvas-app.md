@@ -420,7 +420,7 @@ In this exercise, create a canvas app from an image mockup.
     >
     > When defining how the columns will be set up, you need to make sure that the selector includes both the **Label** and **Input** Field. Your app may not render correctly if not.
 
-14.  Select the Tag around the Name label and the field below.
+14.  Select the Tag around the **Name** label and the input field.
 
 15.  Assign the item to the **Title** column, select **Save**.
 
