@@ -209,49 +209,37 @@ In this task you will setup a Microsoft Teams team for the Lamna Healthcare Comp
 
 #### Task 3: Embed Power BI report to Model-driven app
 
-1.  Navigate to [Power BI](https://app.powerbi.com/home).
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in your practice environment.
 
-2.  Select **Data hub**.
+2.  Select **Solutions** and open the **Company 311** solution.
 
-3.  Hover over the dataset you created, select the **...** More options button, and select **Settings**.
+3.  Select **+ New** and select **Dashboard | Power BI embedded**.
 
-4.  Select **Edit credentials**, located in the **Data source credentials** section.
+4. Enter `Problem management` for **Display name**, select **Power BI report** for type, uncheck **Show reports in this environment only** and select **311 Workspace** for **Power BI workspace**, select **Problem management** for **Power BI report** and select **Save**.
 
-5.  Select **OAuth2** for Authentication method, select **Organizational** for Privacy level setting, and select **Sign in**.
+5.  Select **Publish all customizations** and wait for the publishing to complete.
 
-6.  Provide your credentials.
+6.  While still in the Company 311 solution, open the **Company 311 Admin** Model-driven application.
 
-7.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in your practice environment.
+7. In app designer, make sure you have **Manage Problems** area selected. If not, click on the arrows and select **Manage Problems**.
 
-8.  Select **Solutions** and open the **Company 311** solution.
+8. Select the ellipses next to **Navigation** title and select **New group**.
 
-9.  Select **+ New** and select **Dashboard | Power BI embedded**.
+9. Go to the **Properties** pane and enter **Reports** for **Title**.
 
-10. Enter `Problem management` for **Display name**, select **Power BI report** for type, uncheck **Show reports in this environment only** and select **311 Workspace** for **Power BI workspace**, select **Problem management** for **Power BI report** and select **Save**.
+10. Select the **Reports** group you just created, select **+ New**.
 
-11.  Select **Publish all customizations** and wait for the publishing to complete.
+11. Select **Dashboard** for Type and click **Next**. 
 
-12.  While still in the Company 311 solution, open the **Company 311 Admin** Model-driven application.
+12. **Under Power BI dashboards** check the checkmark next to **Problem management** and then select **Add**.
 
-13. In app designer, make sure you have **Manage Problems** area selected. If not, click on the arrows and select **Manage Problems**.
+13. Select the **...** ellipsis icon next to the **Reports** group and select **Move up**. 
 
-14. Select the ellipses next to **Navigation** title and select **New group**.
+14. Select **Save**, then select **Publish**, wait for the publishing to complete and then select **Play**. 
 
-15. Go to the **Properties** pane and enter **Reports** for **Title**.
+15. The report should load.
 
-16. Select the **Reports** group you just created, select **+ New**.
-
-17. Select **Dashboard** for Type and click **Next**. 
-
-18. **Under Power BI dashboards** check the checkmark next to **Problem management** and then select **Add**.
-
-19. Select the **...** ellipsis icon next to the **Reports** group and select **Move up**. 
-
-20. Select **Save**, then select **Publish**, wait for the publishing to complete and then select **Play**. 
-
-21. The report should load.
-
-22. Interact with the report and make sure it behaves as expected.
+16. Interact with the report and make sure it behaves as expected.
 
 
 ### Exercise 5: Power BI embedded canvas app
@@ -274,7 +262,7 @@ In this exercise, you will add a canvas application to Power BI as a visual.
 
 6.  Select an empty area of the canvas, go to the **Visualizations** pane and select **Power Apps for Power BI**.
 
-7.  Select the Power BI visual you just created, expand the **lh_problemreport** table select **Problem Report** column. Drag the **Problem Report** column into the **Add data fields here** can be tracked under the **Visualizations >> PowerApps Data**
+7.  Select the Power BI visual you just created, expand the **lh_problemreport** table and select **Problem Report** column. Drag the **Problem Report** column into **Add data fields here** under **Visualizations >> PowerApps Data**
 
 8.  Select your practice environment and select **Create new**.
 
@@ -319,11 +307,11 @@ In this exercise, you will add a canvas application to Power BI as a visual.
 
 15. Set the **Y** value of the image to **0**.
 
-16. Set the **Width** value of the image to the formula below.
+16. Set the **Width** value of the image to the formula below. (You will need to enter it using the Formula bar)
 
     ```Parent.Width```
 
-17. Set the **Height** value of the image to the formula below.
+17. Set the **Height** value of the image to the formula below. (You will need to enter it using the Formula bar)
 
     ```Parent.Height```
 
