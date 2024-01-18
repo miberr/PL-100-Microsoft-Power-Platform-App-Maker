@@ -374,8 +374,8 @@ In this exercise, test the canvas application by submitting a problem report.
 12. **Close** the app studio by closing the browser tab.
 
 
-### Exercise 6: Explore other ways to build canvas applications
-In this exercise, create a canvas app from an image mockup.
+### BONUS EXERCISE: Explore other ways to build canvas applications
+In this exercise, create a canvas app from an image mockup. *This exercise is optional and not required to continue to the next lab.*
 
 #### Task 1: Create an app from an image
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page
