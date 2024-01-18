@@ -56,15 +56,19 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 4.  Select all of the connection references and select **Add**.
 
-5.  Select **Publish all customizations** and wait for the publishing to complete.
+5.  Select **+ Add existing**, select **More**, then select **Component Library**.
 
-6.  Navigate back to the **Solutions** list. 
+6.  Select the **Shared Components A** connection library and select **Add**.
 
-7.  Select the **Company 311** solution and select **Export Solution** from the toolbar.
+7.  Select **Publish all customizations** and wait for the publishing to complete.
+
+8.  Navigate back to the **Solutions** list. 
+
+9.  Select the **Company 311** solution and select **Export Solution** from the toolbar.
 
     ![A Screenshot with cursor pointing to the Export Solution button](06/media/Lab6-Ex1-Task1-2.png) 
 
-8.  Select **Next**.
+10.  Select **Next**.
 
 8.  Select **Managed** and select **Export**. Wait for the solution to be packaged and exported.
 
