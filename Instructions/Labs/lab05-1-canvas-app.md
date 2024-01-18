@@ -16,7 +16,7 @@ In this module you will design and build a canvas app for the company employees 
   - Filter data
   - Create data rows
   - Use images with data rows
-  - Create a canvas app from an image
+  - Bonus Exercise (optional): Create a canvas app from an image
 
 ## High-level lab steps
 
@@ -24,7 +24,7 @@ In this module you will design and build a canvas app for the company employees 
   - Create app and layout main screen (including list of my items)
   - Submit New Report
   - Test
-  - Create a canvas app from an image
+  - Bonus Exercise (optional): Create a canvas app from an image
 
 ## Prerequisites
 
