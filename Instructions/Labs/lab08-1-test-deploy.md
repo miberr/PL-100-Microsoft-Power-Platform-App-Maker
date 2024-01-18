@@ -81,65 +81,69 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 #### Task 2: Create new environment and import solution
 
-1.  Navigate to [https://powerapps.microsoft.com/communityplan/](https://powerapps.microsoft.com/communityplan/)
+1. Navigate to [https://admin.powerapps.microsoft.com](https://admin.powerapps.microsoft.com)
 
-2.  Select **Existing User? Add a dev environment**. 
+2. Using the navigation on the left, select **Environments**.
 
-3.  Enter your credentials when prompted to sign in.
+3. Select **New**.
 
-4.  Select your country from the dropdown menu and select **Accept**.
+4. Name the New Environment `Prod`
 
-5.  Navigate to [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments) to see a new environment had been created by the system. We will refer to it as the "Prod" environment for the rest of this lab (the environment name will be <your account name>'s Environment).
+5. Set the **Type** to **Developer**.
 
-6.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and select the environment you just created.
+6. Select **Next**.
 
-7.  Select **Solutions** and select **Import solution**.
+7. Select **Save**. 
 
-8.  Select **Browse**.
+8.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and select the environment you just created.
 
-9.  Select the managed solution you exported and select **Open**.
+9.  Select **Solutions** and select **Import solution**.
+
+10.  Select **Browse**.
+
+11.  Select the managed solution you exported and select **Open**.
 
     ![A screenshot of a border around a zip file of the managed solution you exported](06/media/Lab6-Ex1-Task2-1.png)
 
-10. Select **Next**. 
+11. Select **Next**. 
 
-11. Select **Next** again. 
+12. Select **Next** again. 
 
-12. Select **Select connection** for outlook and then select **+ New connection**.
+13. Select **Select connection** for outlook and then select **+ New connection**.
 
     ![A Screenshot with an arrow pointing to the drop down icon and a border around the plus new connection button](06/media/Lab6-Ex1-Task2-2.png)
 
-13. It will open a new window. Select **Create**.
+14. It will open a new window. Select **Create**.
 
-14. Provide your **credentials**.
+15. Provide your **credentials**.
 
-15. Close the connections browser window or tab.
+16. Close the connections browser window or tab.
 
-16. Select **Refresh**.
+17. Select **Refresh**.
 
-17. Repeat steps 12 - 16 for the rest of the of the connections.
+18. Repeat steps 12 - 16 for the rest of the of the connections.
 
-18. Select **Import** and wait for the import to complete.
+19. Select **Import** and wait for the import to complete.
 
-19. Select **Publish all customizations** and wait for the publishing to complete.
+20. Select **Publish all customizations** and wait for the publishing to complete.
 
-20. Open the **Company 311** solution you just imported.
+21. Open the **Company 311** solution you just imported.
 
-21. Review the components in solution.
+22. Review the components in solution.
 
-22. Select **Apps** and make sure you have both the Canvas and Model-driven apps.
+23. Select **Apps** and make sure you have both the Canvas and Model-driven apps.
 
-23. Open the **Company 311 Admin** application.
+24. Open the **Company 311 Admin** application.
 
-24. The application should load without issues.
+25. The application should load without issues.
 
-25. Close the Company 311 Admin application browser window or tab.
+26. Close the Company 311 Admin application browser window or tab.
 
-26. Open the **Company 311 Phone** application.
+27. Open the **Company 311 Phone** application.
 
-27. The application should load without issues.
+28. The application should load without issues.
 
-28. Close the **Company 311 Phone App** browser window or tab.
+29. Close the **Company 311 Phone App** browser window or tab.
 
 ### Exercise 2: Create security roles
 
