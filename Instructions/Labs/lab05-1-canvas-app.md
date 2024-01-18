@@ -122,7 +122,7 @@ In this task, create a canvas app using the phone form factor.
 
 4.  Enter `Company 311 Phone App` for **App name**, select **Phone** for format, and select **Create**.
 
-5.  Select **Skip**.
+5.  Select **Skip** if presented with a pop-up.
 
 6.  In the **Tree view**, select the three dots (**...**) beside **Screen1** and select **Rename**.
 
@@ -144,19 +144,21 @@ In this task, create a canvas app using the phone form factor.
 
 12. Move the **Tab Control** to the bottom of the screen and the **Header Control** to the top of the screen.
 
-13. Select the **Header Control** and change the **Text** value to `Company 311`.
+13. Select the **Header Control**.
+
+14. You want to change the **Text** value of the Header Control. Use the **Property selector** to change the property to **Text** and then populate `Company 311` as the value in the formula bar. You will use the Property selector to change properties of app components in this manner throughout this lab.
 
     ![A screenshot of a border around the expression tab with the text value set to company 311](03/media/lab3-Exx1-task3-7.png)
 
-14. Set the **Height** of the **Header Control** to `75`
+15. Set the **Height** of the **Header Control** to `75`
 
-15. In the **Tree view**, right-click on the Main Screen and select **Duplicate screen**.
+16. In the **Tree view**, right-click on the Main Screen and select **Duplicate screen**.
 
     ![A screenshot with a border around the duplicate screen button](03/media/lab3-Exx1-task3-9.png)
 
-16. Rename the new screen `New Reports Screen`
+17. Rename the new screen `New Reports Screen`
 
-17. Select the **Tree view**, select **App** and change the **OnStart** value to the formula below. This formula will create a new variable named My Tabs and set it to a table of tab items.
+18. Select the **Tree view**, select **App** and change the **OnStart** value to the formula below. This formula will create a new variable named My Tabs and set it to a table of tab items.
 
     ```javascript
     Set('My Tabs', Table( {
@@ -178,25 +180,25 @@ In this task, create a canvas app using the phone form factor.
     >
     > When expressions are copied, the quotes and double quotes are sometimes replaced with their “smart” counterparts which are not valid in formulas. If you copy and paste the expression above, make sure the resulting formula does not contain any errors.
 
-18. Select the **Tab Control** component in the **Main Screen** and change the **Items** value to `'My Tabs'`
+19. Select the **Tab Control** component in the **Main Screen** and change the **Items** value to `'My Tabs'`
 
     ![A screenshot of the items value set to my tabs for Tab control](03/media/lab3-Exx1-task3-11.png)
 
-19. With the Main Screen Tab Control component still selected, change the **SelectedColor** value to `Color.WhiteSmoke`
+20. With the Main Screen Tab Control component still selected, change the **SelectedColor** value to `Color.WhiteSmoke`
 
-20. Select the **Tab Control** inside the **New Report Screen** and set the **Items** value to `'My Tabs'`
+21. Select the **Tab Control** inside the **New Report Screen** and set the **Items** value to `'My Tabs'`
 
-21. With the New Report Screen Tab Control still selected, change the **SelectedColor** value to `Color.WhiteSmoke`
+22. With the New Report Screen Tab Control still selected, change the **SelectedColor** value to `Color.WhiteSmoke`
 
-22. In the **Tree view**, right-click on **App** and select **Run OnStart**.
+23. In the **Tree view**, right-click on **App** and select **Run OnStart**.
 
     ![A screenshot of the run on start button coming from the ellipsis icon for see more under the app button](03/media/lab3-Exx1-task3-12.png)
 
-23. The tab names should update.
+24. The tab names should update.
 
     ![A screenshot of the two tabs you added](03/media/lab3-Exx1-task3-13.png)
 
-24. Select **Save** from the command bar.
+25. Select **Save** from the command bar.
 
     Do not navigate away from this page.
 
