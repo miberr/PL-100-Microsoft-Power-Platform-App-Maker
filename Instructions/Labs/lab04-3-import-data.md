@@ -26,7 +26,7 @@ In this exercise, you will input data to the Dataverse tables.
 
 #### Task 1: Input data
 
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
+1.  Navigate to `https://make.powerapps.com` and make sure you are in the correct environment.
 
 2.  Select **Apps** and play the **Company 311 Admin** application created in
     the previous exercise.
