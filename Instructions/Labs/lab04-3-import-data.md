@@ -63,6 +63,10 @@ In this exercise, you will input data to the Dataverse tables.
 
 15. Select an image from your device. The sample image displayed below can be found [here](https://github.com/MicrosoftLearning/PL-100-Microsoft-Power-Platform-App-Maker/raw/master/Instructions/Labs/02-4/Resources/door.png).
 
+    > **TIP** 
+    > 
+    > The example image file can be found here: ```F:\Instructions\Labs\02-4\Resources\door.png```
+
 16. The image should now display on the form.
 
     ![A screenshot of a vector image of a door which should appear](02-4/media/Lab2-4-Ex1-Task1-10.png)
