@@ -61,7 +61,7 @@ In this exercise, you will input data to the Dataverse tables.
 
 14. Select **Open file** on the **Photo** field.
 
-15. Select an image from your device. The sample image displayed below can be found [here](https://github.com/MicrosoftLearning/PL-100-Microsoft-Power-Platform-App-Maker/blob/master/Instructions/Labs/02-4\Resources\door.png?raw=true).
+15. Select an image from your device. The sample image displayed below can be found [here](https://github.com/MicrosoftLearning/PL-100-Microsoft-Power-Platform-App-Maker/raw/master/Instructions/Labs/02-4/Resources/door.png).
 
 16. The image should now display on the form.
 
@@ -81,7 +81,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 3.  Select **Browse**.
 
-4.  Select the **DataImport.zip** solution file located in the Lab Resources folder and select **Open**.
+4.  Select the [DataImport.zip](https://github.com/MicrosoftLearning/PL-100-Microsoft-Power-Platform-App-Maker/raw/master/Instructions/Labs/02-4/Resources/DataImport.zip) solution file located in the Lab Resources folder and select **Open**.
 
     > **TIP** 
     > 
