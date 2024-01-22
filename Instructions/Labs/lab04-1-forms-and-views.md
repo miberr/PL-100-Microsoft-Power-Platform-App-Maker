@@ -25,7 +25,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
 #### Task 1: Configure form
 
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
+1.  Navigate to `https://make.powerapps.com` and make sure you are in the correct environment.
 
 2.  Select **Solutions** and select the **Company 311** solution.
 
