@@ -46,7 +46,7 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 #### Task 1: Export solution
 
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
+1.  Navigate to the `https://make.powerapps.com` and make sure you are in the correct environment.
 
 2.  Select **Solutions**, and open the **Company 311** solution.
 
@@ -85,7 +85,7 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 #### Task 2: Create new environment and import solution
 
-1. Navigate to [https://admin.powerapps.microsoft.com](https://admin.powerapps.microsoft.com)
+1. Navigate to `https://admin.powerapps.microsoft.com`
 
 2. Using the navigation on the left, select **Environments**.
 
