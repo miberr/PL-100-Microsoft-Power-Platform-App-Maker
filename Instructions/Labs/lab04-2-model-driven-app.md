@@ -24,7 +24,7 @@ In this exercise, you will create a model-driven application.
 
 #### Task 1: Create new model-driven application
 
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
+1.  Navigate to `https://make.powerapps.com` and make sure you are in the correct environment.
 
 2.  Select **Solutions** and open the **Company 311** solution.
 
