@@ -100,18 +100,18 @@ In this exercise, you will create a Power BI report based on data from Microsoft
 
 10.  **Test** the report interactivity:
 
-    * Select various building slices on the pie chart and observe changes on the stacked column chart.
-    * Select various bars on the stacked column chart and observe changes on the pie report.
+- Select various building slices on the pie chart and observe changes on the stacked column chart.
+- Select various bars on the stacked column chart and observe changes on the pie report.
 
-11. Select the **Insert**, and select **Q&A**.
+12. Select the **Insert**, and select **Q&A**.
 
-12. Select **Turn on Q&A** and wait for the Q&A to get ready.
+13. Select **Turn on Q&A** and wait for the Q&A to get ready.
 
-13. Enter `bar count of problem reports by building`. You should now have a bar chart.
+14. Enter `bar count of problem reports by building`. You should now have a bar chart.
 
-14. The dashboard now has Q&A enabled. Select the **...** More options button of the Q&A visual and select **Remove**.
+15. The dashboard now has Q&A enabled. Select the **...** More options button of the Q&A visual and select **Remove**.
 
-15. Save work in progress by selecting **File | Save**.
+16. Save work in progress by selecting **File | Save**.
 
 
 ### Exercise 3: Create Power BI Dashboard
@@ -241,9 +241,7 @@ In this task you will setup a Microsoft Teams team for the Lamna Healthcare Comp
 
 14. Select **Save**, then select **Publish**, wait for the publishing to complete and then select **Play**. 
 
-15. The report should load.
-
-16. Interact with the report and make sure it behaves as expected.
+15. The report should load. Interact with the report and make sure it behaves as expected.
 
 
 ### Exercise 5: Power BI embedded canvas app
