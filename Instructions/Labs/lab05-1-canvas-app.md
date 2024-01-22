@@ -379,7 +379,7 @@ In this exercise, test the canvas application by submitting a problem report.
 ### BONUS EXERCISE: Explore other ways to build canvas applications
 In this exercise, create a canvas app from an image mockup. *This exercise is optional and not required to continue to the next lab.*
 
-#### Task 1: Create an app from an image
+#### BONUS TASK 1: Create an app from an image
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page
     and make sure you are in the correct environment.
     
@@ -452,7 +452,7 @@ In this exercise, create a canvas app from an image mockup. *This exercise is op
 
 ![A screenshot of a computer Description automatically generated](03/media/Lab3-Ex6-step20.png)
     
-#### Task 2: Modify your canvas app
+#### BONUS TASK 2: Modify your canvas app
 When you create an app from an image, you are somewhat limited as to the types of fields that you can select. For this reason, some items such as lookup fields will not display properly since the data type was defined as text. For this reason, we will make some modifications to the application to fix this.
 
 Both the Department and Building field are lookup fields. We are going to remove the generated ones and replace them with the actual fields from Dataverse.
