@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 00: Validate lab environment'
-    module: 'Module 01: Course introduction'
+    module: 'Module 00: Course introduction'
 ---
 
 Module 0: Course introduction
