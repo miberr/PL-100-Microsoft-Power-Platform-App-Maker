@@ -107,47 +107,45 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 11.  Select the managed solution you exported and select **Open**.
 
-    ![A screenshot of a border around a zip file of the managed solution you exported](06/media/Lab6-Ex1-Task2-1.png)
+12. Select **Next**. 
 
-11. Select **Next**. 
+13. Select **Next** again. 
 
-12. Select **Next** again. 
-
-13. Select **Select connection** for outlook and then select **+ New connection**.
+14. Select **Select connection** for outlook and then select **+ New connection**.
 
     ![A Screenshot with an arrow pointing to the drop down icon and a border around the plus new connection button](06/media/Lab6-Ex1-Task2-2.png)
 
-14. It will open a new window. Select **Create**.
+15. It will open a new window. Select **Create**.
 
-15. Provide your **credentials**.
+16. Provide your **credentials**.
 
-16. Close the connections browser window or tab.
+17. Close the connections browser window or tab.
 
-17. Select **Refresh**.
+18. Select **Refresh**.
 
-18. Repeat steps 12 - 16 for the rest of the of the connections.
+19. Repeat steps 12 - 16 for the rest of the of the connections.
 
-19. Select **Import** and wait for the import to complete.
+20. Select **Import** and wait for the import to complete.
 
-20. Select **Publish all customizations** and wait for the publishing to complete.
+21. Select **Publish all customizations** and wait for the publishing to complete.
 
-21. Open the **Company 311** solution you just imported.
+22. Open the **Company 311** solution you just imported.
 
-22. Review the components in solution.
+23. Review the components in solution.
 
-23. Select **Apps** and make sure you have both the Canvas and Model-driven apps.
+24. Select **Apps** and make sure you have both the Canvas and Model-driven apps.
 
-24. Open the **Company 311 Admin** application.
+25. Open the **Company 311 Admin** application.
 
-25. The application should load without issues.
+26. The application should load without issues.
 
-26. Close the Company 311 Admin application browser window or tab.
+27. Close the Company 311 Admin application browser window or tab.
 
-27. Open the **Company 311 Phone** application.
+28. Open the **Company 311 Phone** application.
 
-28. The application should load without issues.
+29. The application should load without issues.
 
-29. Close the **Company 311 Phone App** browser window or tab.
+30. Close the **Company 311 Phone App** browser window or tab.
 
 ### Exercise 2: Create security roles
 
