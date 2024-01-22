@@ -34,7 +34,7 @@ In this exercise, you will create a custom solution publisher and a solution. Th
 
 #### Task 1: Create publisher and solution
 
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the Dev One environment. 
+1.  Navigate to the `https://make.powerapps.com` and make sure you are in the Dev One environment. 
 
 2.  From the left navigation pane, select **Solutions** and then select **+ New solution**. 
 
