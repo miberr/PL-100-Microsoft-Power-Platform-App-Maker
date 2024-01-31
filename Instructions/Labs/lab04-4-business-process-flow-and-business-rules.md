@@ -215,7 +215,7 @@ In this exercise, you will create a business rule that will block the completion
 
 36.	Add the action on the false path of the condition, indicated by the tick.
 
-37.	Select the new action, go to the Properties pane, enter Make Not Required for Display Name, select Resolved On for Field, Select Business Required, and select Apply.
+37.	Select the new action, go to the Properties pane, enter `Make Not Required` for Display Name, select Resolved On for Field, Select Not Business Required, and select Apply.
 
 38.	The business rule should now match the image below. Select **Save the rule**.
 
