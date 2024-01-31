@@ -217,9 +217,7 @@ In this exercise, you will create a business rule that will block the completion
 
 37.	Select the new action, go to the Properties pane, enter `Make Not Required` for Display Name, select Resolved On for Field, Select Not Business Required, and select Apply.
 
-38.	The business rule should now match the image below. Select **Save the rule**.
-
-    ![A Screenshot with an arrow pointing to the save button](02-5/media/Lab2-5-Ex2-Task1-19.png) 
+38.	Select **Save the rule**.
 
 39.  Select **Activate the rule**.
 
