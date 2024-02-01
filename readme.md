@@ -1,3 +1,5 @@
+**This course will be retiring on  **2024/6/28**.  Once course is retired, all GitHub repos will be removed. Thank you.**
+
 # PL-100: Microsoft Power Platform App Maker
 
 - **[Download the Latest Trainer Prep Guide and PowerPoint slides](https://learningdownloadcenter.microsoft.com/)**
