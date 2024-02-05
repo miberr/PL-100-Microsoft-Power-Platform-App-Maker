@@ -10,7 +10,6 @@ In this lab, you will build a Power BI dashboard that visualizes data about prob
 
 ## What you will learn
 
-  - How to connect to Dataverse 
   - How to refine the data model and prepare it for reporting
   - How to create a Power BI visualization 
   - How to embed a Power BI report in Microsoft Teams
@@ -19,7 +18,6 @@ In this lab, you will build a Power BI dashboard that visualizes data about prob
 
 We will follow the below steps to design and create the Power BI dashboard:
 
--   Connect to tables in Microsoft Dataverse 
 -   Transform the data to include user-friendly descriptions for the related rows (lookups)
 -   Create and publish a report with various visualizations of the information about problem reports
 -   User natural language query to build additional visualizations
@@ -50,13 +48,13 @@ Before you begin, download the [problem-reports-data.pbix](https://github.com/Mi
 
 1.  Navigate to [Power BI](https://app.powerbi.com)
 
-2.  On the left side of your screen, select Workspaces.
+2.  On the left side of your screen, select **Workspaces**.
 
 3.  Choose **New Workspace**.
 
 4.  Name the Workspace `311 Workspace`.
 
-5.  Select Apply.
+5.  Select **Apply**.
 
 6.  Select **Upload**.
 
@@ -68,7 +66,13 @@ Before you begin, download the [problem-reports-data.pbix](https://github.com/Mi
     > 
     > This file can also be found here: ```F:\Instructions\Labs\05\Resources\problem-reports-data.pbix```
 
-9.  Once data load is complete, select **problem-reports-data** report.
+9.  Once data load is complete, select **problem-reports-data** report (will look like "..." when you hover over it).
+
+10.  Select **Settings**.
+
+11.  Change the **Report Name** to `Problem Report`.
+
+12.  Select **Save**.
 
 ### Exercise 2: Create Power BI Report 
 
@@ -76,42 +80,36 @@ In this exercise, you will create a Power BI report based on data from Microsoft
 
 #### Task 1: Create Chart and Time Visualizations
 
-1.  Click on **Report view**
+1.  Select the **problem report** with a type of **Report**.
 
-    ![A Screenshot with an arrow pointing to the Report view](05/media/Lab5-Ex2-Task1-1.png)
+2.  Once the report is open, select **Edit**. 
 
-2.  Select the **Pie chart** icon in the **Visualizations** panel to insert the chart.
+3.  Select the **Pie chart** icon in the **Visualizations** panel to insert the chart.
 
-3.  Expand **lh_ProblemReport** table in the **Data** panel, drag **Building** Column and drop it into **Legend** target box.
+4.  Expand **lh_ProblemReport** table in the **Data** panel, drag **Building** Column and drop it into **Legend** target box.
 
-4.  Drag **Problem Report** Column and drop it into **Values** target box.
+5.  Drag **Problem Report** Column and drop it into **Values** target box.
 
-5.  Resize the pie chart using corner handles so that all chart components are visible. Your report should now look like this:
+6.  Resize the pie chart using corner handles so that all chart components are visible. Your report should now look like this:
 
     ![A screenshot with a border around the legend next to pie chart after resizing to make all your components visible](05/media/Lab5-Ex2-Task1-4.png)
 
-6.  Select the report's design surface outside of the chart area. Select **New visual** on the Power BI ribbon then select **stacked column** chart in **Visualizations** pane. 
+7.  Select the report's design surface outside of the chart area (this will deselect your pie chart).
 
-7.  Drag **Problem Report** Column and drop it into **Y-axis** target box.
+8.  On the **Visualizations** pane, select **stacked column** chart.
 
-8.  Drag **Status** Column and drop it into **X-axis** target box.
+9.  Drag **Problem Report** Column and drop it into the **Y-axis** target box.
 
-9.  **Resize** the chart as required using the corner handles.
+10.  Drag **Status** Column and drop it into **X-axis** target box.
 
-10.  **Test** the report interactivity:
+11.  **Resize** the chart as required using the corner handles.
+
+12.  **Test** the report interactivity:
 
 - Select various building slices on the pie chart and observe changes on the stacked column chart.
 - Select various bars on the stacked column chart and observe changes on the pie report.
 
-12. Select the **Insert**, and select **Q&A**.
-
-13. Select **Turn on Q&A** and wait for the Q&A to get ready.
-
-14. Enter `bar count of problem reports by building`. You should now have a bar chart.
-
-15. The dashboard now has Q&A enabled. Select the **...** More options button of the Q&A visual and select **Remove**.
-
-16. Save work in progress by selecting **File | Save**.
+12. Save work in progress by selecting **File** | **Save**.
 
 
 ### Exercise 3: Create Power BI Dashboard
@@ -121,49 +119,55 @@ In this exercise, you will create a Power BI report based on data from Microsoft
 
 1.  Click on **311 Workspace**. If it is not in your menu, select **Workspaces** and then **311 Workspace**
 
-2.  Select the **Problem management** with a type **Report**. 
+2.  Select the **Problem report** with a type **Report**. 
 
-3.  Select **Pin to a dashboard** on the menu. Depending on the layout you may need to press **...** to show additional menu items.
+3.  Select **Pin to a dashboard** on the menu (depending on the layout, you may need to press **...** to show additional menu items).
 
-4.  Select **New dashboard** on **Pin to dashboard** prompt.
+4.  Select **New dashboard** on the **Pin to dashboard** prompt.
 
-5.  Enter **Problem Management Dashboard** as a **Dashboard name**, select **Pin live**.
+5.  Enter `Problem Management Dashboard` as the **Dashboard name** and select **Pin live**.
 
-6.  Select **311 Workspace** node, select **Problem Management Dashboard**.
-
-7.  Test interactivity of the pie and bar charts that are displayed.
+6.  Select **Go to dashboard**.
 
 
 #### Task 2: Add Visualizations Using Natural Language
 
-1.  Select **Ask a question about your data** on top of the dashboard.
+1.  If not there already, go to the **311 workspace** and select the **Problem Management Dashboard**.
 
-2.  Enter **funnel count of problem reports by status** in Q&A area. The funnel chart will be displayed.
+2.  Select **Ask a question about your data** on top of the dashboard.
 
-3.  Select **Pin visual**.
+3.  Enter **funnel count of problem reports by status** in Q&A area. The funnel chart will be displayed.
 
-4.  Select **Existing dashboard**, select **Problem Management dashboard**, select **Pin**.
+4.  Select **Pin visual**.
+
+5.  Select **Existing dashboard**, select **Problem Management dashboard**, select **Pin**.
+
+6.  Select **Exit Q&A** to return to your dashboard.
 
 
 #### Task 3: Build Mobile Phone View
 
-1.  Select the **Problem Management dashboard** from **Dashboards** area.
+1.  If not already open, select the **Problem Management dashboard** from the **Dashboards** area.
 
-2.  Select **Edit** and then select **Mobile Layout** from the drop-down box.
+2.  Select **Edit** and select **Mobile Layout** from the drop-down box.
 
 3.  **Rearrange** the tiles as desired.
 
-4.  Select your report under **311 Workspace**. Make sure you select **Problem management** with type **Report**.
+4.  Select the **down arrow** next to **Problem Management Dashboard** in the upper left corner of your screen.
 
-5.  Select **File** and then select **Generate QR Code** from the drop down box.
+5.  Under **location**, select **311 Workspace**.
 
-6.  If you have a mobile device, scan the code using a QR scanner app available on both iOS and Android platforms.
+6.  Ensure you select **problem report** with type **Report**.
+
+7.  Select **File** and then select **Generate QR Code** from the drop down box.
+
+8.  If you have a mobile device, scan the code using a QR scanner app available on both iOS and Android platforms.
 
     > **NOTE**
     >
     > To access the dashboard and report, you will have to sign in on the phone as the same user.
 
-7.  Navigate and explore reports and dashboards on a mobile device. 
+9.  Navigate and explore the reports and dashboards on your mobile device. 
 
 
 ### Exercise 4: Embed Power BI report
