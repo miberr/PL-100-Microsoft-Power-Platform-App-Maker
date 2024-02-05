@@ -10,7 +10,6 @@ In this lab, you will build a Power BI dashboard that visualizes data about prob
 
 ## What you will learn
 
-  - How to connect to Dataverse 
   - How to refine the data model and prepare it for reporting
   - How to create a Power BI visualization 
   - How to embed a Power BI report in Microsoft Teams
@@ -19,7 +18,6 @@ In this lab, you will build a Power BI dashboard that visualizes data about prob
 
 We will follow the below steps to design and create the Power BI dashboard:
 
--   Connect to tables in Microsoft Dataverse 
 -   Transform the data to include user-friendly descriptions for the related rows (lookups)
 -   Create and publish a report with various visualizations of the information about problem reports
 -   User natural language query to build additional visualizations
