@@ -95,17 +95,11 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 6.  Select **Next** again.
 
-7.  Expand the **Select a connection** dropdown and select **+ New connection**.
+7.  When prompted to create connections select **Continue**.
 
-8.  A new tab will open with a prompt to create the **Microsoft Dataverse** connection. 
+8.  Select **Import** and wait for the message 'Solution "Data Import" imported successfully' to appear.
 
-9.  Select **Create**, authenticate if required, ad wait until new connection is created. **Close** the browser tab.
-
-10. Select **Refresh**. Verify the new connection is selected in the drop-down. 
-
-11. Select **Import** and wait for the message 'Solution "Data Import" imported successfully' to appear.
-
-12. Select **Publish all customizations** and wait for the publishing to complete. 
+9.  Select **Publish all customizations** and wait for the publishing to complete. 
 
 
 #### Task 2: Review and run flow
