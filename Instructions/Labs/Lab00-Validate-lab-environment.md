@@ -12,7 +12,7 @@ Module 0: Course introduction
 Scenario
 --------
 
-In this lab, you will acquire a Power Platform trial tenant and access the Power Platform admin center. In the admin center, you will create an individual environment for use during the rest of the course. You will need **Microsoft 365 credentials** provided by the Authorized Lab Hoster, or otherwise. 
+In this lab, you will open up your lab environment for the first time. You will need **Microsoft 365 credentials** provided by the Authorized Lab Hoster, or otherwise. 
 
 Exercise 1 – Sign in to Power Apps
 --------------------------------------------------
