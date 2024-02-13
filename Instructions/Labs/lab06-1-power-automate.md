@@ -275,17 +275,19 @@ In this task, you will create the escalation flow.
 
 41. Select the **Resolution** field, go to the **Dynamic content** pane and select **Response summary**.
 
-42. Select **Won’t fix** for **Status Reason**.
+42. Select the **Resolved On** field, go to the **Dynamic content** and select **Completion Date**.
 
-43. Rename the step `Update problem report`
+43. Select **Won’t fix** for **Status Reason**.
 
-44. Scroll up and rename the flow `Escalate Expense Approval`
+44. Rename the step `Update problem report`
 
-45. Select **Save**.
+45. Scroll up and rename the flow `Escalate Expense Approval`
 
-46. Close the flow designer browser window or tab.
+46. Select **Save**.
 
-47. Select **Done** on the popup.
+47. Close the flow designer browser window or tab.
+
+48. Select **Done** on the popup.
 
 
 #### Task 3: Test flow
